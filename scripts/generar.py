@@ -99,6 +99,41 @@ TENANTS = {
 - Pico de pedidos a las 07:30 y a las 13:00 (reposicion de restaurantes).
 """,
     },
+    "kaiku": {
+        "inicio": "09:00",
+        "base": {"cpu": 30.0, "ram": 48.0, "disco": 44.0, "latencia": 60.0, "errores": 0.5},
+        "ruido": {"cpu": 2.4, "ram": 1.3, "disco": 0.12, "latencia": 6.0},
+        # Certificado TLS por vencer + saturacion de la base de datos de pedidos.
+        "incidentes": [
+            {"nombre": "bd_saturada", "inicio": 65, "pico": 95, "reinicio": 110,
+             "delta": {"cpu": 45.0, "ram": 22.0, "latencia": 220.0, "errores": 9.0}},
+        ],
+        "eventos": [
+            (68, "app", "WARN", "pool de conexiones a la base de datos al 85%"),
+            (78, "servidor", "WARN", "cpu de srv-bd-01 al {cpu:.0f}% sostenido"),
+            (92, "app", "ERROR", "timeout en checkout de la tienda en linea (>8 s)"),
+            (96, "firewall", "WARN", "pico de conexiones entrantes a 443/tcp"),
+            (110, "servidor", "INFO", "servicio de base de datos reiniciado por operador"),
+        ],
+        "contexto": """# Contexto — kaiku
+
+- **Giro:** comercio electronico de cafe y accesorios (tienda en linea y envios).
+- **Empleados:** 18 (atencion, bodega y marketing).
+- **Horario:** tienda en linea 24/7; soporte lunes a sabado 09:00–19:00.
+
+## Sistemas criticos
+
+| Sistema | Descripcion | Ventana critica |
+|---|---|---|
+| srv-bd-01 | Base de datos de pedidos e inventario | 24/7 |
+| Tienda en linea | Catalogo, carrito y checkout | Campanas y fines de semana |
+| fw-01 (firewall) | Proteccion perimetral y WAF basico | 24/7 |
+
+## Notas
+- Telemetria: CPU, RAM, disco y latencia de srv-bd-01, y errores por minuto.
+- Riesgo conocido: sin limite de conexiones por cliente en el checkout.
+""",
+    },
     "ttr": {
         "inicio": "06:00",
         "base": {"cpu": 34.0, "ram": 61.0, "disco": 39.0, "latencia": 85.0, "errores": 0.4},
@@ -248,6 +283,7 @@ def escribir_logs(ruta, nombre, inicio, fin, por_fuente):
 
 
 def main():
+    combinado = []
     for indice, (nombre, cfg) in enumerate(TENANTS.items()):
         rng = random.Random(f"{SEMILLA}-{nombre}")
         cfg = dict(cfg)
@@ -269,8 +305,18 @@ def main():
         (carpeta / "contexto.md").write_text(cfg["contexto"], encoding="utf-8")
         escribir_metricas(carpeta / "metricas.csv", filas)
         escribir_logs(carpeta / "logs.md", nombre, inicio, fin, por_fuente)
+        combinado.extend((nombre, r) for r in filas)
         print(f"{nombre}: {len(filas)} filas de metricas, "
               f"{sum(len(v) for v in por_fuente.values())} lineas de log -> {carpeta}")
+
+    ruta = RAIZ / "data" / "todos_metricas.csv"
+    combinado.sort(key=lambda t: (t[1]["timestamp"], t[0]))
+    with ruta.open("w", encoding="utf-8") as f:
+        f.write("tenant,timestamp,cpu,ram,disco,latencia_ms,errores\n")
+        for n, r in combinado:
+            f.write(f"{n},{r['timestamp']},{r['cpu']:.1f},{r['ram']:.1f},{r['disco']:.1f},"
+                    f"{r['latencia']:.0f},{r['errores']}\n")
+    print(f"combinado: {len(combinado)} filas -> {ruta}")
 
 
 if __name__ == "__main__":

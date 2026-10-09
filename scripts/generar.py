@@ -3,7 +3,7 @@
 
 Por tenant escribe en data/<tenant>/:
   - contexto.md : giro, empleados, horario, sistemas criticos
-  - metricas.csv: 120 filas (1 por minuto): cpu, ram, disco, latencia_ms, errores
+  - metricas.csv: 9200 filas (1 por minuto): cpu, ram, disco, latencia_ms, errores
   - logs.md     : ~20 lineas por fuente (servidor, firewall, app) con incidentes
                   que se anticipan en las metricas
 
@@ -16,8 +16,9 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 SEMILLA = 42
-MINUTOS = 120
-LINEAS_LOG_POR_FUENTE = 20
+MINUTOS = 9200
+LINEAS_LOG_POR_FUENTE = 300
+DESPLAZAMIENTO = MINUTOS - 120  # los incidentes se definen sobre 120 min; se mueven al final
 FECHA = "2026-10-08"
 RAIZ = Path(__file__).resolve().parent.parent
 
@@ -235,7 +236,7 @@ def escribir_metricas(ruta, filas):
 def escribir_logs(ruta, nombre, inicio, fin, por_fuente):
     partes = [
         f"# Logs — {nombre}\n",
-        f"Ventana: {FECHA} {inicio:%H:%M}–{fin:%H:%M} (sintetico). "
+        f"Ventana: {inicio:%Y-%m-%d %H:%M} a {fin:%Y-%m-%d %H:%M} (sintetico). "
         "Formato: `timestamp nivel mensaje`.\n",
     ]
     for fuente in ("servidor", "firewall", "app"):
@@ -249,6 +250,13 @@ def escribir_logs(ruta, nombre, inicio, fin, por_fuente):
 def main():
     for indice, (nombre, cfg) in enumerate(TENANTS.items()):
         rng = random.Random(f"{SEMILLA}-{nombre}")
+        cfg = dict(cfg)
+        cfg["incidentes"] = [
+            {**i, "inicio": i["inicio"] + DESPLAZAMIENTO, "pico": i["pico"] + DESPLAZAMIENTO,
+             "reinicio": None if i["reinicio"] is None else i["reinicio"] + DESPLAZAMIENTO}
+            for i in cfg["incidentes"]
+        ]
+        cfg["eventos"] = [(m + DESPLAZAMIENTO, *r) for m, *r in cfg["eventos"]]
         inicio = datetime.strptime(f"{FECHA} {cfg['inicio']}", "%Y-%m-%d %H:%M")
         fin = inicio + timedelta(minutes=MINUTOS)
 

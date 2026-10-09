@@ -12,15 +12,17 @@ Uso: python3 scripts/generar.py
 """
 import math
 import random
+import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-SEMILLA = 42
+SEMILLA = int(sys.argv[1]) if len(sys.argv) > 1 else 42
 MINUTOS = 9200
 LINEAS_LOG_POR_FUENTE = 300
 DESPLAZAMIENTO = MINUTOS - 120  # los incidentes se definen sobre 120 min; se mueven al final
 FECHA = "2026-10-08"
 RAIZ = Path(__file__).resolve().parent.parent
+SALIDA = RAIZ / (sys.argv[2] if len(sys.argv) > 2 else "data")
 
 TENANTS = {
     "gracko": {
@@ -296,7 +298,7 @@ def main():
         inicio = datetime.strptime(f"{FECHA} {cfg['inicio']}", "%Y-%m-%d %H:%M")
         fin = inicio + timedelta(minutes=MINUTOS)
 
-        carpeta = RAIZ / "data" / nombre
+        carpeta = SALIDA / nombre
         carpeta.mkdir(parents=True, exist_ok=True)
 
         filas = generar_metricas(rng, cfg, inicio)
@@ -309,7 +311,7 @@ def main():
         print(f"{nombre}: {len(filas)} filas de metricas, "
               f"{sum(len(v) for v in por_fuente.values())} lineas de log -> {carpeta}")
 
-    ruta = RAIZ / "data" / "todos_metricas.csv"
+    ruta = SALIDA / "todos_metricas.csv"
     combinado.sort(key=lambda t: (t[1]["timestamp"], t[0]))
     with ruta.open("w", encoding="utf-8") as f:
         f.write("tenant,timestamp,cpu,ram,disco,latencia_ms,errores\n")

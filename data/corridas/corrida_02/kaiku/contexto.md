@@ -12,6 +12,12 @@
 | Tienda en linea | Catalogo, carrito y checkout | Campanas y fines de semana |
 | fw-01 (firewall) | Proteccion perimetral y WAF basico | 24/7 |
 
+## Eventos de negocio
+
+- **Viernes 9 de octubre, 12:00:** envio de la campana de correo «Otono de cafe» (48 000 contactos); se espera un pico de trafico de unas 2 h.
+- **Domingos 04:00:** reindexado del catalogo (unos 90 min).
+- **Diario 03:00:** respaldo de la base de datos (30 min).
+
 ## Notas
 - Telemetria: CPU, RAM, disco y latencia de srv-bd-01, y errores por minuto.
 - Riesgo conocido: sin limite de conexiones por cliente en el checkout.

@@ -5,914 +5,1214 @@ Ventana: 2026-10-08 09:00 a 2026-10-14 18:20 (sintetico). Formato: `timestamp ni
 ## servidor
 
 ```text
-2026-10-08T09:04:39 INFO rotacion de logs completada (381 archivos)
-2026-10-08T10:06:14 DEBUG ntp: offset -0.0052 s respecto a time.google.com
-2026-10-08T11:13:38 INFO rotacion de logs completada (471 archivos)
-2026-10-08T11:22:45 INFO sesion abierta por admin desde 10.0.0.159
-2026-10-08T12:05:14 INFO snapshot programado completado en 287 ms
-2026-10-08T12:30:02 INFO sesion abierta por admin desde 10.0.0.210
-2026-10-08T12:51:16 INFO rotacion de logs completada (838 archivos)
-2026-10-08T12:53:02 INFO sesion abierta por admin desde 10.0.0.72
-2026-10-08T13:04:35 INFO snapshot programado completado en 33 ms
-2026-10-08T13:09:29 INFO snapshot programado completado en 174 ms
-2026-10-08T13:42:48 INFO sesion abierta por admin desde 10.0.0.125
-2026-10-08T14:03:56 INFO snapshot programado completado en 71 ms
-2026-10-08T16:19:48 INFO snapshot programado completado en 409 ms
-2026-10-08T16:22:47 INFO rotacion de logs completada (724 archivos)
-2026-10-08T17:52:39 INFO sesion abierta por admin desde 10.0.0.44
-2026-10-08T17:57:04 INFO snapshot programado completado en 86 ms
-2026-10-08T18:03:30 INFO snapshot programado completado en 401 ms
-2026-10-08T18:12:51 INFO snapshot programado completado en 437 ms
-2026-10-08T18:38:15 INFO sesion abierta por admin desde 10.0.0.63
-2026-10-08T20:19:13 DEBUG ntp: offset -0.0030 s respecto a time.google.com
-2026-10-08T20:31:31 DEBUG ntp: offset 0.0004 s respecto a time.google.com
-2026-10-08T20:41:51 INFO sesion abierta por admin desde 10.0.0.156
-2026-10-08T21:35:04 DEBUG ntp: offset 0.0087 s respecto a time.google.com
-2026-10-08T21:59:59 INFO sesion abierta por admin desde 10.0.0.201
-2026-10-08T22:05:10 INFO rotacion de logs completada (90 archivos)
-2026-10-08T22:31:59 INFO rotacion de logs completada (781 archivos)
-2026-10-08T22:46:14 INFO snapshot programado completado en 371 ms
-2026-10-08T22:46:21 INFO snapshot programado completado en 337 ms
-2026-10-08T23:14:29 DEBUG ntp: offset -0.0032 s respecto a time.google.com
-2026-10-08T23:26:58 INFO rotacion de logs completada (590 archivos)
-2026-10-08T23:33:33 INFO snapshot programado completado en 156 ms
-2026-10-09T00:08:57 INFO rotacion de logs completada (511 archivos)
-2026-10-09T00:16:16 INFO snapshot programado completado en 454 ms
-2026-10-09T01:12:59 INFO snapshot programado completado en 32 ms
-2026-10-09T02:31:19 INFO snapshot programado completado en 432 ms
-2026-10-09T03:16:53 INFO sesion abierta por admin desde 10.0.0.112
-2026-10-09T03:20:31 DEBUG ntp: offset 0.0089 s respecto a time.google.com
-2026-10-09T03:27:45 INFO sesion abierta por admin desde 10.0.0.35
-2026-10-09T04:11:56 INFO sesion abierta por admin desde 10.0.0.6
-2026-10-09T04:39:10 INFO sesion abierta por admin desde 10.0.0.86
-2026-10-09T05:03:29 DEBUG ntp: offset 0.0038 s respecto a time.google.com
-2026-10-09T05:44:49 INFO sesion abierta por admin desde 10.0.0.248
-2026-10-09T06:26:46 INFO rotacion de logs completada (512 archivos)
-2026-10-09T07:43:30 INFO snapshot programado completado en 289 ms
-2026-10-09T07:51:52 INFO rotacion de logs completada (437 archivos)
-2026-10-09T08:01:19 DEBUG ntp: offset -0.0035 s respecto a time.google.com
-2026-10-09T09:05:46 INFO rotacion de logs completada (794 archivos)
-2026-10-09T11:21:10 INFO rotacion de logs completada (605 archivos)
-2026-10-09T11:48:16 INFO sesion abierta por admin desde 10.0.0.122
-2026-10-09T12:00:50 DEBUG ntp: offset 0.0074 s respecto a time.google.com
-2026-10-09T12:40:48 INFO sesion abierta por admin desde 10.0.0.62
-2026-10-09T12:46:58 DEBUG ntp: offset 0.0092 s respecto a time.google.com
-2026-10-09T13:14:31 INFO sesion abierta por admin desde 10.0.0.28
-2026-10-09T13:45:27 INFO snapshot programado completado en 221 ms
-2026-10-09T14:29:57 INFO sesion abierta por admin desde 10.0.0.228
-2026-10-09T14:54:56 INFO sesion abierta por admin desde 10.0.0.212
-2026-10-09T15:41:43 INFO sesion abierta por admin desde 10.0.0.32
-2026-10-09T15:51:18 INFO rotacion de logs completada (258 archivos)
-2026-10-09T17:32:22 DEBUG ntp: offset -0.0048 s respecto a time.google.com
-2026-10-09T17:32:54 DEBUG ntp: offset -0.0017 s respecto a time.google.com
-2026-10-09T17:54:10 DEBUG ntp: offset 0.0096 s respecto a time.google.com
-2026-10-09T18:38:15 INFO rotacion de logs completada (33 archivos)
-2026-10-09T18:46:00 INFO snapshot programado completado en 165 ms
-2026-10-09T19:01:32 INFO snapshot programado completado en 138 ms
-2026-10-09T19:28:44 INFO snapshot programado completado en 465 ms
-2026-10-09T19:36:38 INFO sesion abierta por admin desde 10.0.0.223
-2026-10-09T20:26:47 DEBUG ntp: offset 0.0090 s respecto a time.google.com
-2026-10-09T20:44:50 DEBUG ntp: offset 0.0063 s respecto a time.google.com
-2026-10-09T21:20:56 INFO snapshot programado completado en 446 ms
-2026-10-09T21:35:37 INFO rotacion de logs completada (870 archivos)
-2026-10-09T21:41:31 DEBUG ntp: offset -0.0052 s respecto a time.google.com
-2026-10-09T22:06:34 INFO rotacion de logs completada (757 archivos)
-2026-10-09T22:20:14 DEBUG ntp: offset 0.0048 s respecto a time.google.com
-2026-10-09T22:39:25 INFO sesion abierta por admin desde 10.0.0.195
-2026-10-09T23:04:46 INFO rotacion de logs completada (130 archivos)
-2026-10-10T00:16:00 DEBUG ntp: offset -0.0013 s respecto a time.google.com
-2026-10-10T01:05:30 INFO sesion abierta por admin desde 10.0.0.61
-2026-10-10T01:35:02 INFO snapshot programado completado en 462 ms
-2026-10-10T01:42:53 INFO rotacion de logs completada (314 archivos)
-2026-10-10T01:46:48 INFO rotacion de logs completada (427 archivos)
-2026-10-10T02:27:52 DEBUG ntp: offset 0.0095 s respecto a time.google.com
-2026-10-10T02:36:54 INFO rotacion de logs completada (162 archivos)
-2026-10-10T02:37:26 INFO sesion abierta por admin desde 10.0.0.100
-2026-10-10T02:47:52 INFO sesion abierta por admin desde 10.0.0.66
-2026-10-10T03:46:29 INFO sesion abierta por admin desde 10.0.0.233
-2026-10-10T03:54:47 DEBUG ntp: offset 0.0074 s respecto a time.google.com
-2026-10-10T04:33:57 INFO rotacion de logs completada (732 archivos)
-2026-10-10T06:21:02 DEBUG ntp: offset -0.0054 s respecto a time.google.com
-2026-10-10T06:29:22 INFO rotacion de logs completada (535 archivos)
-2026-10-10T06:48:20 DEBUG ntp: offset 0.0046 s respecto a time.google.com
-2026-10-10T07:43:06 INFO snapshot programado completado en 80 ms
-2026-10-10T08:03:18 DEBUG ntp: offset 0.0047 s respecto a time.google.com
-2026-10-10T08:51:44 INFO rotacion de logs completada (703 archivos)
-2026-10-10T09:54:40 INFO snapshot programado completado en 289 ms
-2026-10-10T10:50:42 INFO sesion abierta por admin desde 10.0.0.26
-2026-10-10T10:53:22 INFO rotacion de logs completada (390 archivos)
-2026-10-10T13:33:42 INFO sesion abierta por admin desde 10.0.0.28
-2026-10-10T14:07:17 INFO snapshot programado completado en 12 ms
-2026-10-10T15:11:30 DEBUG ntp: offset 0.0079 s respecto a time.google.com
-2026-10-10T15:11:31 INFO rotacion de logs completada (118 archivos)
-2026-10-10T15:44:20 INFO sesion abierta por admin desde 10.0.0.122
-2026-10-10T15:55:19 INFO sesion abierta por admin desde 10.0.0.148
-2026-10-10T16:26:38 INFO snapshot programado completado en 316 ms
-2026-10-10T16:47:32 INFO rotacion de logs completada (276 archivos)
-2026-10-10T17:55:08 INFO rotacion de logs completada (119 archivos)
-2026-10-10T17:57:59 INFO rotacion de logs completada (136 archivos)
-2026-10-10T19:55:55 INFO snapshot programado completado en 60 ms
-2026-10-10T19:57:20 INFO rotacion de logs completada (326 archivos)
-2026-10-10T20:26:51 INFO snapshot programado completado en 468 ms
-2026-10-10T20:28:50 DEBUG ntp: offset -0.0003 s respecto a time.google.com
-2026-10-10T21:24:28 INFO rotacion de logs completada (673 archivos)
-2026-10-10T21:28:03 DEBUG ntp: offset 0.0072 s respecto a time.google.com
-2026-10-10T21:34:58 DEBUG ntp: offset 0.0036 s respecto a time.google.com
-2026-10-10T21:56:01 DEBUG ntp: offset -0.0048 s respecto a time.google.com
-2026-10-10T21:59:53 INFO sesion abierta por admin desde 10.0.0.25
-2026-10-10T22:28:52 DEBUG ntp: offset -0.0067 s respecto a time.google.com
-2026-10-10T22:40:37 INFO sesion abierta por admin desde 10.0.0.194
-2026-10-10T23:01:45 INFO snapshot programado completado en 19 ms
-2026-10-10T23:06:14 DEBUG ntp: offset -0.0034 s respecto a time.google.com
-2026-10-10T23:16:01 INFO sesion abierta por admin desde 10.0.0.91
-2026-10-10T23:18:20 INFO sesion abierta por admin desde 10.0.0.151
-2026-10-10T23:28:17 INFO rotacion de logs completada (501 archivos)
-2026-10-10T23:53:01 DEBUG ntp: offset -0.0062 s respecto a time.google.com
-2026-10-11T00:39:32 INFO sesion abierta por admin desde 10.0.0.250
-2026-10-11T01:15:37 DEBUG ntp: offset -0.0056 s respecto a time.google.com
-2026-10-11T02:01:41 INFO sesion abierta por admin desde 10.0.0.80
-2026-10-11T02:20:09 INFO rotacion de logs completada (561 archivos)
-2026-10-11T02:49:46 INFO rotacion de logs completada (164 archivos)
-2026-10-11T02:55:59 DEBUG ntp: offset 0.0064 s respecto a time.google.com
-2026-10-11T03:00:50 INFO snapshot programado completado en 51 ms
-2026-10-11T03:45:28 DEBUG ntp: offset -0.0027 s respecto a time.google.com
-2026-10-11T06:19:31 INFO sesion abierta por admin desde 10.0.0.2
-2026-10-11T07:27:04 INFO rotacion de logs completada (73 archivos)
-2026-10-11T07:28:25 INFO rotacion de logs completada (204 archivos)
-2026-10-11T07:36:44 DEBUG ntp: offset 0.0081 s respecto a time.google.com
-2026-10-11T08:26:57 INFO snapshot programado completado en 302 ms
-2026-10-11T08:41:07 INFO snapshot programado completado en 400 ms
-2026-10-11T08:51:45 INFO rotacion de logs completada (57 archivos)
-2026-10-11T09:51:15 INFO rotacion de logs completada (527 archivos)
-2026-10-11T09:53:21 DEBUG ntp: offset -0.0017 s respecto a time.google.com
-2026-10-11T10:04:42 INFO sesion abierta por admin desde 10.0.0.103
-2026-10-11T11:12:02 INFO sesion abierta por admin desde 10.0.0.81
-2026-10-11T11:58:44 INFO snapshot programado completado en 184 ms
-2026-10-11T12:01:11 DEBUG ntp: offset 0.0003 s respecto a time.google.com
-2026-10-11T12:11:29 INFO snapshot programado completado en 282 ms
-2026-10-11T12:57:11 INFO snapshot programado completado en 225 ms
-2026-10-11T13:16:19 INFO sesion abierta por admin desde 10.0.0.53
-2026-10-11T13:28:35 DEBUG ntp: offset 0.0011 s respecto a time.google.com
-2026-10-11T13:48:32 INFO rotacion de logs completada (826 archivos)
-2026-10-11T13:54:48 DEBUG ntp: offset -0.0021 s respecto a time.google.com
-2026-10-11T14:02:49 INFO rotacion de logs completada (669 archivos)
-2026-10-11T15:01:54 DEBUG ntp: offset -0.0018 s respecto a time.google.com
-2026-10-11T15:29:25 DEBUG ntp: offset 0.0042 s respecto a time.google.com
-2026-10-11T15:29:30 INFO sesion abierta por admin desde 10.0.0.23
-2026-10-11T17:26:46 INFO sesion abierta por admin desde 10.0.0.62
-2026-10-11T17:44:01 INFO sesion abierta por admin desde 10.0.0.40
-2026-10-11T17:51:14 DEBUG ntp: offset -0.0098 s respecto a time.google.com
-2026-10-11T17:59:05 INFO snapshot programado completado en 257 ms
-2026-10-11T18:24:23 DEBUG ntp: offset 0.0083 s respecto a time.google.com
-2026-10-11T20:12:28 INFO snapshot programado completado en 431 ms
-2026-10-11T20:55:46 INFO snapshot programado completado en 233 ms
-2026-10-11T22:33:22 DEBUG ntp: offset 0.0076 s respecto a time.google.com
-2026-10-11T22:57:15 INFO rotacion de logs completada (222 archivos)
-2026-10-11T23:02:22 INFO sesion abierta por admin desde 10.0.0.47
-2026-10-11T23:16:13 INFO sesion abierta por admin desde 10.0.0.121
-2026-10-11T23:24:04 INFO sesion abierta por admin desde 10.0.0.34
-2026-10-11T23:27:50 INFO snapshot programado completado en 407 ms
-2026-10-11T23:36:40 DEBUG ntp: offset 0.0093 s respecto a time.google.com
-2026-10-12T00:21:49 INFO sesion abierta por admin desde 10.0.0.42
-2026-10-12T00:56:48 INFO rotacion de logs completada (403 archivos)
-2026-10-12T02:02:47 INFO snapshot programado completado en 359 ms
-2026-10-12T02:07:05 INFO snapshot programado completado en 351 ms
-2026-10-12T02:16:06 INFO sesion abierta por admin desde 10.0.0.112
-2026-10-12T02:39:38 INFO rotacion de logs completada (361 archivos)
-2026-10-12T03:08:44 INFO rotacion de logs completada (288 archivos)
-2026-10-12T03:36:04 INFO rotacion de logs completada (366 archivos)
-2026-10-12T03:58:03 INFO sesion abierta por admin desde 10.0.0.229
-2026-10-12T04:05:59 INFO snapshot programado completado en 86 ms
-2026-10-12T04:22:56 INFO rotacion de logs completada (148 archivos)
-2026-10-12T04:53:15 INFO snapshot programado completado en 183 ms
-2026-10-12T04:54:16 INFO sesion abierta por admin desde 10.0.0.51
-2026-10-12T05:10:06 INFO rotacion de logs completada (126 archivos)
-2026-10-12T05:12:07 INFO sesion abierta por admin desde 10.0.0.69
-2026-10-12T05:33:10 INFO sesion abierta por admin desde 10.0.0.20
-2026-10-12T05:45:48 INFO sesion abierta por admin desde 10.0.0.65
-2026-10-12T06:05:07 INFO snapshot programado completado en 275 ms
-2026-10-12T06:12:17 INFO snapshot programado completado en 416 ms
-2026-10-12T06:18:24 INFO sesion abierta por admin desde 10.0.0.22
-2026-10-12T06:21:28 INFO sesion abierta por admin desde 10.0.0.65
-2026-10-12T06:51:42 DEBUG ntp: offset -0.0068 s respecto a time.google.com
-2026-10-12T07:05:27 INFO rotacion de logs completada (801 archivos)
-2026-10-12T07:28:24 DEBUG ntp: offset 0.0070 s respecto a time.google.com
-2026-10-12T07:41:00 INFO rotacion de logs completada (178 archivos)
-2026-10-12T08:39:12 INFO snapshot programado completado en 82 ms
-2026-10-12T10:01:42 INFO rotacion de logs completada (262 archivos)
-2026-10-12T10:08:58 DEBUG ntp: offset 0.0053 s respecto a time.google.com
-2026-10-12T10:49:52 DEBUG ntp: offset -0.0089 s respecto a time.google.com
-2026-10-12T11:01:38 INFO sesion abierta por admin desde 10.0.0.143
-2026-10-12T12:24:39 INFO snapshot programado completado en 216 ms
-2026-10-12T13:03:51 INFO rotacion de logs completada (518 archivos)
-2026-10-12T13:25:49 INFO snapshot programado completado en 442 ms
-2026-10-12T13:47:01 INFO sesion abierta por admin desde 10.0.0.3
-2026-10-12T14:49:04 INFO sesion abierta por admin desde 10.0.0.144
-2026-10-12T15:05:27 INFO sesion abierta por admin desde 10.0.0.142
-2026-10-12T15:48:43 DEBUG ntp: offset -0.0008 s respecto a time.google.com
-2026-10-12T15:51:28 DEBUG ntp: offset 0.0058 s respecto a time.google.com
-2026-10-12T15:51:44 INFO sesion abierta por admin desde 10.0.0.88
-2026-10-12T16:05:33 INFO rotacion de logs completada (555 archivos)
-2026-10-12T16:30:50 INFO snapshot programado completado en 54 ms
-2026-10-12T16:59:49 INFO snapshot programado completado en 323 ms
-2026-10-12T17:27:28 INFO snapshot programado completado en 311 ms
-2026-10-12T17:28:12 INFO sesion abierta por admin desde 10.0.0.63
-2026-10-12T17:39:07 INFO sesion abierta por admin desde 10.0.0.170
-2026-10-12T18:28:46 INFO sesion abierta por admin desde 10.0.0.249
-2026-10-12T19:33:06 DEBUG ntp: offset 0.0008 s respecto a time.google.com
-2026-10-12T19:38:19 INFO rotacion de logs completada (720 archivos)
-2026-10-12T21:08:09 INFO sesion abierta por admin desde 10.0.0.218
-2026-10-12T21:46:55 INFO sesion abierta por admin desde 10.0.0.133
-2026-10-12T22:34:21 INFO sesion abierta por admin desde 10.0.0.76
-2026-10-12T22:46:25 INFO sesion abierta por admin desde 10.0.0.226
-2026-10-12T23:12:58 INFO snapshot programado completado en 302 ms
-2026-10-12T23:23:11 INFO sesion abierta por admin desde 10.0.0.98
-2026-10-13T00:20:42 INFO sesion abierta por admin desde 10.0.0.57
-2026-10-13T00:35:26 INFO rotacion de logs completada (175 archivos)
-2026-10-13T00:59:30 INFO rotacion de logs completada (736 archivos)
-2026-10-13T01:58:14 INFO snapshot programado completado en 97 ms
-2026-10-13T02:06:59 INFO sesion abierta por admin desde 10.0.0.72
-2026-10-13T02:50:20 DEBUG ntp: offset -0.0042 s respecto a time.google.com
-2026-10-13T02:59:42 DEBUG ntp: offset -0.0094 s respecto a time.google.com
-2026-10-13T03:00:56 INFO sesion abierta por admin desde 10.0.0.215
-2026-10-13T03:17:52 INFO snapshot programado completado en 247 ms
-2026-10-13T04:41:43 DEBUG ntp: offset 0.0056 s respecto a time.google.com
-2026-10-13T05:20:04 INFO snapshot programado completado en 168 ms
-2026-10-13T06:02:39 INFO snapshot programado completado en 428 ms
-2026-10-13T06:42:17 INFO rotacion de logs completada (726 archivos)
-2026-10-13T08:06:37 DEBUG ntp: offset -0.0090 s respecto a time.google.com
-2026-10-13T09:01:04 INFO rotacion de logs completada (645 archivos)
-2026-10-13T10:13:04 INFO sesion abierta por admin desde 10.0.0.232
-2026-10-13T11:02:30 INFO rotacion de logs completada (489 archivos)
-2026-10-13T11:24:24 INFO snapshot programado completado en 104 ms
-2026-10-13T11:52:45 DEBUG ntp: offset -0.0094 s respecto a time.google.com
-2026-10-13T11:55:54 INFO rotacion de logs completada (623 archivos)
-2026-10-13T11:56:18 INFO rotacion de logs completada (893 archivos)
-2026-10-13T11:57:53 DEBUG ntp: offset 0.0062 s respecto a time.google.com
-2026-10-13T13:20:17 INFO sesion abierta por admin desde 10.0.0.18
-2026-10-13T13:30:37 INFO rotacion de logs completada (376 archivos)
-2026-10-13T13:50:06 INFO snapshot programado completado en 187 ms
-2026-10-13T14:23:39 DEBUG ntp: offset -0.0066 s respecto a time.google.com
-2026-10-13T15:16:51 INFO rotacion de logs completada (495 archivos)
-2026-10-13T15:31:28 INFO snapshot programado completado en 251 ms
-2026-10-13T15:52:15 INFO snapshot programado completado en 369 ms
-2026-10-13T16:22:44 INFO rotacion de logs completada (65 archivos)
-2026-10-13T17:33:56 INFO rotacion de logs completada (657 archivos)
-2026-10-13T17:44:56 DEBUG ntp: offset 0.0051 s respecto a time.google.com
-2026-10-13T17:53:02 INFO rotacion de logs completada (330 archivos)
-2026-10-13T17:53:39 DEBUG ntp: offset 0.0040 s respecto a time.google.com
-2026-10-13T18:35:29 INFO rotacion de logs completada (572 archivos)
-2026-10-13T18:39:02 INFO rotacion de logs completada (269 archivos)
-2026-10-13T18:48:51 INFO snapshot programado completado en 357 ms
-2026-10-13T19:37:45 INFO sesion abierta por admin desde 10.0.0.121
-2026-10-13T20:22:02 INFO sesion abierta por admin desde 10.0.0.150
-2026-10-13T20:33:03 INFO rotacion de logs completada (753 archivos)
-2026-10-13T20:38:17 INFO snapshot programado completado en 342 ms
-2026-10-13T20:56:48 INFO sesion abierta por admin desde 10.0.0.82
-2026-10-13T21:05:52 DEBUG ntp: offset -0.0029 s respecto a time.google.com
-2026-10-13T21:22:11 INFO rotacion de logs completada (623 archivos)
-2026-10-13T21:50:39 DEBUG ntp: offset -0.0009 s respecto a time.google.com
-2026-10-13T22:55:01 INFO snapshot programado completado en 478 ms
-2026-10-13T23:32:13 INFO sesion abierta por admin desde 10.0.0.165
-2026-10-14T00:52:55 DEBUG ntp: offset 0.0000 s respecto a time.google.com
-2026-10-14T01:53:24 INFO snapshot programado completado en 351 ms
-2026-10-14T04:14:35 DEBUG ntp: offset -0.0017 s respecto a time.google.com
-2026-10-14T04:22:14 DEBUG ntp: offset 0.0090 s respecto a time.google.com
-2026-10-14T04:38:59 INFO snapshot programado completado en 186 ms
-2026-10-14T05:03:19 INFO snapshot programado completado en 162 ms
-2026-10-14T07:07:13 INFO snapshot programado completado en 121 ms
-2026-10-14T07:28:45 INFO sesion abierta por admin desde 10.0.0.81
-2026-10-14T07:46:33 DEBUG ntp: offset 0.0044 s respecto a time.google.com
-2026-10-14T08:59:32 DEBUG ntp: offset 0.0059 s respecto a time.google.com
-2026-10-14T10:00:31 DEBUG ntp: offset -0.0036 s respecto a time.google.com
-2026-10-14T10:02:37 INFO sesion abierta por admin desde 10.0.0.190
-2026-10-14T10:25:58 INFO sesion abierta por admin desde 10.0.0.246
-2026-10-14T11:36:57 INFO snapshot programado completado en 67 ms
-2026-10-14T12:01:05 INFO rotacion de logs completada (101 archivos)
-2026-10-14T13:23:11 DEBUG ntp: offset -0.0091 s respecto a time.google.com
-2026-10-14T13:31:08 INFO sesion abierta por admin desde 10.0.0.126
-2026-10-14T14:00:20 INFO rotacion de logs completada (863 archivos)
-2026-10-14T14:12:21 INFO sesion abierta por admin desde 10.0.0.190
-2026-10-14T14:21:14 INFO rotacion de logs completada (894 archivos)
-2026-10-14T14:43:57 INFO sesion abierta por admin desde 10.0.0.142
-2026-10-14T15:27:51 INFO sesion abierta por admin desde 10.0.0.170
-2026-10-14T15:39:44 INFO snapshot programado completado en 102 ms
-2026-10-14T15:41:44 DEBUG ntp: offset 0.0090 s respecto a time.google.com
-2026-10-14T16:01:13 INFO sesion abierta por admin desde 10.0.0.84
-2026-10-14T16:59:46 INFO rotacion de logs completada (758 archivos)
-2026-10-14T17:34:38 INFO sesion abierta por admin desde 10.0.0.130
-2026-10-14T17:38:14 WARN cpu de srv-bd-01 al 50% sostenido
-2026-10-14T17:46:54 INFO snapshot programado completado en 315 ms
-2026-10-14T17:58:10 INFO rotacion de logs completada (343 archivos)
-2026-10-14T18:10:11 INFO servicio de base de datos reiniciado por operador
+2026-10-08T09:10:23 INFO actualizacion de seguridad instalada (KB807)
+2026-10-08T09:40:13 INFO actualizacion de seguridad instalada (KB831)
+2026-10-08T09:52:55 DEBUG ntp: offset -0.0091 s respecto a time.google.com
+2026-10-08T10:02:49 DEBUG conexion SMB desde 10.0.0.235 cerrada por inactividad
+2026-10-08T10:13:12 INFO actualizacion de seguridad instalada (KB36)
+2026-10-08T10:35:49 INFO tarea programada 'limpieza_temp' finalizada en 146 ms
+2026-10-08T11:22:28 WARN servicio de impresion: cola con 88 trabajos pendientes
+2026-10-08T11:39:00 INFO snapshot programado completado en 39 ms
+2026-10-08T11:44:28 INFO snapshot programado completado en 300 ms
+2026-10-08T12:16:21 INFO snapshot programado completado en 193 ms
+2026-10-08T12:30:32 INFO sesion abierta por admin desde 10.0.0.80
+2026-10-08T12:41:21 INFO rotacion de logs completada (623 archivos)
+2026-10-08T13:35:40 INFO actualizacion de seguridad instalada (KB338)
+2026-10-08T13:57:35 DEBUG conexion SMB desde 10.0.0.133 cerrada por inactividad
+2026-10-08T14:17:05 DEBUG conexion SMB desde 10.0.0.73 cerrada por inactividad
+2026-10-08T14:49:51 INFO sesion abierta por admin desde 10.0.0.193
+2026-10-08T15:01:04 INFO rotacion de logs completada (699 archivos)
+2026-10-08T16:59:32 INFO rotacion de logs completada (283 archivos)
+2026-10-08T17:03:14 INFO actualizacion de seguridad instalada (KB112)
+2026-10-08T18:01:39 INFO snapshot programado completado en 57 ms
+2026-10-08T18:27:37 INFO rotacion de logs completada (419 archivos)
+2026-10-08T18:39:06 INFO sesion abierta por admin desde 10.0.0.31
+2026-10-08T19:51:28 INFO tarea programada 'limpieza_temp' finalizada en 109 ms
+2026-10-08T19:58:58 DEBUG conexion SMB desde 10.0.0.246 cerrada por inactividad
+2026-10-08T20:12:05 WARN servicio de impresion: cola con 159 trabajos pendientes
+2026-10-08T20:49:40 INFO actualizacion de seguridad instalada (KB138)
+2026-10-08T21:27:42 INFO rotacion de logs completada (120 archivos)
+2026-10-08T21:33:02 INFO actualizacion de seguridad instalada (KB270)
+2026-10-08T21:47:13 INFO actualizacion de seguridad instalada (KB837)
+2026-10-08T21:54:37 INFO rotacion de logs completada (780 archivos)
+2026-10-08T21:56:12 DEBUG ntp: offset -0.0075 s respecto a time.google.com
+2026-10-08T22:14:50 INFO rotacion de logs completada (548 archivos)
+2026-10-08T22:35:23 INFO actualizacion de seguridad instalada (KB566)
+2026-10-08T23:16:08 INFO snapshot programado completado en 88 ms
+2026-10-08T23:17:50 INFO rotacion de logs completada (514 archivos)
+2026-10-08T23:21:19 INFO snapshot programado completado en 266 ms
+2026-10-08T23:33:56 INFO actualizacion de seguridad instalada (KB667)
+2026-10-08T23:36:32 INFO actualizacion de seguridad instalada (KB115)
+2026-10-08T23:53:52 DEBUG conexion SMB desde 10.0.0.161 cerrada por inactividad
+2026-10-08T23:58:11 DEBUG conexion SMB desde 10.0.0.133 cerrada por inactividad
+2026-10-08T23:59:11 INFO tarea programada 'limpieza_temp' finalizada en 16 ms
+2026-10-09T00:34:57 INFO snapshot programado completado en 56 ms
+2026-10-09T00:37:52 INFO rotacion de logs completada (400 archivos)
+2026-10-09T03:23:32 INFO sesion abierta por admin desde 10.0.0.153
+2026-10-09T04:23:34 ERROR tarea programada 'sync_contactos' sin respuesta (reintento 47 s)
+2026-10-09T05:06:28 INFO sesion abierta por admin desde 10.0.0.40
+2026-10-09T05:49:07 INFO actualizacion de seguridad instalada (KB401)
+2026-10-09T05:53:41 INFO actualizacion de seguridad instalada (KB751)
+2026-10-09T06:00:45 DEBUG conexion SMB desde 10.0.0.145 cerrada por inactividad
+2026-10-09T06:04:28 INFO snapshot programado completado en 402 ms
+2026-10-09T06:10:57 DEBUG ntp: offset -0.0005 s respecto a time.google.com
+2026-10-09T07:10:44 INFO sesion abierta por admin desde 10.0.0.65
+2026-10-09T07:35:50 INFO tarea programada 'limpieza_temp' finalizada en 401 ms
+2026-10-09T08:09:32 INFO sesion abierta por admin desde 10.0.0.248
+2026-10-09T08:14:03 INFO rotacion de logs completada (484 archivos)
+2026-10-09T08:16:16 DEBUG ntp: offset -0.0072 s respecto a time.google.com
+2026-10-09T08:39:30 ERROR tarea programada 'sync_contactos' sin respuesta (reintento 84 s)
+2026-10-09T08:46:39 INFO actualizacion de seguridad instalada (KB84)
+2026-10-09T09:38:58 INFO actualizacion de seguridad instalada (KB376)
+2026-10-09T09:49:13 INFO sesion abierta por admin desde 10.0.0.32
+2026-10-09T09:54:05 INFO snapshot programado completado en 62 ms
+2026-10-09T10:11:20 INFO snapshot programado completado en 16 ms
+2026-10-09T10:55:01 INFO rotacion de logs completada (71 archivos)
+2026-10-09T11:21:59 INFO rotacion de logs completada (562 archivos)
+2026-10-09T11:38:14 INFO snapshot programado completado en 446 ms
+2026-10-09T11:41:56 INFO snapshot programado completado en 227 ms
+2026-10-09T11:47:28 INFO tarea programada 'limpieza_temp' finalizada en 111 ms
+2026-10-09T11:47:42 INFO actualizacion de seguridad instalada (KB644)
+2026-10-09T11:57:26 INFO tarea programada 'limpieza_temp' finalizada en 33 ms
+2026-10-09T12:01:57 INFO tarea programada 'limpieza_temp' finalizada en 173 ms
+2026-10-09T12:37:47 INFO snapshot programado completado en 42 ms
+2026-10-09T12:38:57 DEBUG ntp: offset -0.0042 s respecto a time.google.com
+2026-10-09T13:14:42 DEBUG conexion SMB desde 10.0.0.69 cerrada por inactividad
+2026-10-09T13:14:50 INFO actualizacion de seguridad instalada (KB839)
+2026-10-09T13:19:17 INFO snapshot programado completado en 397 ms
+2026-10-09T13:19:40 ERROR tarea programada 'sync_contactos' sin respuesta (reintento 182 s)
+2026-10-09T13:21:13 INFO rotacion de logs completada (747 archivos)
+2026-10-09T13:40:58 INFO rotacion de logs completada (37 archivos)
+2026-10-09T13:52:50 INFO rotacion de logs completada (462 archivos)
+2026-10-09T14:15:20 ERROR tarea programada 'sync_contactos' sin respuesta (reintento 681 s)
+2026-10-09T14:52:22 INFO snapshot programado completado en 225 ms
+2026-10-09T16:00:46 DEBUG ntp: offset -0.0035 s respecto a time.google.com
+2026-10-09T16:04:20 INFO tarea programada 'limpieza_temp' finalizada en 141 ms
+2026-10-09T16:56:01 DEBUG ntp: offset 0.0027 s respecto a time.google.com
+2026-10-09T17:04:32 INFO sesion abierta por admin desde 10.0.0.14
+2026-10-09T17:05:43 INFO sesion abierta por admin desde 10.0.0.226
+2026-10-09T17:19:02 WARN servicio de impresion: cola con 13 trabajos pendientes
+2026-10-09T18:12:16 INFO snapshot programado completado en 470 ms
+2026-10-09T18:40:18 DEBUG conexion SMB desde 10.0.0.161 cerrada por inactividad
+2026-10-09T19:01:39 INFO rotacion de logs completada (474 archivos)
+2026-10-09T19:03:35 INFO actualizacion de seguridad instalada (KB569)
+2026-10-09T19:15:23 ERROR tarea programada 'sync_contactos' sin respuesta (reintento 844 s)
+2026-10-09T19:46:09 DEBUG ntp: offset -0.0035 s respecto a time.google.com
+2026-10-09T20:43:01 DEBUG conexion SMB desde 10.0.0.240 cerrada por inactividad
+2026-10-09T20:52:24 INFO tarea programada 'limpieza_temp' finalizada en 430 ms
+2026-10-09T20:54:29 INFO sesion abierta por admin desde 10.0.0.146
+2026-10-09T21:04:52 INFO rotacion de logs completada (512 archivos)
+2026-10-09T21:58:06 INFO snapshot programado completado en 277 ms
+2026-10-09T22:15:30 INFO snapshot programado completado en 114 ms
+2026-10-09T22:22:55 DEBUG ntp: offset 0.0007 s respecto a time.google.com
+2026-10-09T23:33:33 INFO rotacion de logs completada (17 archivos)
+2026-10-09T23:37:45 INFO actualizacion de seguridad instalada (KB708)
+2026-10-10T00:29:29 INFO tarea programada 'limpieza_temp' finalizada en 141 ms
+2026-10-10T02:04:31 INFO tarea programada 'limpieza_temp' finalizada en 336 ms
+2026-10-10T02:21:42 INFO snapshot programado completado en 169 ms
+2026-10-10T02:27:30 INFO sesion abierta por admin desde 10.0.0.68
+2026-10-10T02:42:13 INFO actualizacion de seguridad instalada (KB182)
+2026-10-10T03:23:40 INFO actualizacion de seguridad instalada (KB62)
+2026-10-10T03:32:22 INFO sesion abierta por admin desde 10.0.0.177
+2026-10-10T03:32:24 INFO snapshot programado completado en 415 ms
+2026-10-10T04:28:42 DEBUG ntp: offset 0.0045 s respecto a time.google.com
+2026-10-10T05:12:44 INFO sesion abierta por admin desde 10.0.0.211
+2026-10-10T06:49:56 INFO tarea programada 'limpieza_temp' finalizada en 108 ms
+2026-10-10T06:55:24 DEBUG ntp: offset -0.0086 s respecto a time.google.com
+2026-10-10T07:32:27 WARN servicio de impresion: cola con 625 trabajos pendientes
+2026-10-10T07:35:24 DEBUG ntp: offset 0.0034 s respecto a time.google.com
+2026-10-10T08:07:42 INFO tarea programada 'limpieza_temp' finalizada en 24 ms
+2026-10-10T08:12:30 INFO snapshot programado completado en 237 ms
+2026-10-10T08:34:40 DEBUG conexion SMB desde 10.0.0.238 cerrada por inactividad
+2026-10-10T08:41:33 INFO rotacion de logs completada (745 archivos)
+2026-10-10T08:57:55 INFO snapshot programado completado en 109 ms
+2026-10-10T09:12:01 DEBUG conexion SMB desde 10.0.0.63 cerrada por inactividad
+2026-10-10T09:37:43 DEBUG conexion SMB desde 10.0.0.171 cerrada por inactividad
+2026-10-10T10:03:46 DEBUG conexion SMB desde 10.0.0.7 cerrada por inactividad
+2026-10-10T10:15:41 INFO rotacion de logs completada (884 archivos)
+2026-10-10T10:39:18 INFO actualizacion de seguridad instalada (KB645)
+2026-10-10T10:53:32 INFO sesion abierta por admin desde 10.0.0.223
+2026-10-10T11:08:18 DEBUG ntp: offset -0.0095 s respecto a time.google.com
+2026-10-10T11:27:36 INFO snapshot programado completado en 195 ms
+2026-10-10T11:48:50 INFO tarea programada 'limpieza_temp' finalizada en 172 ms
+2026-10-10T12:22:32 INFO snapshot programado completado en 395 ms
+2026-10-10T12:57:04 INFO snapshot programado completado en 49 ms
+2026-10-10T12:57:59 DEBUG ntp: offset 0.0092 s respecto a time.google.com
+2026-10-10T12:59:24 INFO snapshot programado completado en 343 ms
+2026-10-10T13:31:15 INFO rotacion de logs completada (791 archivos)
+2026-10-10T13:46:21 DEBUG conexion SMB desde 10.0.0.50 cerrada por inactividad
+2026-10-10T13:50:20 DEBUG conexion SMB desde 10.0.0.14 cerrada por inactividad
+2026-10-10T14:02:27 INFO tarea programada 'limpieza_temp' finalizada en 377 ms
+2026-10-10T14:07:09 INFO sesion abierta por admin desde 10.0.0.70
+2026-10-10T14:07:34 DEBUG conexion SMB desde 10.0.0.199 cerrada por inactividad
+2026-10-10T14:09:20 DEBUG conexion SMB desde 10.0.0.243 cerrada por inactividad
+2026-10-10T14:30:46 INFO sesion abierta por admin desde 10.0.0.192
+2026-10-10T14:56:49 INFO rotacion de logs completada (401 archivos)
+2026-10-10T14:59:12 DEBUG conexion SMB desde 10.0.0.170 cerrada por inactividad
+2026-10-10T15:17:04 INFO rotacion de logs completada (877 archivos)
+2026-10-10T15:23:31 DEBUG conexion SMB desde 10.0.0.93 cerrada por inactividad
+2026-10-10T15:37:26 INFO actualizacion de seguridad instalada (KB22)
+2026-10-10T15:40:34 INFO rotacion de logs completada (810 archivos)
+2026-10-10T15:41:33 DEBUG ntp: offset 0.0073 s respecto a time.google.com
+2026-10-10T15:43:55 INFO snapshot programado completado en 131 ms
+2026-10-10T16:09:42 INFO sesion abierta por admin desde 10.0.0.185
+2026-10-10T16:23:53 INFO actualizacion de seguridad instalada (KB431)
+2026-10-10T16:39:59 INFO tarea programada 'limpieza_temp' finalizada en 47 ms
+2026-10-10T16:49:18 DEBUG conexion SMB desde 10.0.0.235 cerrada por inactividad
+2026-10-10T17:32:35 DEBUG ntp: offset -0.0046 s respecto a time.google.com
+2026-10-10T17:41:26 DEBUG ntp: offset -0.0024 s respecto a time.google.com
+2026-10-10T18:18:32 DEBUG ntp: offset 0.0028 s respecto a time.google.com
+2026-10-10T18:19:21 INFO tarea programada 'limpieza_temp' finalizada en 281 ms
+2026-10-10T18:27:57 DEBUG conexion SMB desde 10.0.0.180 cerrada por inactividad
+2026-10-10T18:37:12 DEBUG conexion SMB desde 10.0.0.48 cerrada por inactividad
+2026-10-10T18:39:48 INFO sesion abierta por admin desde 10.0.0.20
+2026-10-10T18:41:45 INFO sesion abierta por admin desde 10.0.0.113
+2026-10-10T19:18:21 DEBUG conexion SMB desde 10.0.0.61 cerrada por inactividad
+2026-10-10T19:24:16 INFO sesion abierta por admin desde 10.0.0.30
+2026-10-10T19:33:31 DEBUG conexion SMB desde 10.0.0.105 cerrada por inactividad
+2026-10-10T19:58:48 DEBUG conexion SMB desde 10.0.0.206 cerrada por inactividad
+2026-10-10T20:00:34 INFO tarea programada 'limpieza_temp' finalizada en 156 ms
+2026-10-10T20:08:49 INFO snapshot programado completado en 82 ms
+2026-10-10T20:23:53 INFO rotacion de logs completada (193 archivos)
+2026-10-10T20:56:55 INFO tarea programada 'limpieza_temp' finalizada en 218 ms
+2026-10-10T21:07:47 INFO actualizacion de seguridad instalada (KB367)
+2026-10-10T21:34:22 DEBUG conexion SMB desde 10.0.0.98 cerrada por inactividad
+2026-10-10T21:46:00 DEBUG ntp: offset 0.0041 s respecto a time.google.com
+2026-10-10T21:51:19 INFO sesion abierta por admin desde 10.0.0.235
+2026-10-10T22:07:34 INFO rotacion de logs completada (82 archivos)
+2026-10-10T22:20:24 DEBUG conexion SMB desde 10.0.0.40 cerrada por inactividad
+2026-10-10T22:31:55 INFO actualizacion de seguridad instalada (KB878)
+2026-10-10T22:41:29 INFO sesion abierta por admin desde 10.0.0.139
+2026-10-10T23:15:40 INFO actualizacion de seguridad instalada (KB771)
+2026-10-10T23:17:44 DEBUG conexion SMB desde 10.0.0.80 cerrada por inactividad
+2026-10-10T23:37:31 DEBUG conexion SMB desde 10.0.0.23 cerrada por inactividad
+2026-10-10T23:46:56 INFO rotacion de logs completada (618 archivos)
+2026-10-11T00:00:20 INFO rotacion de logs completada (580 archivos)
+2026-10-11T00:16:23 INFO rotacion de logs completada (344 archivos)
+2026-10-11T00:19:39 INFO snapshot programado completado en 446 ms
+2026-10-11T02:28:58 INFO actualizacion de seguridad instalada (KB604)
+2026-10-11T02:29:33 INFO snapshot programado completado en 349 ms
+2026-10-11T03:44:47 DEBUG conexion SMB desde 10.0.0.79 cerrada por inactividad
+2026-10-11T04:26:43 INFO rotacion de logs completada (430 archivos)
+2026-10-11T04:28:13 INFO sesion abierta por admin desde 10.0.0.132
+2026-10-11T05:45:01 INFO actualizacion de seguridad instalada (KB770)
+2026-10-11T06:04:09 INFO rotacion de logs completada (874 archivos)
+2026-10-11T07:29:57 DEBUG conexion SMB desde 10.0.0.140 cerrada por inactividad
+2026-10-11T08:04:59 INFO actualizacion de seguridad instalada (KB467)
+2026-10-11T08:49:12 INFO snapshot programado completado en 215 ms
+2026-10-11T09:08:31 INFO sesion abierta por admin desde 10.0.0.235
+2026-10-11T09:44:30 INFO actualizacion de seguridad instalada (KB779)
+2026-10-11T09:47:32 DEBUG conexion SMB desde 10.0.0.87 cerrada por inactividad
+2026-10-11T09:55:46 DEBUG ntp: offset 0.0033 s respecto a time.google.com
+2026-10-11T10:56:38 INFO actualizacion de seguridad instalada (KB80)
+2026-10-11T11:14:08 INFO actualizacion de seguridad instalada (KB600)
+2026-10-11T11:19:30 INFO tarea programada 'limpieza_temp' finalizada en 217 ms
+2026-10-11T11:33:27 INFO actualizacion de seguridad instalada (KB545)
+2026-10-11T11:39:51 INFO actualizacion de seguridad instalada (KB665)
+2026-10-11T12:34:04 DEBUG ntp: offset 0.0026 s respecto a time.google.com
+2026-10-11T13:14:37 INFO rotacion de logs completada (720 archivos)
+2026-10-11T13:18:35 DEBUG ntp: offset -0.0097 s respecto a time.google.com
+2026-10-11T13:22:21 INFO rotacion de logs completada (504 archivos)
+2026-10-11T14:30:29 INFO sesion abierta por admin desde 10.0.0.160
+2026-10-11T14:32:22 DEBUG ntp: offset 0.0072 s respecto a time.google.com
+2026-10-11T14:47:05 INFO snapshot programado completado en 226 ms
+2026-10-11T14:54:15 INFO snapshot programado completado en 14 ms
+2026-10-11T15:40:13 INFO snapshot programado completado en 138 ms
+2026-10-11T15:48:18 INFO rotacion de logs completada (684 archivos)
+2026-10-11T16:01:01 INFO actualizacion de seguridad instalada (KB72)
+2026-10-11T16:01:36 INFO snapshot programado completado en 13 ms
+2026-10-11T16:01:49 INFO tarea programada 'limpieza_temp' finalizada en 213 ms
+2026-10-11T16:23:02 DEBUG ntp: offset -0.0039 s respecto a time.google.com
+2026-10-11T16:41:29 INFO snapshot programado completado en 179 ms
+2026-10-11T17:29:57 INFO snapshot programado completado en 326 ms
+2026-10-11T17:35:51 DEBUG ntp: offset 0.0084 s respecto a time.google.com
+2026-10-11T17:38:35 ERROR tarea programada 'sync_contactos' sin respuesta (reintento 499 s)
+2026-10-11T17:43:32 INFO sesion abierta por admin desde 10.0.0.46
+2026-10-11T18:04:51 DEBUG conexion SMB desde 10.0.0.239 cerrada por inactividad
+2026-10-11T18:05:54 INFO sesion abierta por admin desde 10.0.0.46
+2026-10-11T18:11:25 INFO sesion abierta por admin desde 10.0.0.127
+2026-10-11T19:20:59 WARN cpu de srv-bd-01 al 48% sostenido
+2026-10-11T20:06:31 INFO sesion abierta por admin desde 10.0.0.51
+2026-10-11T20:10:05 INFO sesion abierta por admin desde 10.0.0.109
+2026-10-11T20:32:50 DEBUG conexion SMB desde 10.0.0.157 cerrada por inactividad
+2026-10-11T20:36:51 INFO actualizacion de seguridad instalada (KB572)
+2026-10-11T20:37:32 INFO tarea programada 'limpieza_temp' finalizada en 213 ms
+2026-10-11T20:41:38 INFO sesion abierta por admin desde 10.0.0.200
+2026-10-11T21:00:58 INFO rotacion de logs completada (39 archivos)
+2026-10-11T21:40:52 INFO servicio de base de datos reiniciado por operador
+2026-10-11T21:53:16 DEBUG conexion SMB desde 10.0.0.140 cerrada por inactividad
+2026-10-11T22:13:40 DEBUG conexion SMB desde 10.0.0.101 cerrada por inactividad
+2026-10-11T22:15:41 INFO rotacion de logs completada (28 archivos)
+2026-10-11T22:20:16 INFO snapshot programado completado en 353 ms
+2026-10-11T22:29:26 DEBUG ntp: offset 0.0053 s respecto a time.google.com
+2026-10-11T22:33:15 DEBUG ntp: offset -0.0047 s respecto a time.google.com
+2026-10-11T22:37:00 DEBUG conexion SMB desde 10.0.0.105 cerrada por inactividad
+2026-10-11T23:07:41 INFO sesion abierta por admin desde 10.0.0.76
+2026-10-11T23:08:37 INFO snapshot programado completado en 19 ms
+2026-10-11T23:13:00 INFO snapshot programado completado en 373 ms
+2026-10-11T23:44:32 INFO actualizacion de seguridad instalada (KB57)
+2026-10-12T03:02:17 INFO rotacion de logs completada (660 archivos)
+2026-10-12T05:08:48 INFO tarea programada 'limpieza_temp' finalizada en 196 ms
+2026-10-12T05:17:58 INFO sesion abierta por admin desde 10.0.0.242
+2026-10-12T06:06:36 DEBUG conexion SMB desde 10.0.0.39 cerrada por inactividad
+2026-10-12T06:34:05 INFO actualizacion de seguridad instalada (KB42)
+2026-10-12T07:17:31 DEBUG conexion SMB desde 10.0.0.39 cerrada por inactividad
+2026-10-12T07:33:17 DEBUG ntp: offset -0.0021 s respecto a time.google.com
+2026-10-12T07:36:47 DEBUG conexion SMB desde 10.0.0.137 cerrada por inactividad
+2026-10-12T07:53:22 DEBUG ntp: offset 0.0057 s respecto a time.google.com
+2026-10-12T08:14:10 INFO snapshot programado completado en 305 ms
+2026-10-12T08:21:59 DEBUG conexion SMB desde 10.0.0.236 cerrada por inactividad
+2026-10-12T08:33:48 INFO rotacion de logs completada (121 archivos)
+2026-10-12T08:42:56 INFO actualizacion de seguridad instalada (KB830)
+2026-10-12T09:41:32 INFO rotacion de logs completada (194 archivos)
+2026-10-12T09:53:05 DEBUG conexion SMB desde 10.0.0.183 cerrada por inactividad
+2026-10-12T10:47:21 INFO tarea programada 'limpieza_temp' finalizada en 244 ms
+2026-10-12T10:54:11 INFO sesion abierta por admin desde 10.0.0.95
+2026-10-12T10:54:41 ERROR tarea programada 'sync_contactos' sin respuesta (reintento 533 s)
+2026-10-12T11:11:42 INFO sesion abierta por admin desde 10.0.0.115
+2026-10-12T11:48:37 DEBUG conexion SMB desde 10.0.0.197 cerrada por inactividad
+2026-10-12T12:14:15 INFO snapshot programado completado en 218 ms
+2026-10-12T12:34:45 ERROR tarea programada 'sync_contactos' sin respuesta (reintento 599 s)
+2026-10-12T12:35:02 INFO sesion abierta por admin desde 10.0.0.32
+2026-10-12T12:46:16 DEBUG ntp: offset 0.0095 s respecto a time.google.com
+2026-10-12T12:51:04 INFO rotacion de logs completada (11 archivos)
+2026-10-12T13:17:34 DEBUG ntp: offset 0.0092 s respecto a time.google.com
+2026-10-12T13:58:28 INFO actualizacion de seguridad instalada (KB231)
+2026-10-12T13:59:06 DEBUG conexion SMB desde 10.0.0.199 cerrada por inactividad
+2026-10-12T14:02:23 INFO tarea programada 'limpieza_temp' finalizada en 388 ms
+2026-10-12T14:13:33 INFO snapshot programado completado en 390 ms
+2026-10-12T14:30:57 INFO rotacion de logs completada (229 archivos)
+2026-10-12T14:39:16 DEBUG ntp: offset -0.0010 s respecto a time.google.com
+2026-10-12T14:40:42 INFO actualizacion de seguridad instalada (KB735)
+2026-10-12T15:31:27 INFO tarea programada 'limpieza_temp' finalizada en 58 ms
+2026-10-12T15:54:40 INFO actualizacion de seguridad instalada (KB671)
+2026-10-12T15:59:12 INFO rotacion de logs completada (325 archivos)
+2026-10-12T16:16:58 ERROR tarea programada 'sync_contactos' sin respuesta (reintento 872 s)
+2026-10-12T16:52:23 INFO snapshot programado completado en 114 ms
+2026-10-12T18:04:59 INFO actualizacion de seguridad instalada (KB193)
+2026-10-12T18:12:35 INFO rotacion de logs completada (607 archivos)
+2026-10-12T18:41:04 DEBUG conexion SMB desde 10.0.0.146 cerrada por inactividad
+2026-10-12T18:53:48 INFO rotacion de logs completada (393 archivos)
+2026-10-12T18:55:12 INFO rotacion de logs completada (260 archivos)
+2026-10-12T19:12:32 DEBUG conexion SMB desde 10.0.0.215 cerrada por inactividad
+2026-10-12T19:46:13 DEBUG conexion SMB desde 10.0.0.165 cerrada por inactividad
+2026-10-12T19:57:26 INFO rotacion de logs completada (648 archivos)
+2026-10-12T20:02:17 INFO snapshot programado completado en 16 ms
+2026-10-12T20:02:18 INFO sesion abierta por admin desde 10.0.0.84
+2026-10-12T20:22:23 INFO snapshot programado completado en 465 ms
+2026-10-12T20:23:37 INFO tarea programada 'limpieza_temp' finalizada en 356 ms
+2026-10-12T20:35:01 INFO actualizacion de seguridad instalada (KB312)
+2026-10-12T20:42:55 DEBUG ntp: offset -0.0054 s respecto a time.google.com
+2026-10-12T21:01:39 INFO snapshot programado completado en 138 ms
+2026-10-12T21:28:01 INFO actualizacion de seguridad instalada (KB749)
+2026-10-12T21:44:28 INFO rotacion de logs completada (577 archivos)
+2026-10-12T21:50:50 DEBUG ntp: offset -0.0063 s respecto a time.google.com
+2026-10-12T21:57:24 INFO rotacion de logs completada (365 archivos)
+2026-10-12T22:04:59 DEBUG conexion SMB desde 10.0.0.117 cerrada por inactividad
+2026-10-12T22:17:50 WARN servicio de impresion: cola con 457 trabajos pendientes
+2026-10-12T22:46:13 INFO snapshot programado completado en 469 ms
+2026-10-12T22:48:14 INFO snapshot programado completado en 478 ms
+2026-10-12T23:10:57 INFO actualizacion de seguridad instalada (KB636)
+2026-10-12T23:17:47 INFO sesion abierta por admin desde 10.0.0.10
+2026-10-12T23:27:53 INFO tarea programada 'limpieza_temp' finalizada en 60 ms
+2026-10-12T23:58:33 INFO sesion abierta por admin desde 10.0.0.206
+2026-10-13T00:15:40 INFO snapshot programado completado en 290 ms
+2026-10-13T02:16:16 INFO rotacion de logs completada (360 archivos)
+2026-10-13T02:55:54 DEBUG conexion SMB desde 10.0.0.221 cerrada por inactividad
+2026-10-13T02:56:29 INFO sesion abierta por admin desde 10.0.0.72
+2026-10-13T03:09:22 DEBUG ntp: offset 0.0037 s respecto a time.google.com
+2026-10-13T03:30:55 INFO snapshot programado completado en 208 ms
+2026-10-13T04:27:44 INFO tarea programada 'limpieza_temp' finalizada en 133 ms
+2026-10-13T04:28:50 DEBUG conexion SMB desde 10.0.0.148 cerrada por inactividad
+2026-10-13T04:31:48 INFO rotacion de logs completada (164 archivos)
+2026-10-13T04:45:27 INFO sesion abierta por admin desde 10.0.0.210
+2026-10-13T05:16:46 WARN servicio de impresion: cola con 62 trabajos pendientes
+2026-10-13T06:28:05 DEBUG ntp: offset -0.0089 s respecto a time.google.com
+2026-10-13T08:24:16 INFO rotacion de logs completada (162 archivos)
+2026-10-13T08:54:52 WARN servicio de impresion: cola con 491 trabajos pendientes
+2026-10-13T10:19:13 INFO rotacion de logs completada (310 archivos)
+2026-10-13T10:25:10 DEBUG conexion SMB desde 10.0.0.84 cerrada por inactividad
+2026-10-13T10:27:36 DEBUG conexion SMB desde 10.0.0.123 cerrada por inactividad
+2026-10-13T10:39:29 DEBUG conexion SMB desde 10.0.0.131 cerrada por inactividad
+2026-10-13T11:18:38 WARN servicio de impresion: cola con 527 trabajos pendientes
+2026-10-13T11:31:31 INFO actualizacion de seguridad instalada (KB723)
+2026-10-13T12:15:56 INFO sesion abierta por admin desde 10.0.0.197
+2026-10-13T12:25:16 INFO actualizacion de seguridad instalada (KB420)
+2026-10-13T12:30:24 DEBUG ntp: offset 0.0097 s respecto a time.google.com
+2026-10-13T12:34:40 INFO sesion abierta por admin desde 10.0.0.98
+2026-10-13T12:39:42 INFO actualizacion de seguridad instalada (KB807)
+2026-10-13T13:01:24 INFO snapshot programado completado en 386 ms
+2026-10-13T13:13:16 INFO sesion abierta por admin desde 10.0.0.212
+2026-10-13T13:43:34 INFO sesion abierta por admin desde 10.0.0.59
+2026-10-13T13:45:24 DEBUG conexion SMB desde 10.0.0.160 cerrada por inactividad
+2026-10-13T13:50:12 DEBUG ntp: offset 0.0019 s respecto a time.google.com
+2026-10-13T15:00:50 INFO rotacion de logs completada (291 archivos)
+2026-10-13T15:28:27 INFO sesion abierta por admin desde 10.0.0.159
+2026-10-13T17:05:36 DEBUG ntp: offset -0.0014 s respecto a time.google.com
+2026-10-13T18:22:30 INFO tarea programada 'limpieza_temp' finalizada en 114 ms
+2026-10-13T19:07:10 INFO actualizacion de seguridad instalada (KB130)
+2026-10-13T19:24:14 DEBUG conexion SMB desde 10.0.0.133 cerrada por inactividad
+2026-10-13T19:29:14 INFO sesion abierta por admin desde 10.0.0.195
+2026-10-13T20:09:55 INFO snapshot programado completado en 262 ms
+2026-10-13T20:17:30 INFO snapshot programado completado en 391 ms
+2026-10-13T20:50:11 INFO trafico normalizado en 443/tcp
+2026-10-13T20:57:46 INFO sesion abierta por admin desde 10.0.0.8
+2026-10-13T22:06:43 INFO tarea programada 'limpieza_temp' finalizada en 291 ms
+2026-10-13T22:07:33 INFO sesion abierta por admin desde 10.0.0.245
+2026-10-13T22:07:53 INFO sesion abierta por admin desde 10.0.0.171
+2026-10-13T22:58:47 DEBUG conexion SMB desde 10.0.0.128 cerrada por inactividad
+2026-10-13T22:59:53 WARN servicio de impresion: cola con 799 trabajos pendientes
+2026-10-13T23:43:47 DEBUG conexion SMB desde 10.0.0.114 cerrada por inactividad
+2026-10-13T23:44:55 INFO sesion abierta por admin desde 10.0.0.217
+2026-10-13T23:48:28 INFO rotacion de logs completada (112 archivos)
+2026-10-14T00:05:51 INFO sesion abierta por admin desde 10.0.0.114
+2026-10-14T00:52:06 DEBUG conexion SMB desde 10.0.0.193 cerrada por inactividad
+2026-10-14T00:57:28 DEBUG conexion SMB desde 10.0.0.196 cerrada por inactividad
+2026-10-14T01:36:01 DEBUG ntp: offset -0.0058 s respecto a time.google.com
+2026-10-14T02:08:57 ERROR tarea programada 'sync_contactos' sin respuesta (reintento 748 s)
+2026-10-14T02:12:47 INFO actualizacion de seguridad instalada (KB435)
+2026-10-14T02:48:26 INFO actualizacion de seguridad instalada (KB314)
+2026-10-14T03:39:10 INFO rotacion de logs completada (219 archivos)
+2026-10-14T04:22:16 INFO actualizacion de seguridad instalada (KB627)
+2026-10-14T04:25:39 INFO tarea programada 'limpieza_temp' finalizada en 108 ms
+2026-10-14T04:42:11 DEBUG ntp: offset 0.0050 s respecto a time.google.com
+2026-10-14T05:20:20 DEBUG conexion SMB desde 10.0.0.241 cerrada por inactividad
+2026-10-14T05:25:49 INFO snapshot programado completado en 271 ms
+2026-10-14T05:29:48 INFO sesion abierta por admin desde 10.0.0.53
+2026-10-14T05:30:25 DEBUG conexion SMB desde 10.0.0.175 cerrada por inactividad
+2026-10-14T05:35:33 INFO sesion abierta por admin desde 10.0.0.165
+2026-10-14T07:07:52 DEBUG conexion SMB desde 10.0.0.242 cerrada por inactividad
+2026-10-14T07:17:06 INFO tarea programada 'limpieza_temp' finalizada en 111 ms
+2026-10-14T07:26:01 INFO snapshot programado completado en 88 ms
+2026-10-14T07:51:04 INFO rotacion de logs completada (608 archivos)
+2026-10-14T08:35:04 DEBUG conexion SMB desde 10.0.0.65 cerrada por inactividad
+2026-10-14T09:10:39 INFO rotacion de logs completada (838 archivos)
+2026-10-14T09:33:40 INFO snapshot programado completado en 247 ms
+2026-10-14T11:18:13 INFO rotacion de logs completada (717 archivos)
+2026-10-14T11:35:02 INFO snapshot programado completado en 429 ms
+2026-10-14T12:00:44 INFO sesion abierta por admin desde 10.0.0.13
+2026-10-14T12:03:00 DEBUG conexion SMB desde 10.0.0.127 cerrada por inactividad
+2026-10-14T12:41:51 INFO snapshot programado completado en 351 ms
+2026-10-14T12:50:38 INFO rotacion de logs completada (758 archivos)
+2026-10-14T13:43:57 INFO actualizacion de seguridad instalada (KB718)
+2026-10-14T14:34:40 INFO snapshot programado completado en 397 ms
+2026-10-14T15:11:15 INFO sesion abierta por admin desde 10.0.0.174
+2026-10-14T15:36:50 INFO sesion abierta por admin desde 10.0.0.61
+2026-10-14T15:39:48 ERROR tarea programada 'sync_contactos' sin respuesta (reintento 755 s)
+2026-10-14T17:10:43 DEBUG ntp: offset 0.0074 s respecto a time.google.com
+2026-10-14T17:20:37 INFO sesion abierta por admin desde 10.0.0.154
+2026-10-14T17:34:35 INFO snapshot programado completado en 416 ms
+2026-10-14T17:45:05 INFO rotacion de logs completada (811 archivos)
+2026-10-14T17:49:25 DEBUG ntp: offset 0.0010 s respecto a time.google.com
+2026-10-14T18:19:35 INFO sesion abierta por admin desde 10.0.0.104
 ```
 
 ## firewall
 
 ```text
-2026-10-08T10:22:44 INFO VPN: usuario vpn230 conectado desde 189.201.12.230
-2026-10-08T10:26:27 INFO permitido 10.0.1.97 -> 8.8.8.8:53/udp
-2026-10-08T11:46:03 INFO sesion TLS establecida 10.0.2.232 -> 443/tcp
-2026-10-08T12:10:45 INFO VPN: usuario vpn162 conectado desde 189.201.12.162
-2026-10-08T12:18:03 INFO permitido 10.0.1.235 -> 8.8.8.8:53/udp
-2026-10-08T12:30:30 INFO permitido 10.0.1.186 -> 8.8.8.8:53/udp
-2026-10-08T12:44:21 INFO bloqueado 185.220.101.29 -> 22/tcp (intento SSH)
-2026-10-08T12:45:15 INFO bloqueado 185.220.101.78 -> 22/tcp (intento SSH)
-2026-10-08T13:02:18 INFO sesion TLS establecida 10.0.2.2 -> 443/tcp
-2026-10-08T13:04:11 INFO VPN: usuario vpn156 conectado desde 189.201.12.156
-2026-10-08T13:10:40 INFO sesion TLS establecida 10.0.2.109 -> 443/tcp
-2026-10-08T13:20:01 INFO bloqueado 185.220.101.85 -> 22/tcp (intento SSH)
-2026-10-08T13:32:15 INFO VPN: usuario vpn198 conectado desde 189.201.12.198
-2026-10-08T14:39:03 INFO VPN: usuario vpn120 conectado desde 189.201.12.120
-2026-10-08T14:44:15 INFO permitido 10.0.1.5 -> 8.8.8.8:53/udp
-2026-10-08T15:22:37 INFO bloqueado 185.220.101.98 -> 22/tcp (intento SSH)
-2026-10-08T15:59:33 INFO sesion TLS establecida 10.0.2.199 -> 443/tcp
-2026-10-08T16:33:45 INFO VPN: usuario vpn212 conectado desde 189.201.12.212
-2026-10-08T16:47:11 INFO VPN: usuario vpn200 conectado desde 189.201.12.200
-2026-10-08T17:07:00 INFO sesion TLS establecida 10.0.2.118 -> 443/tcp
-2026-10-08T17:10:35 INFO VPN: usuario vpn236 conectado desde 189.201.12.236
-2026-10-08T17:12:18 INFO permitido 10.0.1.152 -> 8.8.8.8:53/udp
-2026-10-08T17:25:02 INFO sesion TLS establecida 10.0.2.103 -> 443/tcp
-2026-10-08T18:31:15 INFO permitido 10.0.1.64 -> 8.8.8.8:53/udp
-2026-10-08T19:03:17 INFO bloqueado 185.220.101.24 -> 22/tcp (intento SSH)
-2026-10-08T19:13:17 INFO permitido 10.0.1.243 -> 8.8.8.8:53/udp
-2026-10-08T20:01:25 INFO sesion TLS establecida 10.0.2.40 -> 443/tcp
-2026-10-08T20:19:37 INFO sesion TLS establecida 10.0.2.201 -> 443/tcp
-2026-10-08T21:47:52 INFO permitido 10.0.1.26 -> 8.8.8.8:53/udp
-2026-10-08T22:10:45 INFO sesion TLS establecida 10.0.2.53 -> 443/tcp
-2026-10-08T22:44:52 INFO bloqueado 185.220.101.194 -> 22/tcp (intento SSH)
-2026-10-08T23:35:23 INFO VPN: usuario vpn5 conectado desde 189.201.12.5
-2026-10-08T23:39:11 INFO bloqueado 185.220.101.32 -> 22/tcp (intento SSH)
-2026-10-09T00:05:47 INFO sesion TLS establecida 10.0.2.231 -> 443/tcp
-2026-10-09T00:22:00 INFO sesion TLS establecida 10.0.2.38 -> 443/tcp
-2026-10-09T00:29:47 INFO sesion TLS establecida 10.0.2.93 -> 443/tcp
-2026-10-09T01:10:59 INFO bloqueado 185.220.101.22 -> 22/tcp (intento SSH)
-2026-10-09T01:22:24 INFO permitido 10.0.1.199 -> 8.8.8.8:53/udp
-2026-10-09T02:00:27 INFO bloqueado 185.220.101.178 -> 22/tcp (intento SSH)
-2026-10-09T02:13:37 INFO permitido 10.0.1.54 -> 8.8.8.8:53/udp
-2026-10-09T02:59:35 INFO permitido 10.0.1.11 -> 8.8.8.8:53/udp
-2026-10-09T03:25:05 INFO bloqueado 185.220.101.85 -> 22/tcp (intento SSH)
-2026-10-09T03:43:57 INFO bloqueado 185.220.101.195 -> 22/tcp (intento SSH)
-2026-10-09T03:46:38 INFO VPN: usuario vpn123 conectado desde 189.201.12.123
-2026-10-09T03:54:19 INFO sesion TLS establecida 10.0.2.209 -> 443/tcp
-2026-10-09T04:53:39 INFO permitido 10.0.1.181 -> 8.8.8.8:53/udp
-2026-10-09T05:20:00 INFO permitido 10.0.1.125 -> 8.8.8.8:53/udp
-2026-10-09T05:51:03 INFO permitido 10.0.1.106 -> 8.8.8.8:53/udp
-2026-10-09T06:19:50 INFO sesion TLS establecida 10.0.2.8 -> 443/tcp
-2026-10-09T06:26:11 INFO permitido 10.0.1.56 -> 8.8.8.8:53/udp
-2026-10-09T07:08:42 INFO bloqueado 185.220.101.138 -> 22/tcp (intento SSH)
-2026-10-09T07:08:43 INFO sesion TLS establecida 10.0.2.57 -> 443/tcp
-2026-10-09T07:25:31 INFO bloqueado 185.220.101.148 -> 22/tcp (intento SSH)
-2026-10-09T07:36:06 INFO permitido 10.0.1.180 -> 8.8.8.8:53/udp
-2026-10-09T07:59:10 INFO VPN: usuario vpn222 conectado desde 189.201.12.222
-2026-10-09T08:08:26 INFO sesion TLS establecida 10.0.2.181 -> 443/tcp
-2026-10-09T09:19:56 INFO sesion TLS establecida 10.0.2.85 -> 443/tcp
-2026-10-09T09:50:03 INFO permitido 10.0.1.136 -> 8.8.8.8:53/udp
-2026-10-09T09:53:08 INFO VPN: usuario vpn239 conectado desde 189.201.12.239
-2026-10-09T11:16:30 INFO VPN: usuario vpn241 conectado desde 189.201.12.241
-2026-10-09T11:47:05 INFO permitido 10.0.1.79 -> 8.8.8.8:53/udp
-2026-10-09T12:00:01 INFO bloqueado 185.220.101.89 -> 22/tcp (intento SSH)
-2026-10-09T12:36:40 INFO VPN: usuario vpn88 conectado desde 189.201.12.88
-2026-10-09T12:49:46 INFO sesion TLS establecida 10.0.2.127 -> 443/tcp
-2026-10-09T12:59:43 INFO permitido 10.0.1.143 -> 8.8.8.8:53/udp
-2026-10-09T13:25:33 INFO sesion TLS establecida 10.0.2.201 -> 443/tcp
-2026-10-09T13:29:30 INFO VPN: usuario vpn195 conectado desde 189.201.12.195
-2026-10-09T15:37:19 INFO sesion TLS establecida 10.0.2.50 -> 443/tcp
-2026-10-09T15:48:19 INFO bloqueado 185.220.101.82 -> 22/tcp (intento SSH)
-2026-10-09T16:08:51 INFO sesion TLS establecida 10.0.2.86 -> 443/tcp
-2026-10-09T16:11:22 INFO sesion TLS establecida 10.0.2.201 -> 443/tcp
-2026-10-09T16:26:59 INFO permitido 10.0.1.131 -> 8.8.8.8:53/udp
-2026-10-09T16:39:40 INFO permitido 10.0.1.220 -> 8.8.8.8:53/udp
-2026-10-09T17:21:10 INFO permitido 10.0.1.14 -> 8.8.8.8:53/udp
-2026-10-09T17:35:23 INFO VPN: usuario vpn123 conectado desde 189.201.12.123
-2026-10-09T17:37:27 INFO VPN: usuario vpn154 conectado desde 189.201.12.154
-2026-10-09T18:46:25 INFO VPN: usuario vpn160 conectado desde 189.201.12.160
-2026-10-09T19:56:20 INFO bloqueado 185.220.101.249 -> 22/tcp (intento SSH)
-2026-10-09T20:10:46 INFO sesion TLS establecida 10.0.2.132 -> 443/tcp
-2026-10-09T20:16:27 INFO bloqueado 185.220.101.113 -> 22/tcp (intento SSH)
-2026-10-09T20:25:24 INFO VPN: usuario vpn178 conectado desde 189.201.12.178
-2026-10-09T20:27:29 INFO sesion TLS establecida 10.0.2.204 -> 443/tcp
-2026-10-09T20:49:54 INFO permitido 10.0.1.35 -> 8.8.8.8:53/udp
-2026-10-09T21:15:05 INFO permitido 10.0.1.182 -> 8.8.8.8:53/udp
-2026-10-09T22:36:40 INFO bloqueado 185.220.101.169 -> 22/tcp (intento SSH)
-2026-10-09T23:13:47 INFO VPN: usuario vpn186 conectado desde 189.201.12.186
-2026-10-09T23:38:14 INFO sesion TLS establecida 10.0.2.130 -> 443/tcp
-2026-10-10T00:05:38 INFO permitido 10.0.1.119 -> 8.8.8.8:53/udp
-2026-10-10T01:30:13 INFO permitido 10.0.1.226 -> 8.8.8.8:53/udp
-2026-10-10T01:50:20 INFO sesion TLS establecida 10.0.2.120 -> 443/tcp
-2026-10-10T02:06:05 INFO sesion TLS establecida 10.0.2.103 -> 443/tcp
-2026-10-10T05:01:51 INFO bloqueado 185.220.101.2 -> 22/tcp (intento SSH)
-2026-10-10T05:10:11 INFO VPN: usuario vpn168 conectado desde 189.201.12.168
-2026-10-10T05:32:08 INFO permitido 10.0.1.122 -> 8.8.8.8:53/udp
-2026-10-10T07:15:12 INFO VPN: usuario vpn182 conectado desde 189.201.12.182
-2026-10-10T07:39:38 INFO VPN: usuario vpn37 conectado desde 189.201.12.37
-2026-10-10T07:59:08 INFO VPN: usuario vpn46 conectado desde 189.201.12.46
-2026-10-10T08:07:41 INFO permitido 10.0.1.79 -> 8.8.8.8:53/udp
-2026-10-10T09:02:41 INFO VPN: usuario vpn215 conectado desde 189.201.12.215
-2026-10-10T09:05:34 INFO sesion TLS establecida 10.0.2.10 -> 443/tcp
-2026-10-10T09:07:45 INFO bloqueado 185.220.101.122 -> 22/tcp (intento SSH)
-2026-10-10T11:05:25 INFO bloqueado 185.220.101.92 -> 22/tcp (intento SSH)
-2026-10-10T11:06:36 INFO sesion TLS establecida 10.0.2.171 -> 443/tcp
-2026-10-10T11:29:53 INFO sesion TLS establecida 10.0.2.131 -> 443/tcp
-2026-10-10T11:45:17 INFO sesion TLS establecida 10.0.2.228 -> 443/tcp
-2026-10-10T12:01:23 INFO bloqueado 185.220.101.176 -> 22/tcp (intento SSH)
-2026-10-10T12:23:37 INFO bloqueado 185.220.101.243 -> 22/tcp (intento SSH)
-2026-10-10T14:11:17 INFO permitido 10.0.1.13 -> 8.8.8.8:53/udp
-2026-10-10T14:11:55 INFO sesion TLS establecida 10.0.2.174 -> 443/tcp
-2026-10-10T14:42:35 INFO bloqueado 185.220.101.35 -> 22/tcp (intento SSH)
-2026-10-10T16:19:41 INFO permitido 10.0.1.66 -> 8.8.8.8:53/udp
-2026-10-10T16:49:00 INFO VPN: usuario vpn160 conectado desde 189.201.12.160
-2026-10-10T17:24:30 INFO VPN: usuario vpn37 conectado desde 189.201.12.37
-2026-10-10T17:52:05 INFO permitido 10.0.1.199 -> 8.8.8.8:53/udp
-2026-10-10T18:40:26 INFO permitido 10.0.1.66 -> 8.8.8.8:53/udp
-2026-10-10T18:49:55 INFO permitido 10.0.1.220 -> 8.8.8.8:53/udp
-2026-10-10T19:20:12 INFO bloqueado 185.220.101.170 -> 22/tcp (intento SSH)
-2026-10-10T19:29:50 INFO VPN: usuario vpn23 conectado desde 189.201.12.23
-2026-10-10T19:46:50 INFO bloqueado 185.220.101.145 -> 22/tcp (intento SSH)
-2026-10-10T19:56:06 INFO sesion TLS establecida 10.0.2.119 -> 443/tcp
-2026-10-10T20:26:09 INFO VPN: usuario vpn17 conectado desde 189.201.12.17
-2026-10-10T21:22:48 INFO bloqueado 185.220.101.119 -> 22/tcp (intento SSH)
-2026-10-10T21:36:57 INFO bloqueado 185.220.101.101 -> 22/tcp (intento SSH)
-2026-10-10T22:05:03 INFO VPN: usuario vpn81 conectado desde 189.201.12.81
-2026-10-10T22:51:11 INFO bloqueado 185.220.101.111 -> 22/tcp (intento SSH)
-2026-10-10T23:10:38 INFO permitido 10.0.1.185 -> 8.8.8.8:53/udp
-2026-10-10T23:38:30 INFO bloqueado 185.220.101.129 -> 22/tcp (intento SSH)
-2026-10-11T00:28:38 INFO permitido 10.0.1.22 -> 8.8.8.8:53/udp
-2026-10-11T01:16:28 INFO VPN: usuario vpn58 conectado desde 189.201.12.58
-2026-10-11T01:45:37 INFO VPN: usuario vpn48 conectado desde 189.201.12.48
-2026-10-11T02:53:16 INFO permitido 10.0.1.243 -> 8.8.8.8:53/udp
-2026-10-11T04:28:51 INFO permitido 10.0.1.216 -> 8.8.8.8:53/udp
-2026-10-11T04:34:24 INFO sesion TLS establecida 10.0.2.182 -> 443/tcp
-2026-10-11T05:25:11 INFO sesion TLS establecida 10.0.2.49 -> 443/tcp
-2026-10-11T06:41:49 INFO sesion TLS establecida 10.0.2.13 -> 443/tcp
-2026-10-11T08:11:45 INFO permitido 10.0.1.70 -> 8.8.8.8:53/udp
-2026-10-11T08:43:28 INFO VPN: usuario vpn30 conectado desde 189.201.12.30
-2026-10-11T08:55:22 INFO bloqueado 185.220.101.96 -> 22/tcp (intento SSH)
-2026-10-11T10:01:09 INFO bloqueado 185.220.101.227 -> 22/tcp (intento SSH)
-2026-10-11T10:24:56 INFO sesion TLS establecida 10.0.2.165 -> 443/tcp
-2026-10-11T11:20:08 INFO sesion TLS establecida 10.0.2.11 -> 443/tcp
-2026-10-11T12:11:31 INFO bloqueado 185.220.101.236 -> 22/tcp (intento SSH)
-2026-10-11T12:22:55 INFO sesion TLS establecida 10.0.2.155 -> 443/tcp
-2026-10-11T12:38:37 INFO permitido 10.0.1.146 -> 8.8.8.8:53/udp
-2026-10-11T12:44:43 INFO permitido 10.0.1.81 -> 8.8.8.8:53/udp
-2026-10-11T15:23:43 INFO sesion TLS establecida 10.0.2.59 -> 443/tcp
-2026-10-11T15:53:31 INFO permitido 10.0.1.208 -> 8.8.8.8:53/udp
-2026-10-11T16:05:12 INFO sesion TLS establecida 10.0.2.222 -> 443/tcp
-2026-10-11T16:20:13 INFO VPN: usuario vpn222 conectado desde 189.201.12.222
-2026-10-11T16:33:03 INFO sesion TLS establecida 10.0.2.173 -> 443/tcp
-2026-10-11T19:03:06 INFO VPN: usuario vpn195 conectado desde 189.201.12.195
-2026-10-11T19:23:37 INFO permitido 10.0.1.111 -> 8.8.8.8:53/udp
-2026-10-11T19:39:40 INFO bloqueado 185.220.101.235 -> 22/tcp (intento SSH)
-2026-10-11T19:58:50 INFO sesion TLS establecida 10.0.2.140 -> 443/tcp
-2026-10-11T20:05:52 INFO bloqueado 185.220.101.173 -> 22/tcp (intento SSH)
-2026-10-11T21:15:28 INFO VPN: usuario vpn37 conectado desde 189.201.12.37
-2026-10-11T21:32:17 INFO permitido 10.0.1.19 -> 8.8.8.8:53/udp
-2026-10-11T21:42:22 INFO permitido 10.0.1.115 -> 8.8.8.8:53/udp
-2026-10-11T22:58:25 INFO permitido 10.0.1.206 -> 8.8.8.8:53/udp
-2026-10-11T23:00:52 INFO permitido 10.0.1.154 -> 8.8.8.8:53/udp
-2026-10-11T23:05:46 INFO sesion TLS establecida 10.0.2.228 -> 443/tcp
-2026-10-11T23:14:13 INFO permitido 10.0.1.216 -> 8.8.8.8:53/udp
-2026-10-11T23:28:31 INFO VPN: usuario vpn25 conectado desde 189.201.12.25
-2026-10-12T00:02:05 INFO sesion TLS establecida 10.0.2.106 -> 443/tcp
-2026-10-12T00:41:28 INFO VPN: usuario vpn125 conectado desde 189.201.12.125
-2026-10-12T00:46:00 INFO VPN: usuario vpn244 conectado desde 189.201.12.244
-2026-10-12T01:00:09 INFO permitido 10.0.1.106 -> 8.8.8.8:53/udp
-2026-10-12T01:17:33 INFO permitido 10.0.1.50 -> 8.8.8.8:53/udp
-2026-10-12T01:18:08 INFO permitido 10.0.1.213 -> 8.8.8.8:53/udp
-2026-10-12T01:40:30 INFO VPN: usuario vpn209 conectado desde 189.201.12.209
-2026-10-12T02:09:42 INFO VPN: usuario vpn230 conectado desde 189.201.12.230
-2026-10-12T03:03:44 INFO permitido 10.0.1.176 -> 8.8.8.8:53/udp
-2026-10-12T03:46:14 INFO permitido 10.0.1.154 -> 8.8.8.8:53/udp
-2026-10-12T04:05:36 INFO sesion TLS establecida 10.0.2.173 -> 443/tcp
-2026-10-12T04:14:00 INFO sesion TLS establecida 10.0.2.165 -> 443/tcp
-2026-10-12T04:30:37 INFO VPN: usuario vpn160 conectado desde 189.201.12.160
-2026-10-12T04:51:39 INFO bloqueado 185.220.101.103 -> 22/tcp (intento SSH)
-2026-10-12T04:58:06 INFO permitido 10.0.1.219 -> 8.8.8.8:53/udp
-2026-10-12T05:40:03 INFO bloqueado 185.220.101.177 -> 22/tcp (intento SSH)
-2026-10-12T06:09:29 INFO sesion TLS establecida 10.0.2.209 -> 443/tcp
-2026-10-12T07:08:37 INFO bloqueado 185.220.101.206 -> 22/tcp (intento SSH)
-2026-10-12T08:05:14 INFO bloqueado 185.220.101.24 -> 22/tcp (intento SSH)
-2026-10-12T09:04:32 INFO bloqueado 185.220.101.135 -> 22/tcp (intento SSH)
-2026-10-12T09:46:20 INFO VPN: usuario vpn108 conectado desde 189.201.12.108
-2026-10-12T10:17:34 INFO bloqueado 185.220.101.151 -> 22/tcp (intento SSH)
-2026-10-12T10:35:32 INFO sesion TLS establecida 10.0.2.232 -> 443/tcp
-2026-10-12T11:30:46 INFO bloqueado 185.220.101.115 -> 22/tcp (intento SSH)
-2026-10-12T11:43:51 INFO VPN: usuario vpn147 conectado desde 189.201.12.147
-2026-10-12T11:46:35 INFO VPN: usuario vpn93 conectado desde 189.201.12.93
-2026-10-12T11:52:53 INFO bloqueado 185.220.101.242 -> 22/tcp (intento SSH)
-2026-10-12T12:42:54 INFO permitido 10.0.1.100 -> 8.8.8.8:53/udp
-2026-10-12T12:50:50 INFO sesion TLS establecida 10.0.2.36 -> 443/tcp
-2026-10-12T13:00:34 INFO VPN: usuario vpn198 conectado desde 189.201.12.198
-2026-10-12T13:06:55 INFO VPN: usuario vpn57 conectado desde 189.201.12.57
-2026-10-12T14:29:20 INFO VPN: usuario vpn221 conectado desde 189.201.12.221
-2026-10-12T14:37:26 INFO sesion TLS establecida 10.0.2.147 -> 443/tcp
-2026-10-12T16:15:49 INFO VPN: usuario vpn98 conectado desde 189.201.12.98
-2026-10-12T16:24:56 INFO bloqueado 185.220.101.189 -> 22/tcp (intento SSH)
-2026-10-12T16:33:57 INFO sesion TLS establecida 10.0.2.226 -> 443/tcp
-2026-10-12T16:41:09 INFO permitido 10.0.1.166 -> 8.8.8.8:53/udp
-2026-10-12T16:52:00 INFO permitido 10.0.1.30 -> 8.8.8.8:53/udp
-2026-10-12T17:43:04 INFO VPN: usuario vpn17 conectado desde 189.201.12.17
-2026-10-12T18:31:17 INFO sesion TLS establecida 10.0.2.103 -> 443/tcp
-2026-10-12T19:24:16 INFO sesion TLS establecida 10.0.2.86 -> 443/tcp
-2026-10-12T19:33:31 INFO bloqueado 185.220.101.136 -> 22/tcp (intento SSH)
-2026-10-12T20:03:08 INFO VPN: usuario vpn233 conectado desde 189.201.12.233
-2026-10-12T20:48:52 INFO VPN: usuario vpn28 conectado desde 189.201.12.28
-2026-10-12T20:51:49 INFO permitido 10.0.1.195 -> 8.8.8.8:53/udp
-2026-10-12T21:42:24 INFO bloqueado 185.220.101.72 -> 22/tcp (intento SSH)
-2026-10-12T21:44:54 INFO permitido 10.0.1.234 -> 8.8.8.8:53/udp
-2026-10-12T21:59:54 INFO bloqueado 185.220.101.80 -> 22/tcp (intento SSH)
-2026-10-12T22:41:05 INFO sesion TLS establecida 10.0.2.57 -> 443/tcp
-2026-10-12T23:04:51 INFO sesion TLS establecida 10.0.2.92 -> 443/tcp
-2026-10-12T23:56:05 INFO permitido 10.0.1.99 -> 8.8.8.8:53/udp
-2026-10-13T00:27:31 INFO sesion TLS establecida 10.0.2.192 -> 443/tcp
-2026-10-13T00:58:37 INFO VPN: usuario vpn68 conectado desde 189.201.12.68
-2026-10-13T03:18:46 INFO permitido 10.0.1.109 -> 8.8.8.8:53/udp
-2026-10-13T03:35:28 INFO sesion TLS establecida 10.0.2.240 -> 443/tcp
-2026-10-13T04:06:02 INFO VPN: usuario vpn136 conectado desde 189.201.12.136
-2026-10-13T04:10:55 INFO bloqueado 185.220.101.166 -> 22/tcp (intento SSH)
-2026-10-13T04:17:59 INFO permitido 10.0.1.210 -> 8.8.8.8:53/udp
-2026-10-13T04:38:04 INFO VPN: usuario vpn178 conectado desde 189.201.12.178
-2026-10-13T04:39:07 INFO bloqueado 185.220.101.72 -> 22/tcp (intento SSH)
-2026-10-13T05:16:15 INFO permitido 10.0.1.98 -> 8.8.8.8:53/udp
-2026-10-13T05:19:42 INFO VPN: usuario vpn213 conectado desde 189.201.12.213
-2026-10-13T05:47:21 INFO sesion TLS establecida 10.0.2.126 -> 443/tcp
-2026-10-13T05:56:32 INFO VPN: usuario vpn20 conectado desde 189.201.12.20
-2026-10-13T06:10:13 INFO permitido 10.0.1.223 -> 8.8.8.8:53/udp
-2026-10-13T06:12:12 INFO bloqueado 185.220.101.151 -> 22/tcp (intento SSH)
-2026-10-13T07:35:30 INFO bloqueado 185.220.101.179 -> 22/tcp (intento SSH)
-2026-10-13T08:42:38 INFO sesion TLS establecida 10.0.2.75 -> 443/tcp
-2026-10-13T09:46:29 INFO bloqueado 185.220.101.39 -> 22/tcp (intento SSH)
-2026-10-13T10:24:04 INFO sesion TLS establecida 10.0.2.178 -> 443/tcp
-2026-10-13T10:28:14 INFO permitido 10.0.1.198 -> 8.8.8.8:53/udp
-2026-10-13T10:33:06 INFO VPN: usuario vpn15 conectado desde 189.201.12.15
-2026-10-13T10:52:25 INFO bloqueado 185.220.101.99 -> 22/tcp (intento SSH)
-2026-10-13T11:10:09 INFO VPN: usuario vpn186 conectado desde 189.201.12.186
-2026-10-13T12:27:49 INFO VPN: usuario vpn100 conectado desde 189.201.12.100
-2026-10-13T12:32:21 INFO VPN: usuario vpn95 conectado desde 189.201.12.95
-2026-10-13T13:49:35 INFO VPN: usuario vpn181 conectado desde 189.201.12.181
-2026-10-13T13:56:52 INFO permitido 10.0.1.174 -> 8.8.8.8:53/udp
-2026-10-13T13:59:22 INFO permitido 10.0.1.98 -> 8.8.8.8:53/udp
-2026-10-13T14:15:12 INFO permitido 10.0.1.123 -> 8.8.8.8:53/udp
-2026-10-13T14:56:46 INFO permitido 10.0.1.22 -> 8.8.8.8:53/udp
-2026-10-13T15:36:04 INFO sesion TLS establecida 10.0.2.28 -> 443/tcp
-2026-10-13T16:14:08 INFO permitido 10.0.1.233 -> 8.8.8.8:53/udp
-2026-10-13T16:16:11 INFO permitido 10.0.1.45 -> 8.8.8.8:53/udp
-2026-10-13T16:23:48 INFO VPN: usuario vpn195 conectado desde 189.201.12.195
-2026-10-13T17:07:54 INFO sesion TLS establecida 10.0.2.68 -> 443/tcp
-2026-10-13T17:56:54 INFO sesion TLS establecida 10.0.2.206 -> 443/tcp
-2026-10-13T18:16:25 INFO sesion TLS establecida 10.0.2.231 -> 443/tcp
-2026-10-13T18:25:08 INFO bloqueado 185.220.101.207 -> 22/tcp (intento SSH)
-2026-10-13T18:31:15 INFO sesion TLS establecida 10.0.2.81 -> 443/tcp
-2026-10-13T18:40:56 INFO VPN: usuario vpn229 conectado desde 189.201.12.229
-2026-10-13T18:52:17 INFO bloqueado 185.220.101.98 -> 22/tcp (intento SSH)
-2026-10-13T19:05:01 INFO permitido 10.0.1.74 -> 8.8.8.8:53/udp
-2026-10-13T19:40:29 INFO VPN: usuario vpn91 conectado desde 189.201.12.91
-2026-10-13T19:56:04 INFO bloqueado 185.220.101.199 -> 22/tcp (intento SSH)
-2026-10-13T20:01:15 INFO VPN: usuario vpn54 conectado desde 189.201.12.54
-2026-10-13T20:30:11 INFO VPN: usuario vpn62 conectado desde 189.201.12.62
-2026-10-13T21:45:42 INFO bloqueado 185.220.101.172 -> 22/tcp (intento SSH)
-2026-10-13T21:50:56 INFO sesion TLS establecida 10.0.2.235 -> 443/tcp
-2026-10-13T21:58:39 INFO permitido 10.0.1.142 -> 8.8.8.8:53/udp
-2026-10-13T22:54:07 INFO bloqueado 185.220.101.113 -> 22/tcp (intento SSH)
-2026-10-13T23:25:05 INFO bloqueado 185.220.101.193 -> 22/tcp (intento SSH)
-2026-10-13T23:27:40 INFO bloqueado 185.220.101.212 -> 22/tcp (intento SSH)
-2026-10-13T23:37:51 INFO sesion TLS establecida 10.0.2.24 -> 443/tcp
-2026-10-14T00:12:54 INFO sesion TLS establecida 10.0.2.207 -> 443/tcp
-2026-10-14T01:15:41 INFO sesion TLS establecida 10.0.2.88 -> 443/tcp
-2026-10-14T05:32:39 INFO sesion TLS establecida 10.0.2.84 -> 443/tcp
-2026-10-14T06:10:05 INFO VPN: usuario vpn32 conectado desde 189.201.12.32
-2026-10-14T07:22:19 INFO permitido 10.0.1.230 -> 8.8.8.8:53/udp
-2026-10-14T08:02:17 INFO sesion TLS establecida 10.0.2.8 -> 443/tcp
-2026-10-14T08:09:55 INFO permitido 10.0.1.64 -> 8.8.8.8:53/udp
-2026-10-14T08:22:00 INFO permitido 10.0.1.213 -> 8.8.8.8:53/udp
-2026-10-14T09:04:09 INFO sesion TLS establecida 10.0.2.7 -> 443/tcp
-2026-10-14T10:04:09 INFO permitido 10.0.1.42 -> 8.8.8.8:53/udp
-2026-10-14T10:11:45 INFO bloqueado 185.220.101.162 -> 22/tcp (intento SSH)
-2026-10-14T10:22:53 INFO bloqueado 185.220.101.108 -> 22/tcp (intento SSH)
-2026-10-14T10:29:53 INFO VPN: usuario vpn150 conectado desde 189.201.12.150
-2026-10-14T10:42:51 INFO VPN: usuario vpn43 conectado desde 189.201.12.43
-2026-10-14T10:55:23 INFO VPN: usuario vpn37 conectado desde 189.201.12.37
-2026-10-14T11:00:02 INFO bloqueado 185.220.101.102 -> 22/tcp (intento SSH)
-2026-10-14T11:14:05 INFO sesion TLS establecida 10.0.2.85 -> 443/tcp
-2026-10-14T11:23:37 INFO bloqueado 185.220.101.126 -> 22/tcp (intento SSH)
-2026-10-14T11:44:56 INFO bloqueado 185.220.101.236 -> 22/tcp (intento SSH)
-2026-10-14T12:25:20 INFO permitido 10.0.1.91 -> 8.8.8.8:53/udp
-2026-10-14T12:49:07 INFO VPN: usuario vpn19 conectado desde 189.201.12.19
-2026-10-14T12:50:36 INFO bloqueado 185.220.101.191 -> 22/tcp (intento SSH)
-2026-10-14T13:31:46 INFO VPN: usuario vpn147 conectado desde 189.201.12.147
-2026-10-14T14:27:19 INFO bloqueado 185.220.101.56 -> 22/tcp (intento SSH)
-2026-10-14T14:54:13 INFO bloqueado 185.220.101.247 -> 22/tcp (intento SSH)
-2026-10-14T15:18:33 INFO VPN: usuario vpn220 conectado desde 189.201.12.220
-2026-10-14T15:24:43 INFO VPN: usuario vpn150 conectado desde 189.201.12.150
-2026-10-14T15:57:09 INFO permitido 10.0.1.20 -> 8.8.8.8:53/udp
-2026-10-14T17:08:06 INFO permitido 10.0.1.124 -> 8.8.8.8:53/udp
-2026-10-14T17:08:57 INFO VPN: usuario vpn63 conectado desde 189.201.12.63
-2026-10-14T17:34:16 INFO sesion TLS establecida 10.0.2.127 -> 443/tcp
-2026-10-14T17:56:06 WARN pico de conexiones entrantes a 443/tcp
-2026-10-14T18:12:07 INFO VPN: usuario vpn209 conectado desde 189.201.12.209
+2026-10-08T09:01:50 INFO VPN: usuario vpn192 conectado desde 189.201.12.192
+2026-10-08T09:58:56 INFO sesion TLS establecida 10.0.2.166 -> 443/tcp
+2026-10-08T10:39:36 INFO conexion 443/tcp desde 10.0.2.97 cerrada (75 ms)
+2026-10-08T10:55:40 INFO permitido 10.0.1.41 -> 8.8.8.8:53/udp
+2026-10-08T11:28:51 DEBUG regla 840 aplicada a 10.0.3.171
+2026-10-08T12:08:40 INFO bloqueado 185.220.101.215 -> 22/tcp (intento SSH)
+2026-10-08T12:14:24 INFO permitido 10.0.1.61 -> 8.8.8.8:53/udp
+2026-10-08T12:18:08 INFO bloqueado 185.220.101.68 -> 22/tcp (intento SSH)
+2026-10-08T12:30:24 INFO bloqueado 185.220.101.200 -> 22/tcp (intento SSH)
+2026-10-08T12:45:43 INFO conexion 443/tcp desde 10.0.2.174 cerrada (142 ms)
+2026-10-08T12:53:32 INFO conexion 443/tcp desde 10.0.2.188 cerrada (462 ms)
+2026-10-08T12:56:43 INFO VPN: usuario vpn84 conectado desde 189.201.12.84
+2026-10-08T12:58:07 INFO VPN: usuario vpn61 conectado desde 189.201.12.61
+2026-10-08T13:06:52 INFO VPN: usuario vpn182 desconectado (inactivo)
+2026-10-08T13:40:34 INFO VPN: usuario vpn107 desconectado (inactivo)
+2026-10-08T14:03:52 INFO permitido 10.0.1.158 -> 8.8.8.8:53/udp
+2026-10-08T14:16:16 INFO bloqueado 185.220.101.97 -> 22/tcp (intento SSH)
+2026-10-08T14:28:23 INFO sesion TLS establecida 10.0.2.2 -> 443/tcp
+2026-10-08T14:29:33 INFO bloqueado 185.220.101.115 -> 22/tcp (intento SSH)
+2026-10-08T14:59:03 INFO permitido 10.0.1.34 -> 8.8.8.8:53/udp
+2026-10-08T15:17:49 INFO VPN: usuario vpn79 desconectado (inactivo)
+2026-10-08T15:45:15 INFO VPN: usuario vpn136 conectado desde 189.201.12.136
+2026-10-08T16:45:38 INFO conexion 443/tcp desde 10.0.2.214 cerrada (312 ms)
+2026-10-08T17:21:47 INFO VPN: usuario vpn189 desconectado (inactivo)
+2026-10-08T18:03:43 INFO conexion 443/tcp desde 10.0.2.37 cerrada (239 ms)
+2026-10-08T18:04:13 INFO sesion TLS establecida 10.0.2.31 -> 443/tcp
+2026-10-08T18:28:21 INFO VPN: usuario vpn100 conectado desde 189.201.12.100
+2026-10-08T18:47:11 INFO VPN: usuario vpn72 desconectado (inactivo)
+2026-10-08T19:08:56 INFO bloqueado 185.220.101.135 -> 22/tcp (intento SSH)
+2026-10-08T19:34:56 INFO permitido 10.0.1.36 -> 8.8.8.8:53/udp
+2026-10-08T19:42:47 INFO conexion 443/tcp desde 10.0.2.221 cerrada (137 ms)
+2026-10-08T19:58:01 INFO conexion 443/tcp desde 10.0.2.208 cerrada (425 ms)
+2026-10-08T20:43:02 INFO bloqueado 185.220.101.179 -> 22/tcp (intento SSH)
+2026-10-08T21:39:22 DEBUG regla 874 aplicada a 10.0.3.123
+2026-10-08T22:01:05 INFO VPN: usuario vpn238 desconectado (inactivo)
+2026-10-08T22:15:20 INFO sesion TLS establecida 10.0.2.223 -> 443/tcp
+2026-10-08T22:31:45 INFO bloqueado 185.220.101.45 -> 22/tcp (intento SSH)
+2026-10-08T22:39:42 INFO sesion TLS establecida 10.0.2.57 -> 443/tcp
+2026-10-08T23:03:19 INFO bloqueado 185.220.101.156 -> 22/tcp (intento SSH)
+2026-10-08T23:22:42 INFO sesion TLS establecida 10.0.2.119 -> 443/tcp
+2026-10-08T23:38:15 INFO VPN: usuario vpn29 conectado desde 189.201.12.29
+2026-10-08T23:42:17 INFO VPN: usuario vpn18 desconectado (inactivo)
+2026-10-09T00:27:53 INFO bloqueado 185.220.101.80 -> 22/tcp (intento SSH)
+2026-10-09T00:42:09 INFO conexion 443/tcp desde 10.0.2.217 cerrada (209 ms)
+2026-10-09T01:05:32 DEBUG regla 148 aplicada a 10.0.3.77
+2026-10-09T01:09:41 INFO sesion TLS establecida 10.0.2.92 -> 443/tcp
+2026-10-09T01:26:29 INFO conexion 443/tcp desde 10.0.2.149 cerrada (260 ms)
+2026-10-09T01:35:22 INFO VPN: usuario vpn209 desconectado (inactivo)
+2026-10-09T01:38:49 DEBUG regla 812 aplicada a 10.0.3.151
+2026-10-09T02:12:59 INFO VPN: usuario vpn144 desconectado (inactivo)
+2026-10-09T03:35:48 INFO bloqueado 185.220.101.119 -> 22/tcp (intento SSH)
+2026-10-09T03:56:51 INFO VPN: usuario vpn178 desconectado (inactivo)
+2026-10-09T06:02:37 INFO sesion TLS establecida 10.0.2.173 -> 443/tcp
+2026-10-09T06:08:43 INFO VPN: usuario vpn100 desconectado (inactivo)
+2026-10-09T06:17:53 INFO VPN: usuario vpn81 desconectado (inactivo)
+2026-10-09T06:23:54 INFO VPN: usuario vpn61 desconectado (inactivo)
+2026-10-09T06:54:57 INFO VPN: usuario vpn31 desconectado (inactivo)
+2026-10-09T07:29:11 INFO permitido 10.0.1.53 -> 8.8.8.8:53/udp
+2026-10-09T09:00:08 INFO conexion 443/tcp desde 10.0.2.26 cerrada (291 ms)
+2026-10-09T09:20:30 INFO permitido 10.0.1.51 -> 8.8.8.8:53/udp
+2026-10-09T10:13:22 INFO VPN: usuario vpn54 desconectado (inactivo)
+2026-10-09T10:15:32 INFO VPN: usuario vpn192 desconectado (inactivo)
+2026-10-09T10:44:37 INFO conexion 443/tcp desde 10.0.2.128 cerrada (226 ms)
+2026-10-09T10:47:52 INFO permitido 10.0.1.132 -> 8.8.8.8:53/udp
+2026-10-09T10:55:59 INFO VPN: usuario vpn87 conectado desde 189.201.12.87
+2026-10-09T10:56:31 INFO permitido 10.0.1.229 -> 8.8.8.8:53/udp
+2026-10-09T10:57:37 INFO bloqueado 185.220.101.169 -> 22/tcp (intento SSH)
+2026-10-09T10:59:11 INFO conexion 443/tcp desde 10.0.2.29 cerrada (25 ms)
+2026-10-09T11:00:05 INFO bloqueado 185.220.101.73 -> 22/tcp (intento SSH)
+2026-10-09T11:27:39 DEBUG regla 752 aplicada a 10.0.3.131
+2026-10-09T11:51:05 INFO sesion TLS establecida 10.0.2.232 -> 443/tcp
+2026-10-09T12:05:22 INFO VPN: usuario vpn22 desconectado (inactivo)
+2026-10-09T12:06:46 WARN pico de conexiones entrantes a 443/tcp (campana de correo)
+2026-10-09T12:11:25 INFO VPN: usuario vpn133 desconectado (inactivo)
+2026-10-09T12:35:44 INFO conexion 443/tcp desde 10.0.2.30 cerrada (91 ms)
+2026-10-09T13:13:34 INFO VPN: usuario vpn79 conectado desde 189.201.12.79
+2026-10-09T13:13:36 INFO bloqueado 185.220.101.109 -> 22/tcp (intento SSH)
+2026-10-09T13:24:21 DEBUG regla 677 aplicada a 10.0.3.153
+2026-10-09T13:41:13 INFO sesion TLS establecida 10.0.2.121 -> 443/tcp
+2026-10-09T14:01:25 INFO VPN: usuario vpn198 conectado desde 189.201.12.198
+2026-10-09T14:10:02 INFO sesion TLS establecida 10.0.2.3 -> 443/tcp
+2026-10-09T14:40:31 INFO VPN: usuario vpn110 desconectado (inactivo)
+2026-10-09T14:47:13 INFO sesion TLS establecida 10.0.2.23 -> 443/tcp
+2026-10-09T14:56:58 INFO VPN: usuario vpn245 conectado desde 189.201.12.245
+2026-10-09T15:17:29 INFO conexion 443/tcp desde 10.0.2.212 cerrada (265 ms)
+2026-10-09T16:04:48 INFO conexion 443/tcp desde 10.0.2.129 cerrada (111 ms)
+2026-10-09T16:32:34 WARN bloqueado 45.146.164.46 -> 3389/tcp (escaneo de puertos)
+2026-10-09T16:45:16 INFO VPN: usuario vpn206 desconectado (inactivo)
+2026-10-09T16:51:44 INFO VPN: usuario vpn90 desconectado (inactivo)
+2026-10-09T17:00:30 INFO bloqueado 185.220.101.217 -> 22/tcp (intento SSH)
+2026-10-09T17:03:03 INFO VPN: usuario vpn139 desconectado (inactivo)
+2026-10-09T17:21:50 INFO VPN: usuario vpn93 conectado desde 189.201.12.93
+2026-10-09T18:10:09 WARN bloqueado 45.146.164.163 -> 3389/tcp (escaneo de puertos)
+2026-10-09T18:22:52 INFO VPN: usuario vpn127 desconectado (inactivo)
+2026-10-09T18:44:38 DEBUG regla 746 aplicada a 10.0.3.182
+2026-10-09T19:17:08 INFO sesion TLS establecida 10.0.2.176 -> 443/tcp
+2026-10-09T20:23:44 INFO permitido 10.0.1.49 -> 8.8.8.8:53/udp
+2026-10-09T20:34:21 WARN bloqueado 45.146.164.224 -> 3389/tcp (escaneo de puertos)
+2026-10-09T20:35:36 DEBUG regla 526 aplicada a 10.0.3.94
+2026-10-09T20:54:52 DEBUG regla 39 aplicada a 10.0.3.100
+2026-10-09T23:00:42 DEBUG regla 579 aplicada a 10.0.3.13
+2026-10-09T23:33:35 INFO VPN: usuario vpn95 desconectado (inactivo)
+2026-10-09T23:47:57 INFO permitido 10.0.1.36 -> 8.8.8.8:53/udp
+2026-10-10T00:03:57 INFO bloqueado 185.220.101.60 -> 22/tcp (intento SSH)
+2026-10-10T00:12:10 WARN bloqueado 45.146.164.59 -> 3389/tcp (escaneo de puertos)
+2026-10-10T00:38:51 INFO permitido 10.0.1.144 -> 8.8.8.8:53/udp
+2026-10-10T02:07:20 INFO conexion 443/tcp desde 10.0.2.60 cerrada (217 ms)
+2026-10-10T04:55:06 INFO sesion TLS establecida 10.0.2.246 -> 443/tcp
+2026-10-10T05:03:04 INFO VPN: usuario vpn47 desconectado (inactivo)
+2026-10-10T06:10:21 INFO VPN: usuario vpn101 conectado desde 189.201.12.101
+2026-10-10T06:37:18 INFO VPN: usuario vpn213 desconectado (inactivo)
+2026-10-10T06:53:12 INFO VPN: usuario vpn51 conectado desde 189.201.12.51
+2026-10-10T07:07:50 INFO conexion 443/tcp desde 10.0.2.247 cerrada (248 ms)
+2026-10-10T07:39:56 INFO permitido 10.0.1.49 -> 8.8.8.8:53/udp
+2026-10-10T07:44:34 INFO bloqueado 185.220.101.26 -> 22/tcp (intento SSH)
+2026-10-10T07:53:00 INFO permitido 10.0.1.197 -> 8.8.8.8:53/udp
+2026-10-10T08:36:00 INFO sesion TLS establecida 10.0.2.48 -> 443/tcp
+2026-10-10T08:36:30 INFO bloqueado 185.220.101.236 -> 22/tcp (intento SSH)
+2026-10-10T08:38:10 INFO bloqueado 185.220.101.149 -> 22/tcp (intento SSH)
+2026-10-10T08:42:41 INFO permitido 10.0.1.212 -> 8.8.8.8:53/udp
+2026-10-10T10:29:42 INFO conexion 443/tcp desde 10.0.2.179 cerrada (371 ms)
+2026-10-10T11:17:23 INFO VPN: usuario vpn171 conectado desde 189.201.12.171
+2026-10-10T11:41:13 INFO bloqueado 185.220.101.173 -> 22/tcp (intento SSH)
+2026-10-10T11:54:22 INFO conexion 443/tcp desde 10.0.2.244 cerrada (308 ms)
+2026-10-10T12:14:58 DEBUG regla 179 aplicada a 10.0.3.247
+2026-10-10T12:20:31 INFO bloqueado 185.220.101.58 -> 22/tcp (intento SSH)
+2026-10-10T12:27:10 INFO VPN: usuario vpn43 conectado desde 189.201.12.43
+2026-10-10T12:42:11 INFO conexion 443/tcp desde 10.0.2.241 cerrada (189 ms)
+2026-10-10T13:18:21 INFO VPN: usuario vpn202 conectado desde 189.201.12.202
+2026-10-10T13:19:45 INFO VPN: usuario vpn243 desconectado (inactivo)
+2026-10-10T13:22:55 INFO VPN: usuario vpn222 conectado desde 189.201.12.222
+2026-10-10T13:29:19 DEBUG regla 474 aplicada a 10.0.3.223
+2026-10-10T13:43:50 INFO conexion 443/tcp desde 10.0.2.153 cerrada (371 ms)
+2026-10-10T14:02:07 INFO VPN: usuario vpn16 desconectado (inactivo)
+2026-10-10T14:27:02 INFO sesion TLS establecida 10.0.2.202 -> 443/tcp
+2026-10-10T14:46:05 DEBUG regla 264 aplicada a 10.0.3.214
+2026-10-10T14:46:24 INFO bloqueado 185.220.101.244 -> 22/tcp (intento SSH)
+2026-10-10T15:32:37 INFO VPN: usuario vpn106 desconectado (inactivo)
+2026-10-10T15:42:36 INFO VPN: usuario vpn75 conectado desde 189.201.12.75
+2026-10-10T16:10:49 DEBUG regla 739 aplicada a 10.0.3.90
+2026-10-10T16:11:15 INFO permitido 10.0.1.188 -> 8.8.8.8:53/udp
+2026-10-10T16:55:52 INFO conexion 443/tcp desde 10.0.2.80 cerrada (75 ms)
+2026-10-10T16:57:07 WARN bloqueado 45.146.164.194 -> 3389/tcp (escaneo de puertos)
+2026-10-10T17:43:58 INFO VPN: usuario vpn238 desconectado (inactivo)
+2026-10-10T17:47:52 INFO conexion 443/tcp desde 10.0.2.119 cerrada (43 ms)
+2026-10-10T17:56:08 INFO VPN: usuario vpn105 conectado desde 189.201.12.105
+2026-10-10T18:06:56 INFO VPN: usuario vpn54 conectado desde 189.201.12.54
+2026-10-10T18:18:56 DEBUG regla 68 aplicada a 10.0.3.246
+2026-10-10T18:20:54 INFO VPN: usuario vpn10 desconectado (inactivo)
+2026-10-10T18:34:40 INFO VPN: usuario vpn133 desconectado (inactivo)
+2026-10-10T18:39:09 INFO sesion TLS establecida 10.0.2.149 -> 443/tcp
+2026-10-10T18:39:44 INFO conexion 443/tcp desde 10.0.2.111 cerrada (444 ms)
+2026-10-10T18:42:39 DEBUG regla 736 aplicada a 10.0.3.93
+2026-10-10T19:03:37 WARN bloqueado 45.146.164.143 -> 3389/tcp (escaneo de puertos)
+2026-10-10T19:07:13 INFO VPN: usuario vpn138 conectado desde 189.201.12.138
+2026-10-10T19:12:40 DEBUG regla 367 aplicada a 10.0.3.81
+2026-10-10T20:01:21 INFO bloqueado 185.220.101.189 -> 22/tcp (intento SSH)
+2026-10-10T20:02:49 INFO bloqueado 185.220.101.42 -> 22/tcp (intento SSH)
+2026-10-10T20:09:17 INFO permitido 10.0.1.99 -> 8.8.8.8:53/udp
+2026-10-10T20:24:12 INFO VPN: usuario vpn233 desconectado (inactivo)
+2026-10-10T20:40:27 INFO sesion TLS establecida 10.0.2.189 -> 443/tcp
+2026-10-10T20:49:10 INFO conexion 443/tcp desde 10.0.2.211 cerrada (398 ms)
+2026-10-10T21:49:11 INFO conexion 443/tcp desde 10.0.2.229 cerrada (331 ms)
+2026-10-10T22:14:57 INFO bloqueado 185.220.101.187 -> 22/tcp (intento SSH)
+2026-10-10T22:47:35 INFO permitido 10.0.1.206 -> 8.8.8.8:53/udp
+2026-10-10T23:18:15 DEBUG regla 213 aplicada a 10.0.3.109
+2026-10-10T23:20:56 INFO sesion TLS establecida 10.0.2.8 -> 443/tcp
+2026-10-10T23:26:16 INFO bloqueado 185.220.101.171 -> 22/tcp (intento SSH)
+2026-10-10T23:43:59 INFO bloqueado 185.220.101.190 -> 22/tcp (intento SSH)
+2026-10-11T00:30:57 INFO VPN: usuario vpn197 desconectado (inactivo)
+2026-10-11T01:00:24 INFO VPN: usuario vpn120 conectado desde 189.201.12.120
+2026-10-11T01:08:30 DEBUG regla 505 aplicada a 10.0.3.168
+2026-10-11T01:19:15 INFO conexion 443/tcp desde 10.0.2.58 cerrada (388 ms)
+2026-10-11T01:41:27 DEBUG regla 874 aplicada a 10.0.3.43
+2026-10-11T02:49:53 INFO permitido 10.0.1.13 -> 8.8.8.8:53/udp
+2026-10-11T03:23:41 INFO conexion 443/tcp desde 10.0.2.159 cerrada (354 ms)
+2026-10-11T04:08:31 INFO bloqueado 185.220.101.90 -> 22/tcp (intento SSH)
+2026-10-11T05:59:21 INFO conexion 443/tcp desde 10.0.2.107 cerrada (102 ms)
+2026-10-11T05:59:51 INFO sesion TLS establecida 10.0.2.205 -> 443/tcp
+2026-10-11T06:51:07 INFO conexion 443/tcp desde 10.0.2.90 cerrada (457 ms)
+2026-10-11T07:01:41 INFO VPN: usuario vpn41 desconectado (inactivo)
+2026-10-11T07:16:01 DEBUG regla 448 aplicada a 10.0.3.229
+2026-10-11T08:29:05 INFO bloqueado 185.220.101.30 -> 22/tcp (intento SSH)
+2026-10-11T08:57:00 INFO permitido 10.0.1.192 -> 8.8.8.8:53/udp
+2026-10-11T08:59:04 INFO VPN: usuario vpn71 desconectado (inactivo)
+2026-10-11T09:20:21 INFO permitido 10.0.1.122 -> 8.8.8.8:53/udp
+2026-10-11T09:33:55 INFO VPN: usuario vpn81 desconectado (inactivo)
+2026-10-11T09:37:58 DEBUG regla 563 aplicada a 10.0.3.33
+2026-10-11T09:40:51 INFO VPN: usuario vpn137 desconectado (inactivo)
+2026-10-11T09:59:24 INFO sesion TLS establecida 10.0.2.118 -> 443/tcp
+2026-10-11T10:01:58 DEBUG regla 120 aplicada a 10.0.3.174
+2026-10-11T10:45:07 DEBUG regla 119 aplicada a 10.0.3.19
+2026-10-11T11:20:48 INFO VPN: usuario vpn147 conectado desde 189.201.12.147
+2026-10-11T11:36:43 INFO VPN: usuario vpn145 conectado desde 189.201.12.145
+2026-10-11T11:59:41 DEBUG regla 682 aplicada a 10.0.3.210
+2026-10-11T12:10:15 INFO VPN: usuario vpn157 desconectado (inactivo)
+2026-10-11T12:12:29 INFO VPN: usuario vpn41 conectado desde 189.201.12.41
+2026-10-11T12:26:54 INFO VPN: usuario vpn241 conectado desde 189.201.12.241
+2026-10-11T12:59:39 INFO conexion 443/tcp desde 10.0.2.96 cerrada (120 ms)
+2026-10-11T13:15:28 INFO permitido 10.0.1.49 -> 8.8.8.8:53/udp
+2026-10-11T13:17:29 INFO conexion 443/tcp desde 10.0.2.133 cerrada (103 ms)
+2026-10-11T13:23:05 WARN bloqueado 45.146.164.211 -> 3389/tcp (escaneo de puertos)
+2026-10-11T13:25:54 INFO VPN: usuario vpn105 conectado desde 189.201.12.105
+2026-10-11T13:32:03 INFO VPN: usuario vpn97 desconectado (inactivo)
+2026-10-11T13:54:18 INFO permitido 10.0.1.59 -> 8.8.8.8:53/udp
+2026-10-11T14:09:08 INFO bloqueado 185.220.101.175 -> 22/tcp (intento SSH)
+2026-10-11T14:23:44 INFO VPN: usuario vpn83 desconectado (inactivo)
+2026-10-11T14:25:45 INFO permitido 10.0.1.136 -> 8.8.8.8:53/udp
+2026-10-11T14:45:22 DEBUG regla 840 aplicada a 10.0.3.127
+2026-10-11T15:09:24 INFO VPN: usuario vpn139 desconectado (inactivo)
+2026-10-11T15:22:42 WARN bloqueado 45.146.164.7 -> 3389/tcp (escaneo de puertos)
+2026-10-11T15:39:35 INFO VPN: usuario vpn11 desconectado (inactivo)
+2026-10-11T15:45:54 INFO permitido 10.0.1.21 -> 8.8.8.8:53/udp
+2026-10-11T15:48:00 INFO permitido 10.0.1.76 -> 8.8.8.8:53/udp
+2026-10-11T16:20:10 DEBUG regla 624 aplicada a 10.0.3.111
+2026-10-11T16:43:27 INFO VPN: usuario vpn188 desconectado (inactivo)
+2026-10-11T16:50:19 INFO VPN: usuario vpn179 conectado desde 189.201.12.179
+2026-10-11T17:03:34 INFO bloqueado 185.220.101.24 -> 22/tcp (intento SSH)
+2026-10-11T18:02:22 INFO permitido 10.0.1.149 -> 8.8.8.8:53/udp
+2026-10-11T18:24:37 WARN bloqueado 45.146.164.171 -> 3389/tcp (escaneo de puertos)
+2026-10-11T18:46:32 INFO sesion TLS establecida 10.0.2.186 -> 443/tcp
+2026-10-11T18:55:29 INFO conexion 443/tcp desde 10.0.2.121 cerrada (285 ms)
+2026-10-11T19:13:52 INFO conexion 443/tcp desde 10.0.2.240 cerrada (473 ms)
+2026-10-11T19:33:07 WARN bloqueado 45.146.164.111 -> 3389/tcp (escaneo de puertos)
+2026-10-11T19:33:22 INFO VPN: usuario vpn56 desconectado (inactivo)
+2026-10-11T19:53:03 DEBUG regla 464 aplicada a 10.0.3.48
+2026-10-11T19:55:04 INFO conexion 443/tcp desde 10.0.2.188 cerrada (174 ms)
+2026-10-11T20:56:55 INFO bloqueado 185.220.101.211 -> 22/tcp (intento SSH)
+2026-10-11T21:12:25 INFO VPN: usuario vpn204 conectado desde 189.201.12.204
+2026-10-11T21:45:31 INFO permitido 10.0.1.121 -> 8.8.8.8:53/udp
+2026-10-11T23:03:38 INFO permitido 10.0.1.149 -> 8.8.8.8:53/udp
+2026-10-11T23:14:09 INFO VPN: usuario vpn64 desconectado (inactivo)
+2026-10-11T23:19:40 WARN bloqueado 45.146.164.22 -> 3389/tcp (escaneo de puertos)
+2026-10-11T23:30:58 INFO permitido 10.0.1.205 -> 8.8.8.8:53/udp
+2026-10-11T23:42:28 INFO sesion TLS establecida 10.0.2.137 -> 443/tcp
+2026-10-11T23:48:20 INFO permitido 10.0.1.13 -> 8.8.8.8:53/udp
+2026-10-11T23:50:00 INFO permitido 10.0.1.172 -> 8.8.8.8:53/udp
+2026-10-12T00:32:24 INFO sesion TLS establecida 10.0.2.235 -> 443/tcp
+2026-10-12T01:54:01 INFO conexion 443/tcp desde 10.0.2.249 cerrada (303 ms)
+2026-10-12T02:14:33 DEBUG regla 64 aplicada a 10.0.3.205
+2026-10-12T02:49:01 INFO VPN: usuario vpn140 desconectado (inactivo)
+2026-10-12T03:09:47 INFO sesion TLS establecida 10.0.2.90 -> 443/tcp
+2026-10-12T04:03:20 INFO permitido 10.0.1.201 -> 8.8.8.8:53/udp
+2026-10-12T04:32:03 INFO VPN: usuario vpn96 desconectado (inactivo)
+2026-10-12T04:38:07 INFO permitido 10.0.1.112 -> 8.8.8.8:53/udp
+2026-10-12T04:52:02 DEBUG regla 694 aplicada a 10.0.3.21
+2026-10-12T05:27:52 INFO bloqueado 185.220.101.196 -> 22/tcp (intento SSH)
+2026-10-12T06:33:33 DEBUG regla 824 aplicada a 10.0.3.168
+2026-10-12T06:41:27 INFO VPN: usuario vpn169 conectado desde 189.201.12.169
+2026-10-12T06:44:29 DEBUG regla 67 aplicada a 10.0.3.16
+2026-10-12T08:01:13 INFO VPN: usuario vpn246 conectado desde 189.201.12.246
+2026-10-12T08:59:40 INFO bloqueado 185.220.101.25 -> 22/tcp (intento SSH)
+2026-10-12T09:18:43 INFO bloqueado 185.220.101.235 -> 22/tcp (intento SSH)
+2026-10-12T09:25:09 INFO permitido 10.0.1.56 -> 8.8.8.8:53/udp
+2026-10-12T09:32:27 INFO VPN: usuario vpn11 conectado desde 189.201.12.11
+2026-10-12T10:09:01 DEBUG regla 825 aplicada a 10.0.3.111
+2026-10-12T10:17:57 INFO permitido 10.0.1.129 -> 8.8.8.8:53/udp
+2026-10-12T10:20:47 INFO permitido 10.0.1.110 -> 8.8.8.8:53/udp
+2026-10-12T10:41:12 INFO bloqueado 185.220.101.12 -> 22/tcp (intento SSH)
+2026-10-12T11:30:57 INFO VPN: usuario vpn54 conectado desde 189.201.12.54
+2026-10-12T11:40:41 INFO conexion 443/tcp desde 10.0.2.105 cerrada (91 ms)
+2026-10-12T11:50:31 INFO sesion TLS establecida 10.0.2.133 -> 443/tcp
+2026-10-12T12:58:11 DEBUG regla 355 aplicada a 10.0.3.17
+2026-10-12T13:04:45 INFO permitido 10.0.1.127 -> 8.8.8.8:53/udp
+2026-10-12T13:14:03 INFO permitido 10.0.1.55 -> 8.8.8.8:53/udp
+2026-10-12T13:15:18 DEBUG regla 37 aplicada a 10.0.3.168
+2026-10-12T14:01:50 INFO conexion 443/tcp desde 10.0.2.219 cerrada (236 ms)
+2026-10-12T14:45:30 INFO bloqueado 185.220.101.117 -> 22/tcp (intento SSH)
+2026-10-12T15:39:20 INFO VPN: usuario vpn231 conectado desde 189.201.12.231
+2026-10-12T16:05:53 DEBUG regla 217 aplicada a 10.0.3.229
+2026-10-12T16:08:30 INFO bloqueado 185.220.101.142 -> 22/tcp (intento SSH)
+2026-10-12T16:23:32 INFO permitido 10.0.1.117 -> 8.8.8.8:53/udp
+2026-10-12T17:22:16 INFO VPN: usuario vpn224 desconectado (inactivo)
+2026-10-12T17:25:54 INFO sesion TLS establecida 10.0.2.52 -> 443/tcp
+2026-10-12T17:30:44 INFO bloqueado 185.220.101.26 -> 22/tcp (intento SSH)
+2026-10-12T17:49:49 INFO conexion 443/tcp desde 10.0.2.209 cerrada (338 ms)
+2026-10-12T18:26:03 INFO conexion 443/tcp desde 10.0.2.171 cerrada (400 ms)
+2026-10-12T18:34:28 INFO sesion TLS establecida 10.0.2.77 -> 443/tcp
+2026-10-12T18:47:31 INFO permitido 10.0.1.197 -> 8.8.8.8:53/udp
+2026-10-12T19:58:47 DEBUG regla 289 aplicada a 10.0.3.12
+2026-10-12T20:16:04 INFO sesion TLS establecida 10.0.2.119 -> 443/tcp
+2026-10-12T20:46:43 INFO VPN: usuario vpn96 conectado desde 189.201.12.96
+2026-10-12T21:03:58 INFO bloqueado 185.220.101.203 -> 22/tcp (intento SSH)
+2026-10-12T22:34:10 INFO VPN: usuario vpn69 desconectado (inactivo)
+2026-10-12T22:53:03 DEBUG regla 589 aplicada a 10.0.3.120
+2026-10-12T23:01:33 INFO VPN: usuario vpn75 conectado desde 189.201.12.75
+2026-10-12T23:02:58 DEBUG regla 185 aplicada a 10.0.3.17
+2026-10-12T23:11:56 WARN bloqueado 45.146.164.59 -> 3389/tcp (escaneo de puertos)
+2026-10-12T23:44:17 INFO permitido 10.0.1.201 -> 8.8.8.8:53/udp
+2026-10-13T00:07:19 INFO permitido 10.0.1.191 -> 8.8.8.8:53/udp
+2026-10-13T00:18:59 WARN bloqueado 45.146.164.191 -> 3389/tcp (escaneo de puertos)
+2026-10-13T01:01:20 INFO bloqueado 185.220.101.92 -> 22/tcp (intento SSH)
+2026-10-13T01:51:46 INFO conexion 443/tcp desde 10.0.2.50 cerrada (420 ms)
+2026-10-13T02:05:01 INFO VPN: usuario vpn19 conectado desde 189.201.12.19
+2026-10-13T02:11:05 INFO bloqueado 185.220.101.204 -> 22/tcp (intento SSH)
+2026-10-13T02:18:51 INFO sesion TLS establecida 10.0.2.137 -> 443/tcp
+2026-10-13T03:47:31 INFO sesion TLS establecida 10.0.2.202 -> 443/tcp
+2026-10-13T04:04:28 INFO sesion TLS establecida 10.0.2.18 -> 443/tcp
+2026-10-13T05:07:49 INFO conexion 443/tcp desde 10.0.2.94 cerrada (187 ms)
+2026-10-13T05:29:52 INFO VPN: usuario vpn178 conectado desde 189.201.12.178
+2026-10-13T06:08:19 INFO bloqueado 185.220.101.60 -> 22/tcp (intento SSH)
+2026-10-13T06:15:24 INFO bloqueado 185.220.101.42 -> 22/tcp (intento SSH)
+2026-10-13T06:22:41 DEBUG regla 44 aplicada a 10.0.3.189
+2026-10-13T06:31:28 INFO VPN: usuario vpn41 desconectado (inactivo)
+2026-10-13T07:46:28 INFO VPN: usuario vpn217 desconectado (inactivo)
+2026-10-13T08:22:00 INFO VPN: usuario vpn175 desconectado (inactivo)
+2026-10-13T08:31:24 INFO permitido 10.0.1.144 -> 8.8.8.8:53/udp
+2026-10-13T08:37:31 INFO permitido 10.0.1.41 -> 8.8.8.8:53/udp
+2026-10-13T08:54:49 INFO conexion 443/tcp desde 10.0.2.191 cerrada (457 ms)
+2026-10-13T09:27:52 INFO VPN: usuario vpn61 desconectado (inactivo)
+2026-10-13T10:54:01 INFO bloqueado 185.220.101.172 -> 22/tcp (intento SSH)
+2026-10-13T12:10:10 DEBUG regla 877 aplicada a 10.0.3.12
+2026-10-13T12:11:20 INFO VPN: usuario vpn21 conectado desde 189.201.12.21
+2026-10-13T12:16:55 DEBUG regla 389 aplicada a 10.0.3.134
+2026-10-13T12:20:48 DEBUG regla 735 aplicada a 10.0.3.170
+2026-10-13T12:38:21 INFO bloqueado 185.220.101.45 -> 22/tcp (intento SSH)
+2026-10-13T12:38:42 INFO VPN: usuario vpn21 desconectado (inactivo)
+2026-10-13T13:34:22 INFO bloqueado 185.220.101.91 -> 22/tcp (intento SSH)
+2026-10-13T13:55:57 INFO sesion TLS establecida 10.0.2.56 -> 443/tcp
+2026-10-13T14:19:59 INFO VPN: usuario vpn135 conectado desde 189.201.12.135
+2026-10-13T15:18:36 WARN bloqueado 45.146.164.164 -> 3389/tcp (escaneo de puertos)
+2026-10-13T15:38:50 INFO bloqueado 185.220.101.206 -> 22/tcp (intento SSH)
+2026-10-13T16:40:19 INFO VPN: usuario vpn189 conectado desde 189.201.12.189
+2026-10-13T16:41:05 DEBUG regla 87 aplicada a 10.0.3.231
+2026-10-13T16:50:40 INFO sesion TLS establecida 10.0.2.191 -> 443/tcp
+2026-10-13T17:27:57 DEBUG regla 660 aplicada a 10.0.3.126
+2026-10-13T17:28:40 DEBUG regla 655 aplicada a 10.0.3.2
+2026-10-13T17:32:30 DEBUG regla 827 aplicada a 10.0.3.100
+2026-10-13T18:01:01 WARN bloqueado 45.146.164.102 -> 3389/tcp (escaneo de puertos)
+2026-10-13T18:12:10 INFO VPN: usuario vpn219 conectado desde 189.201.12.219
+2026-10-13T18:15:40 INFO permitido 10.0.1.121 -> 8.8.8.8:53/udp
+2026-10-13T18:28:01 WARN bloqueado 45.146.164.53 -> 3389/tcp (escaneo de puertos)
+2026-10-13T18:36:31 INFO VPN: usuario vpn16 conectado desde 189.201.12.16
+2026-10-13T18:57:23 INFO sesion TLS establecida 10.0.2.86 -> 443/tcp
+2026-10-13T19:24:45 WARN pico de conexiones entrantes a 443/tcp (x3 lo normal)
+2026-10-13T19:50:16 DEBUG regla 50 aplicada a 10.0.3.166
+2026-10-13T19:59:06 INFO conexion 443/tcp desde 10.0.2.242 cerrada (221 ms)
+2026-10-13T19:59:51 DEBUG regla 445 aplicada a 10.0.3.13
+2026-10-13T20:12:09 INFO WAF: 3 rangos bloqueados por tasa de peticion
+2026-10-13T20:32:57 INFO VPN: usuario vpn136 conectado desde 189.201.12.136
+2026-10-13T20:34:05 INFO permitido 10.0.1.67 -> 8.8.8.8:53/udp
+2026-10-13T20:34:32 WARN bloqueado 45.146.164.223 -> 3389/tcp (escaneo de puertos)
+2026-10-13T20:51:34 INFO sesion TLS establecida 10.0.2.248 -> 443/tcp
+2026-10-13T20:52:35 INFO VPN: usuario vpn17 conectado desde 189.201.12.17
+2026-10-13T21:04:52 DEBUG regla 339 aplicada a 10.0.3.67
+2026-10-13T21:37:21 INFO permitido 10.0.1.155 -> 8.8.8.8:53/udp
+2026-10-13T21:38:36 DEBUG regla 672 aplicada a 10.0.3.140
+2026-10-13T21:57:36 INFO permitido 10.0.1.10 -> 8.8.8.8:53/udp
+2026-10-13T22:18:12 INFO bloqueado 185.220.101.244 -> 22/tcp (intento SSH)
+2026-10-13T22:41:12 INFO bloqueado 185.220.101.194 -> 22/tcp (intento SSH)
+2026-10-13T22:41:46 INFO conexion 443/tcp desde 10.0.2.132 cerrada (399 ms)
+2026-10-13T22:55:22 INFO bloqueado 185.220.101.80 -> 22/tcp (intento SSH)
+2026-10-13T23:05:20 INFO conexion 443/tcp desde 10.0.2.64 cerrada (55 ms)
+2026-10-13T23:23:30 DEBUG regla 817 aplicada a 10.0.3.150
+2026-10-13T23:37:57 INFO VPN: usuario vpn5 desconectado (inactivo)
+2026-10-13T23:51:23 INFO VPN: usuario vpn222 desconectado (inactivo)
+2026-10-14T01:03:21 INFO bloqueado 185.220.101.10 -> 22/tcp (intento SSH)
+2026-10-14T02:11:37 INFO conexion 443/tcp desde 10.0.2.33 cerrada (178 ms)
+2026-10-14T02:18:56 INFO permitido 10.0.1.102 -> 8.8.8.8:53/udp
+2026-10-14T03:16:46 DEBUG regla 531 aplicada a 10.0.3.111
+2026-10-14T03:18:32 INFO conexion 443/tcp desde 10.0.2.113 cerrada (218 ms)
+2026-10-14T03:39:20 INFO bloqueado 185.220.101.131 -> 22/tcp (intento SSH)
+2026-10-14T04:20:40 INFO sesion TLS establecida 10.0.2.18 -> 443/tcp
+2026-10-14T04:35:05 INFO permitido 10.0.1.123 -> 8.8.8.8:53/udp
+2026-10-14T04:49:47 INFO VPN: usuario vpn110 conectado desde 189.201.12.110
+2026-10-14T05:07:57 INFO permitido 10.0.1.145 -> 8.8.8.8:53/udp
+2026-10-14T05:16:02 INFO VPN: usuario vpn75 desconectado (inactivo)
+2026-10-14T05:36:24 INFO bloqueado 185.220.101.191 -> 22/tcp (intento SSH)
+2026-10-14T05:42:48 INFO bloqueado 185.220.101.122 -> 22/tcp (intento SSH)
+2026-10-14T06:02:21 INFO sesion TLS establecida 10.0.2.205 -> 443/tcp
+2026-10-14T06:09:55 INFO permitido 10.0.1.246 -> 8.8.8.8:53/udp
+2026-10-14T06:22:28 INFO VPN: usuario vpn171 desconectado (inactivo)
+2026-10-14T06:31:32 INFO VPN: usuario vpn19 desconectado (inactivo)
+2026-10-14T07:58:16 INFO VPN: usuario vpn27 desconectado (inactivo)
+2026-10-14T08:05:21 INFO sesion TLS establecida 10.0.2.121 -> 443/tcp
+2026-10-14T08:26:48 DEBUG regla 864 aplicada a 10.0.3.112
+2026-10-14T08:29:06 INFO conexion 443/tcp desde 10.0.2.82 cerrada (44 ms)
+2026-10-14T09:05:15 INFO permitido 10.0.1.243 -> 8.8.8.8:53/udp
+2026-10-14T09:29:07 INFO VPN: usuario vpn122 desconectado (inactivo)
+2026-10-14T09:45:03 DEBUG regla 11 aplicada a 10.0.3.140
+2026-10-14T10:02:33 DEBUG regla 622 aplicada a 10.0.3.70
+2026-10-14T11:30:27 INFO sesion TLS establecida 10.0.2.43 -> 443/tcp
+2026-10-14T12:33:03 INFO permitido 10.0.1.104 -> 8.8.8.8:53/udp
+2026-10-14T12:41:12 INFO VPN: usuario vpn126 desconectado (inactivo)
+2026-10-14T12:47:39 INFO conexion 443/tcp desde 10.0.2.213 cerrada (74 ms)
+2026-10-14T14:14:01 INFO bloqueado 185.220.101.235 -> 22/tcp (intento SSH)
+2026-10-14T14:17:58 INFO bloqueado 185.220.101.153 -> 22/tcp (intento SSH)
+2026-10-14T14:21:33 DEBUG regla 183 aplicada a 10.0.3.39
+2026-10-14T14:31:23 INFO sesion TLS establecida 10.0.2.187 -> 443/tcp
+2026-10-14T15:06:04 INFO VPN: usuario vpn5 conectado desde 189.201.12.5
+2026-10-14T15:30:37 INFO bloqueado 185.220.101.185 -> 22/tcp (intento SSH)
+2026-10-14T16:27:35 INFO VPN: usuario vpn12 desconectado (inactivo)
+2026-10-14T16:31:56 INFO bloqueado 185.220.101.89 -> 22/tcp (intento SSH)
+2026-10-14T16:33:37 INFO permitido 10.0.1.163 -> 8.8.8.8:53/udp
+2026-10-14T16:45:20 INFO conexion 443/tcp desde 10.0.2.82 cerrada (31 ms)
+2026-10-14T17:00:42 INFO VPN: usuario vpn190 conectado desde 189.201.12.190
+2026-10-14T17:07:35 WARN bloqueado 45.146.164.248 -> 3389/tcp (escaneo de puertos)
+2026-10-14T17:10:40 INFO permitido 10.0.1.48 -> 8.8.8.8:53/udp
+2026-10-14T17:32:29 INFO bloqueado 185.220.101.80 -> 22/tcp (intento SSH)
+2026-10-14T18:02:08 INFO sesion TLS establecida 10.0.2.99 -> 443/tcp
 ```
 
 ## app
 
 ```text
-2026-10-08T09:29:53 INFO login correcto del usuario u180
-2026-10-08T12:14:03 INFO lote completado: 126 registros procesados
-2026-10-08T12:41:04 INFO GET /api/v1/clientes 200 en 163 ms
-2026-10-08T13:46:25 INFO lote completado: 412 registros procesados
-2026-10-08T14:47:55 DEBUG cache hit ratio 91%
-2026-10-08T15:06:54 INFO GET /api/v1/clientes 200 en 147 ms
-2026-10-08T15:14:01 DEBUG cache hit ratio 85%
-2026-10-08T16:21:33 DEBUG cache hit ratio 89%
-2026-10-08T17:17:32 DEBUG cache hit ratio 86%
-2026-10-08T17:48:56 INFO lote completado: 457 registros procesados
-2026-10-08T18:51:32 DEBUG cache hit ratio 96%
-2026-10-08T18:55:52 DEBUG cache hit ratio 93%
-2026-10-08T19:04:18 INFO login correcto del usuario u25
-2026-10-08T19:54:22 DEBUG cache hit ratio 87%
-2026-10-08T20:19:20 DEBUG cache hit ratio 89%
-2026-10-08T20:46:34 INFO GET /api/v1/clientes 200 en 461 ms
-2026-10-08T21:47:22 DEBUG cache hit ratio 87%
-2026-10-08T22:12:13 INFO GET /api/v1/clientes 200 en 424 ms
-2026-10-08T22:19:08 INFO lote completado: 894 registros procesados
-2026-10-08T22:23:06 DEBUG cache hit ratio 90%
-2026-10-08T23:04:36 DEBUG cache hit ratio 93%
-2026-10-08T23:08:12 INFO GET /api/v1/clientes 200 en 459 ms
-2026-10-08T23:58:00 INFO GET /api/v1/clientes 200 en 372 ms
-2026-10-09T00:18:35 INFO login correcto del usuario u15
-2026-10-09T00:58:53 DEBUG cache hit ratio 88%
-2026-10-09T01:39:47 DEBUG cache hit ratio 89%
-2026-10-09T02:03:37 DEBUG cache hit ratio 90%
-2026-10-09T02:04:22 INFO login correcto del usuario u236
-2026-10-09T02:47:20 INFO login correcto del usuario u182
-2026-10-09T03:17:09 DEBUG cache hit ratio 99%
-2026-10-09T03:22:58 INFO lote completado: 827 registros procesados
-2026-10-09T03:43:48 INFO lote completado: 32 registros procesados
-2026-10-09T04:26:10 INFO login correcto del usuario u79
-2026-10-09T05:10:10 DEBUG cache hit ratio 93%
-2026-10-09T05:13:45 DEBUG cache hit ratio 94%
-2026-10-09T05:20:03 INFO login correcto del usuario u241
-2026-10-09T06:16:11 INFO login correcto del usuario u114
-2026-10-09T08:32:54 DEBUG cache hit ratio 95%
-2026-10-09T08:44:05 INFO lote completado: 425 registros procesados
-2026-10-09T09:07:06 INFO login correcto del usuario u76
-2026-10-09T09:35:00 DEBUG cache hit ratio 94%
-2026-10-09T10:30:07 INFO GET /api/v1/clientes 200 en 16 ms
-2026-10-09T10:50:04 DEBUG cache hit ratio 85%
-2026-10-09T10:57:30 INFO login correcto del usuario u131
-2026-10-09T11:00:42 INFO GET /api/v1/clientes 200 en 291 ms
-2026-10-09T12:20:48 DEBUG cache hit ratio 87%
-2026-10-09T12:43:33 INFO GET /api/v1/clientes 200 en 378 ms
-2026-10-09T12:57:54 INFO GET /api/v1/clientes 200 en 321 ms
-2026-10-09T14:04:54 INFO lote completado: 230 registros procesados
-2026-10-09T14:07:18 INFO GET /api/v1/clientes 200 en 384 ms
-2026-10-09T14:19:17 INFO GET /api/v1/clientes 200 en 206 ms
-2026-10-09T14:48:18 INFO login correcto del usuario u102
-2026-10-09T15:09:30 INFO login correcto del usuario u245
-2026-10-09T15:11:13 INFO lote completado: 311 registros procesados
-2026-10-09T15:23:19 DEBUG cache hit ratio 92%
-2026-10-09T15:40:31 DEBUG cache hit ratio 95%
-2026-10-09T16:03:03 INFO login correcto del usuario u236
-2026-10-09T16:05:03 INFO login correcto del usuario u168
-2026-10-09T17:04:16 INFO lote completado: 506 registros procesados
-2026-10-09T17:07:40 INFO login correcto del usuario u23
-2026-10-09T17:13:48 INFO GET /api/v1/clientes 200 en 124 ms
-2026-10-09T17:54:45 INFO login correcto del usuario u11
-2026-10-09T17:56:43 INFO GET /api/v1/clientes 200 en 141 ms
-2026-10-09T18:02:46 DEBUG cache hit ratio 96%
-2026-10-09T19:52:46 DEBUG cache hit ratio 96%
-2026-10-09T20:07:37 INFO login correcto del usuario u180
-2026-10-09T20:10:06 INFO lote completado: 737 registros procesados
-2026-10-09T20:19:20 INFO login correcto del usuario u64
-2026-10-09T20:36:02 INFO login correcto del usuario u70
-2026-10-09T21:22:49 INFO GET /api/v1/clientes 200 en 396 ms
-2026-10-09T21:29:36 DEBUG cache hit ratio 89%
-2026-10-09T22:24:13 INFO GET /api/v1/clientes 200 en 47 ms
-2026-10-09T22:40:31 INFO GET /api/v1/clientes 200 en 204 ms
-2026-10-09T22:51:30 INFO login correcto del usuario u12
-2026-10-09T22:53:05 INFO login correcto del usuario u119
-2026-10-09T22:55:43 INFO GET /api/v1/clientes 200 en 242 ms
-2026-10-09T23:01:01 INFO login correcto del usuario u60
-2026-10-10T00:08:21 INFO lote completado: 506 registros procesados
-2026-10-10T00:18:52 INFO GET /api/v1/clientes 200 en 365 ms
-2026-10-10T00:59:31 INFO lote completado: 611 registros procesados
-2026-10-10T01:11:19 INFO login correcto del usuario u187
-2026-10-10T01:11:39 INFO login correcto del usuario u96
-2026-10-10T01:41:42 INFO GET /api/v1/clientes 200 en 457 ms
-2026-10-10T03:00:57 INFO GET /api/v1/clientes 200 en 229 ms
-2026-10-10T03:44:25 DEBUG cache hit ratio 98%
-2026-10-10T05:14:41 INFO login correcto del usuario u121
-2026-10-10T05:57:50 INFO lote completado: 393 registros procesados
-2026-10-10T06:47:33 INFO lote completado: 847 registros procesados
-2026-10-10T09:00:58 INFO GET /api/v1/clientes 200 en 73 ms
-2026-10-10T09:02:11 DEBUG cache hit ratio 95%
-2026-10-10T09:21:11 INFO lote completado: 357 registros procesados
-2026-10-10T09:22:42 INFO lote completado: 413 registros procesados
-2026-10-10T09:44:31 INFO lote completado: 346 registros procesados
-2026-10-10T10:12:08 DEBUG cache hit ratio 91%
-2026-10-10T10:47:46 INFO lote completado: 876 registros procesados
-2026-10-10T12:07:37 INFO login correcto del usuario u211
-2026-10-10T12:40:57 INFO GET /api/v1/clientes 200 en 193 ms
-2026-10-10T13:31:07 DEBUG cache hit ratio 98%
-2026-10-10T13:40:36 INFO GET /api/v1/clientes 200 en 236 ms
-2026-10-10T13:45:17 INFO GET /api/v1/clientes 200 en 94 ms
-2026-10-10T14:54:03 DEBUG cache hit ratio 98%
-2026-10-10T15:04:12 DEBUG cache hit ratio 88%
-2026-10-10T15:27:02 INFO GET /api/v1/clientes 200 en 370 ms
-2026-10-10T16:49:50 INFO GET /api/v1/clientes 200 en 266 ms
-2026-10-10T19:53:27 DEBUG cache hit ratio 87%
-2026-10-10T20:27:57 INFO login correcto del usuario u47
-2026-10-10T20:45:34 INFO lote completado: 839 registros procesados
-2026-10-10T20:47:44 INFO GET /api/v1/clientes 200 en 94 ms
-2026-10-10T20:49:22 INFO lote completado: 771 registros procesados
-2026-10-10T21:01:48 INFO lote completado: 889 registros procesados
-2026-10-10T21:08:33 INFO GET /api/v1/clientes 200 en 463 ms
-2026-10-10T21:34:33 INFO GET /api/v1/clientes 200 en 341 ms
-2026-10-10T21:47:06 DEBUG cache hit ratio 87%
-2026-10-10T21:49:39 INFO lote completado: 785 registros procesados
-2026-10-10T21:54:48 INFO lote completado: 332 registros procesados
-2026-10-10T22:13:55 INFO lote completado: 18 registros procesados
-2026-10-11T00:46:05 DEBUG cache hit ratio 88%
-2026-10-11T00:51:33 INFO lote completado: 405 registros procesados
-2026-10-11T00:55:41 INFO GET /api/v1/clientes 200 en 215 ms
-2026-10-11T01:02:12 INFO login correcto del usuario u238
-2026-10-11T01:16:29 INFO GET /api/v1/clientes 200 en 155 ms
-2026-10-11T02:12:51 INFO GET /api/v1/clientes 200 en 48 ms
-2026-10-11T03:06:26 INFO GET /api/v1/clientes 200 en 457 ms
-2026-10-11T04:16:11 INFO lote completado: 768 registros procesados
-2026-10-11T04:30:15 INFO GET /api/v1/clientes 200 en 48 ms
-2026-10-11T04:48:18 INFO login correcto del usuario u187
-2026-10-11T05:55:44 INFO GET /api/v1/clientes 200 en 275 ms
-2026-10-11T07:00:40 INFO lote completado: 330 registros procesados
-2026-10-11T07:05:51 INFO lote completado: 229 registros procesados
-2026-10-11T07:08:18 INFO GET /api/v1/clientes 200 en 24 ms
-2026-10-11T07:30:04 INFO lote completado: 97 registros procesados
-2026-10-11T08:21:45 INFO lote completado: 78 registros procesados
-2026-10-11T08:31:09 DEBUG cache hit ratio 87%
-2026-10-11T08:43:14 DEBUG cache hit ratio 90%
-2026-10-11T08:53:02 INFO GET /api/v1/clientes 200 en 86 ms
-2026-10-11T08:58:57 INFO GET /api/v1/clientes 200 en 411 ms
-2026-10-11T10:58:16 INFO lote completado: 167 registros procesados
-2026-10-11T11:06:45 DEBUG cache hit ratio 86%
-2026-10-11T11:39:34 INFO GET /api/v1/clientes 200 en 153 ms
-2026-10-11T11:44:31 INFO login correcto del usuario u120
-2026-10-11T12:16:57 DEBUG cache hit ratio 85%
-2026-10-11T12:23:17 INFO lote completado: 756 registros procesados
-2026-10-11T13:01:15 INFO GET /api/v1/clientes 200 en 475 ms
-2026-10-11T13:12:10 INFO login correcto del usuario u57
-2026-10-11T14:15:56 DEBUG cache hit ratio 93%
-2026-10-11T14:20:01 INFO login correcto del usuario u117
-2026-10-11T15:53:32 DEBUG cache hit ratio 86%
-2026-10-11T16:25:38 INFO lote completado: 375 registros procesados
-2026-10-11T17:05:01 INFO lote completado: 682 registros procesados
-2026-10-11T17:49:41 INFO login correcto del usuario u141
-2026-10-11T17:52:21 DEBUG cache hit ratio 90%
-2026-10-11T17:57:28 INFO GET /api/v1/clientes 200 en 322 ms
-2026-10-11T19:03:26 DEBUG cache hit ratio 93%
-2026-10-11T19:21:18 INFO login correcto del usuario u75
-2026-10-11T19:22:29 INFO GET /api/v1/clientes 200 en 348 ms
-2026-10-11T20:51:45 DEBUG cache hit ratio 93%
-2026-10-11T21:07:59 INFO login correcto del usuario u53
-2026-10-11T22:07:57 INFO lote completado: 394 registros procesados
-2026-10-11T22:24:17 INFO login correcto del usuario u136
-2026-10-12T00:31:31 INFO GET /api/v1/clientes 200 en 432 ms
-2026-10-12T00:42:51 DEBUG cache hit ratio 95%
-2026-10-12T00:55:13 INFO lote completado: 174 registros procesados
-2026-10-12T00:59:15 INFO GET /api/v1/clientes 200 en 385 ms
-2026-10-12T02:11:06 INFO GET /api/v1/clientes 200 en 155 ms
-2026-10-12T02:24:35 INFO GET /api/v1/clientes 200 en 84 ms
-2026-10-12T02:24:44 DEBUG cache hit ratio 98%
-2026-10-12T02:29:29 DEBUG cache hit ratio 88%
-2026-10-12T02:56:00 INFO login correcto del usuario u189
-2026-10-12T03:09:03 INFO login correcto del usuario u249
-2026-10-12T03:56:23 DEBUG cache hit ratio 93%
-2026-10-12T05:08:01 INFO login correcto del usuario u224
-2026-10-12T05:09:15 INFO login correcto del usuario u155
-2026-10-12T06:14:41 INFO GET /api/v1/clientes 200 en 149 ms
-2026-10-12T06:14:45 INFO lote completado: 221 registros procesados
-2026-10-12T06:17:49 DEBUG cache hit ratio 93%
-2026-10-12T06:53:22 INFO login correcto del usuario u14
-2026-10-12T07:49:49 INFO lote completado: 74 registros procesados
-2026-10-12T08:18:52 DEBUG cache hit ratio 96%
-2026-10-12T08:43:37 INFO lote completado: 128 registros procesados
-2026-10-12T08:54:43 DEBUG cache hit ratio 91%
-2026-10-12T09:18:47 DEBUG cache hit ratio 93%
-2026-10-12T09:35:17 DEBUG cache hit ratio 97%
-2026-10-12T09:36:10 INFO lote completado: 92 registros procesados
-2026-10-12T09:49:53 INFO lote completado: 160 registros procesados
-2026-10-12T10:07:33 INFO lote completado: 882 registros procesados
-2026-10-12T10:25:11 DEBUG cache hit ratio 95%
-2026-10-12T10:59:46 INFO lote completado: 18 registros procesados
-2026-10-12T11:48:07 INFO GET /api/v1/clientes 200 en 143 ms
-2026-10-12T12:20:28 INFO GET /api/v1/clientes 200 en 200 ms
-2026-10-12T12:25:22 DEBUG cache hit ratio 95%
-2026-10-12T13:10:31 INFO GET /api/v1/clientes 200 en 166 ms
-2026-10-12T15:25:16 INFO lote completado: 466 registros procesados
-2026-10-12T15:53:54 INFO login correcto del usuario u142
-2026-10-12T16:12:12 DEBUG cache hit ratio 85%
-2026-10-12T16:18:32 INFO login correcto del usuario u88
-2026-10-12T18:27:05 INFO login correcto del usuario u13
-2026-10-12T18:34:39 INFO lote completado: 515 registros procesados
-2026-10-12T19:15:48 INFO GET /api/v1/clientes 200 en 104 ms
-2026-10-12T19:52:12 DEBUG cache hit ratio 92%
-2026-10-12T19:52:49 INFO GET /api/v1/clientes 200 en 383 ms
-2026-10-12T20:24:05 INFO login correcto del usuario u93
-2026-10-12T20:35:53 INFO lote completado: 892 registros procesados
-2026-10-12T20:38:28 INFO login correcto del usuario u244
-2026-10-12T20:43:21 INFO lote completado: 713 registros procesados
-2026-10-12T21:13:21 INFO GET /api/v1/clientes 200 en 13 ms
-2026-10-12T21:21:49 INFO login correcto del usuario u8
-2026-10-12T21:23:43 INFO lote completado: 379 registros procesados
-2026-10-12T21:24:34 DEBUG cache hit ratio 91%
-2026-10-12T22:33:28 INFO lote completado: 781 registros procesados
-2026-10-12T22:38:58 INFO lote completado: 816 registros procesados
-2026-10-12T23:01:30 INFO login correcto del usuario u19
-2026-10-12T23:37:55 INFO login correcto del usuario u86
-2026-10-12T23:54:55 INFO login correcto del usuario u237
-2026-10-12T23:59:56 INFO login correcto del usuario u93
-2026-10-13T00:02:35 INFO GET /api/v1/clientes 200 en 207 ms
-2026-10-13T00:42:25 INFO lote completado: 323 registros procesados
-2026-10-13T00:46:08 INFO lote completado: 282 registros procesados
-2026-10-13T00:55:57 INFO lote completado: 251 registros procesados
-2026-10-13T01:40:20 INFO lote completado: 330 registros procesados
-2026-10-13T01:40:41 INFO login correcto del usuario u73
-2026-10-13T02:13:49 INFO lote completado: 515 registros procesados
-2026-10-13T02:16:48 INFO lote completado: 342 registros procesados
-2026-10-13T02:21:53 INFO login correcto del usuario u47
-2026-10-13T03:29:18 INFO GET /api/v1/clientes 200 en 375 ms
-2026-10-13T03:55:09 INFO GET /api/v1/clientes 200 en 210 ms
-2026-10-13T04:04:07 INFO GET /api/v1/clientes 200 en 478 ms
-2026-10-13T05:11:27 DEBUG cache hit ratio 96%
-2026-10-13T05:35:57 INFO GET /api/v1/clientes 200 en 264 ms
-2026-10-13T06:10:55 INFO GET /api/v1/clientes 200 en 447 ms
-2026-10-13T06:35:40 DEBUG cache hit ratio 90%
-2026-10-13T07:19:33 INFO login correcto del usuario u105
-2026-10-13T07:35:14 INFO login correcto del usuario u128
-2026-10-13T07:49:34 INFO GET /api/v1/clientes 200 en 367 ms
-2026-10-13T09:31:58 DEBUG cache hit ratio 98%
-2026-10-13T10:17:21 INFO lote completado: 202 registros procesados
-2026-10-13T11:24:32 DEBUG cache hit ratio 94%
-2026-10-13T11:59:59 DEBUG cache hit ratio 94%
-2026-10-13T12:01:15 INFO GET /api/v1/clientes 200 en 306 ms
-2026-10-13T12:19:36 DEBUG cache hit ratio 96%
-2026-10-13T13:08:11 DEBUG cache hit ratio 90%
-2026-10-13T14:10:33 DEBUG cache hit ratio 91%
-2026-10-13T14:12:43 INFO login correcto del usuario u17
-2026-10-13T14:36:18 DEBUG cache hit ratio 93%
-2026-10-13T14:41:11 INFO lote completado: 847 registros procesados
-2026-10-13T15:10:40 INFO GET /api/v1/clientes 200 en 96 ms
-2026-10-13T16:00:37 INFO GET /api/v1/clientes 200 en 94 ms
-2026-10-13T16:54:01 INFO login correcto del usuario u218
-2026-10-13T17:13:43 INFO GET /api/v1/clientes 200 en 323 ms
-2026-10-13T17:24:55 INFO lote completado: 34 registros procesados
-2026-10-13T17:30:22 INFO login correcto del usuario u186
-2026-10-13T17:48:51 DEBUG cache hit ratio 86%
-2026-10-13T18:01:46 DEBUG cache hit ratio 99%
-2026-10-13T18:07:11 INFO lote completado: 628 registros procesados
-2026-10-13T18:42:37 INFO lote completado: 747 registros procesados
-2026-10-13T18:46:43 INFO login correcto del usuario u80
-2026-10-13T18:46:43 DEBUG cache hit ratio 88%
-2026-10-13T19:17:49 INFO GET /api/v1/clientes 200 en 370 ms
-2026-10-13T19:40:50 DEBUG cache hit ratio 97%
-2026-10-13T19:42:32 INFO login correcto del usuario u120
-2026-10-13T20:00:25 DEBUG cache hit ratio 86%
-2026-10-13T20:21:47 INFO GET /api/v1/clientes 200 en 221 ms
-2026-10-13T21:00:22 INFO login correcto del usuario u161
-2026-10-13T21:53:43 INFO login correcto del usuario u41
-2026-10-13T21:55:34 INFO login correcto del usuario u47
-2026-10-13T22:09:34 INFO GET /api/v1/clientes 200 en 285 ms
-2026-10-13T22:14:56 INFO lote completado: 373 registros procesados
-2026-10-13T22:23:39 INFO lote completado: 476 registros procesados
-2026-10-13T22:27:38 DEBUG cache hit ratio 85%
-2026-10-13T22:34:14 INFO GET /api/v1/clientes 200 en 432 ms
-2026-10-13T23:17:36 INFO GET /api/v1/clientes 200 en 131 ms
-2026-10-13T23:41:22 INFO GET /api/v1/clientes 200 en 380 ms
-2026-10-13T23:47:10 DEBUG cache hit ratio 89%
-2026-10-14T00:56:53 INFO lote completado: 617 registros procesados
-2026-10-14T01:44:19 INFO GET /api/v1/clientes 200 en 256 ms
-2026-10-14T01:51:26 INFO GET /api/v1/clientes 200 en 445 ms
-2026-10-14T02:03:29 INFO GET /api/v1/clientes 200 en 19 ms
-2026-10-14T02:16:33 INFO login correcto del usuario u80
-2026-10-14T02:58:00 INFO login correcto del usuario u128
-2026-10-14T03:51:02 INFO login correcto del usuario u116
-2026-10-14T05:00:24 DEBUG cache hit ratio 94%
-2026-10-14T05:35:43 INFO lote completado: 513 registros procesados
-2026-10-14T05:40:38 INFO GET /api/v1/clientes 200 en 88 ms
-2026-10-14T08:19:23 INFO login correcto del usuario u173
-2026-10-14T08:28:26 INFO GET /api/v1/clientes 200 en 471 ms
-2026-10-14T11:17:29 INFO lote completado: 133 registros procesados
-2026-10-14T11:20:21 INFO GET /api/v1/clientes 200 en 163 ms
-2026-10-14T11:41:50 INFO login correcto del usuario u248
-2026-10-14T14:03:20 INFO login correcto del usuario u60
-2026-10-14T14:07:15 DEBUG cache hit ratio 88%
-2026-10-14T14:54:24 DEBUG cache hit ratio 93%
-2026-10-14T15:17:48 INFO GET /api/v1/clientes 200 en 420 ms
-2026-10-14T15:20:14 INFO lote completado: 436 registros procesados
-2026-10-14T15:35:56 DEBUG cache hit ratio 92%
-2026-10-14T15:46:34 INFO GET /api/v1/clientes 200 en 211 ms
-2026-10-14T16:19:00 INFO lote completado: 804 registros procesados
-2026-10-14T16:29:53 INFO GET /api/v1/clientes 200 en 223 ms
-2026-10-14T17:03:10 INFO login correcto del usuario u32
-2026-10-14T17:28:16 WARN pool de conexiones a la base de datos al 85%
-2026-10-14T17:31:54 DEBUG cache hit ratio 93%
-2026-10-14T17:52:16 ERROR timeout en checkout de la tienda en linea (>8 s)
+2026-10-08T09:11:46 INFO login correcto del usuario u50
+2026-10-08T09:55:01 INFO GET /api/v1/clientes 200 en 54 ms
+2026-10-08T10:08:49 INFO GET /api/v1/clientes 200 en 181 ms
+2026-10-08T10:34:46 INFO sincronizacion de catalogo finalizada: 342 cambios
+2026-10-08T11:22:59 INFO lote completado: 423 registros procesados
+2026-10-08T11:28:25 INFO GET /api/v1/clientes 200 en 111 ms
+2026-10-08T11:33:37 DEBUG cache hit ratio 92%
+2026-10-08T11:53:53 INFO sincronizacion de catalogo finalizada: 192 cambios
+2026-10-08T12:06:01 WARN reintento de envio de correo (843 pendientes)
+2026-10-08T12:22:51 DEBUG cache hit ratio 94%
+2026-10-08T12:22:55 INFO lote completado: 323 registros procesados
+2026-10-08T12:27:50 ERROR webhook de notificacion sin respuesta (reintento programado)
+2026-10-08T12:34:30 DEBUG cache hit ratio 92%
+2026-10-08T12:34:41 INFO lote completado: 292 registros procesados
+2026-10-08T12:39:35 INFO GET /api/v1/reportes 200 en 322 ms
+2026-10-08T12:50:49 INFO login correcto del usuario u14
+2026-10-08T12:55:17 INFO lote completado: 648 registros procesados
+2026-10-08T13:42:58 INFO login correcto del usuario u92
+2026-10-08T14:42:54 DEBUG cache hit ratio 90%
+2026-10-08T14:56:39 INFO GET /api/v1/reportes 200 en 398 ms
+2026-10-08T15:41:48 INFO sincronizacion de catalogo finalizada: 685 cambios
+2026-10-08T17:12:14 INFO GET /api/v1/clientes 200 en 177 ms
+2026-10-08T17:12:24 DEBUG cache hit ratio 98%
+2026-10-08T17:25:19 INFO GET /api/v1/reportes 200 en 346 ms
+2026-10-08T17:41:17 INFO GET /api/v1/reportes 200 en 346 ms
+2026-10-08T17:47:15 INFO GET /api/v1/clientes 200 en 32 ms
+2026-10-08T19:18:32 INFO GET /api/v1/reportes 200 en 101 ms
+2026-10-08T19:45:57 INFO login correcto del usuario u233
+2026-10-08T20:20:09 INFO GET /api/v1/reportes 200 en 33 ms
+2026-10-08T20:28:32 INFO GET /api/v1/clientes 200 en 357 ms
+2026-10-08T20:38:59 INFO GET /api/v1/clientes 200 en 201 ms
+2026-10-08T20:44:16 DEBUG cache hit ratio 97%
+2026-10-08T20:44:54 INFO login correcto del usuario u150
+2026-10-08T20:45:13 INFO lote completado: 505 registros procesados
+2026-10-08T20:50:03 DEBUG cache hit ratio 98%
+2026-10-08T20:56:03 INFO GET /api/v1/clientes 200 en 33 ms
+2026-10-08T21:10:07 INFO sincronizacion de catalogo finalizada: 356 cambios
+2026-10-08T22:07:03 INFO login correcto del usuario u204
+2026-10-08T22:17:08 INFO lote completado: 191 registros procesados
+2026-10-08T22:25:57 INFO GET /api/v1/reportes 200 en 130 ms
+2026-10-08T22:42:04 ERROR webhook de notificacion sin respuesta (reintento programado)
+2026-10-08T22:58:49 INFO sincronizacion de catalogo finalizada: 415 cambios
+2026-10-09T00:12:28 DEBUG cache hit ratio 85%
+2026-10-09T00:16:02 DEBUG cache hit ratio 87%
+2026-10-09T00:20:26 DEBUG cache hit ratio 86%
+2026-10-09T01:04:10 INFO login correcto del usuario u85
+2026-10-09T01:22:47 INFO GET /api/v1/clientes 200 en 152 ms
+2026-10-09T02:00:07 INFO GET /api/v1/clientes 200 en 81 ms
+2026-10-09T02:02:45 INFO GET /api/v1/clientes 200 en 328 ms
+2026-10-09T02:31:44 DEBUG cache hit ratio 85%
+2026-10-09T02:51:43 INFO login correcto del usuario u209
+2026-10-09T03:06:27 INFO sincronizacion de catalogo finalizada: 372 cambios
+2026-10-09T03:22:16 INFO GET /api/v1/clientes 200 en 406 ms
+2026-10-09T04:18:50 INFO sincronizacion de catalogo finalizada: 898 cambios
+2026-10-09T05:33:55 INFO GET /api/v1/reportes 200 en 414 ms
+2026-10-09T06:41:52 INFO login correcto del usuario u157
+2026-10-09T07:25:11 INFO GET /api/v1/reportes 200 en 429 ms
+2026-10-09T08:23:36 INFO GET /api/v1/reportes 200 en 40 ms
+2026-10-09T08:58:30 INFO GET /api/v1/clientes 200 en 101 ms
+2026-10-09T09:30:08 INFO GET /api/v1/clientes 200 en 89 ms
+2026-10-09T09:40:04 INFO login correcto del usuario u248
+2026-10-09T11:28:16 DEBUG cache hit ratio 95%
+2026-10-09T11:35:36 INFO GET /api/v1/clientes 200 en 41 ms
+2026-10-09T11:55:52 INFO campana 'Otono de cafe': envio de correo masivo a 48000 contactos
+2026-10-09T12:12:24 INFO GET /api/v1/clientes 200 en 285 ms
+2026-10-09T12:20:22 ERROR timeout en checkout de la tienda en linea (>8 s) en 6 peticiones
+2026-10-09T13:15:10 INFO lote completado: 609 registros procesados
+2026-10-09T13:19:22 INFO lote completado: 746 registros procesados
+2026-10-09T13:40:08 INFO campana finalizada: 2.1 % de clics, 311 pedidos
+2026-10-09T13:41:51 INFO GET /api/v1/reportes 200 en 185 ms
+2026-10-09T14:13:17 INFO GET /api/v1/clientes 200 en 15 ms
+2026-10-09T14:42:28 WARN reintento de envio de correo (885 pendientes)
+2026-10-09T14:49:08 INFO GET /api/v1/clientes 200 en 228 ms
+2026-10-09T14:55:47 INFO lote completado: 542 registros procesados
+2026-10-09T14:58:28 INFO sincronizacion de catalogo finalizada: 756 cambios
+2026-10-09T14:59:17 INFO lote completado: 861 registros procesados
+2026-10-09T15:06:37 INFO GET /api/v1/clientes 200 en 407 ms
+2026-10-09T15:52:03 INFO GET /api/v1/reportes 200 en 335 ms
+2026-10-09T15:55:46 INFO GET /api/v1/clientes 200 en 268 ms
+2026-10-09T15:58:05 WARN reintento de envio de correo (100 pendientes)
+2026-10-09T16:07:43 WARN reintento de envio de correo (742 pendientes)
+2026-10-09T16:50:44 DEBUG cache hit ratio 95%
+2026-10-09T17:29:45 ERROR webhook de notificacion sin respuesta (reintento programado)
+2026-10-09T17:31:13 INFO GET /api/v1/clientes 200 en 289 ms
+2026-10-09T17:31:32 INFO GET /api/v1/reportes 200 en 224 ms
+2026-10-09T17:33:18 INFO login correcto del usuario u86
+2026-10-09T17:48:55 INFO GET /api/v1/reportes 200 en 361 ms
+2026-10-09T18:10:06 DEBUG cache hit ratio 96%
+2026-10-09T18:12:01 INFO lote completado: 371 registros procesados
+2026-10-09T18:23:04 INFO sincronizacion de catalogo finalizada: 419 cambios
+2026-10-09T18:51:41 DEBUG cache hit ratio 89%
+2026-10-09T18:54:39 INFO login correcto del usuario u115
+2026-10-09T19:17:44 DEBUG cache hit ratio 91%
+2026-10-09T19:26:01 INFO login correcto del usuario u64
+2026-10-09T19:28:16 INFO GET /api/v1/clientes 200 en 175 ms
+2026-10-09T19:53:50 INFO sincronizacion de catalogo finalizada: 473 cambios
+2026-10-09T20:21:08 WARN reintento de envio de correo (359 pendientes)
+2026-10-09T20:27:10 INFO login correcto del usuario u6
+2026-10-09T20:31:43 INFO GET /api/v1/reportes 200 en 398 ms
+2026-10-09T20:41:44 INFO GET /api/v1/clientes 200 en 327 ms
+2026-10-09T20:44:33 INFO sincronizacion de catalogo finalizada: 296 cambios
+2026-10-09T20:45:04 INFO GET /api/v1/clientes 200 en 78 ms
+2026-10-09T21:02:04 INFO login correcto del usuario u172
+2026-10-09T21:17:13 INFO login correcto del usuario u188
+2026-10-09T21:52:12 INFO GET /api/v1/clientes 200 en 364 ms
+2026-10-09T22:28:52 INFO sincronizacion de catalogo finalizada: 115 cambios
+2026-10-09T22:32:05 INFO sincronizacion de catalogo finalizada: 893 cambios
+2026-10-09T23:47:28 INFO sincronizacion de catalogo finalizada: 558 cambios
+2026-10-10T00:17:49 INFO GET /api/v1/clientes 200 en 374 ms
+2026-10-10T01:20:49 INFO GET /api/v1/reportes 200 en 318 ms
+2026-10-10T01:32:22 WARN reintento de envio de correo (247 pendientes)
+2026-10-10T02:05:35 INFO lote completado: 142 registros procesados
+2026-10-10T02:06:13 INFO lote completado: 365 registros procesados
+2026-10-10T02:44:02 INFO lote completado: 213 registros procesados
+2026-10-10T03:27:25 INFO login correcto del usuario u61
+2026-10-10T03:31:00 INFO lote completado: 173 registros procesados
+2026-10-10T04:04:46 INFO sincronizacion de catalogo finalizada: 561 cambios
+2026-10-10T04:45:33 INFO lote completado: 166 registros procesados
+2026-10-10T05:28:27 INFO lote completado: 289 registros procesados
+2026-10-10T05:43:43 INFO login correcto del usuario u245
+2026-10-10T05:49:00 INFO GET /api/v1/reportes 200 en 409 ms
+2026-10-10T07:03:57 DEBUG cache hit ratio 87%
+2026-10-10T07:11:53 INFO GET /api/v1/clientes 200 en 269 ms
+2026-10-10T08:38:14 INFO login correcto del usuario u158
+2026-10-10T09:59:06 INFO lote completado: 334 registros procesados
+2026-10-10T10:08:58 INFO login correcto del usuario u20
+2026-10-10T10:40:40 INFO lote completado: 505 registros procesados
+2026-10-10T10:42:23 INFO login correcto del usuario u181
+2026-10-10T10:51:24 INFO GET /api/v1/reportes 200 en 106 ms
+2026-10-10T10:51:31 INFO login correcto del usuario u131
+2026-10-10T11:00:29 INFO login correcto del usuario u69
+2026-10-10T11:05:21 INFO sincronizacion de catalogo finalizada: 126 cambios
+2026-10-10T11:22:33 INFO GET /api/v1/reportes 200 en 112 ms
+2026-10-10T11:30:46 ERROR webhook de notificacion sin respuesta (reintento programado)
+2026-10-10T12:01:49 INFO GET /api/v1/reportes 200 en 353 ms
+2026-10-10T12:51:41 INFO GET /api/v1/reportes 200 en 322 ms
+2026-10-10T12:54:15 WARN reintento de envio de correo (457 pendientes)
+2026-10-10T13:15:23 DEBUG cache hit ratio 98%
+2026-10-10T13:20:45 INFO consultas lentas registradas en srv-bd-01: 14 (>1 s) en la ultima hora
+2026-10-10T13:31:17 INFO GET /api/v1/clientes 200 en 271 ms
+2026-10-10T13:40:57 INFO GET /api/v1/clientes 200 en 240 ms
+2026-10-10T14:01:43 INFO sincronizacion de catalogo finalizada: 321 cambios
+2026-10-10T14:05:45 WARN reintento de envio de correo (737 pendientes)
+2026-10-10T15:07:20 INFO login correcto del usuario u77
+2026-10-10T15:13:44 INFO lote completado: 819 registros procesados
+2026-10-10T15:16:48 DEBUG cache hit ratio 90%
+2026-10-10T15:22:14 DEBUG cache hit ratio 90%
+2026-10-10T15:31:13 INFO sincronizacion de catalogo finalizada: 38 cambios
+2026-10-10T15:35:03 DEBUG cache hit ratio 87%
+2026-10-10T15:44:41 INFO GET /api/v1/clientes 200 en 422 ms
+2026-10-10T15:57:37 INFO GET /api/v1/clientes 200 en 128 ms
+2026-10-10T16:30:09 INFO sincronizacion de catalogo finalizada: 361 cambios
+2026-10-10T16:34:35 INFO lote completado: 20 registros procesados
+2026-10-10T17:44:10 INFO lote completado: 261 registros procesados
+2026-10-10T17:51:06 INFO sincronizacion de catalogo finalizada: 582 cambios
+2026-10-10T18:21:33 INFO lote completado: 810 registros procesados
+2026-10-10T18:26:13 INFO GET /api/v1/reportes 200 en 82 ms
+2026-10-10T18:39:46 DEBUG cache hit ratio 96%
+2026-10-10T18:40:00 INFO login correcto del usuario u237
+2026-10-10T18:40:21 INFO GET /api/v1/reportes 200 en 440 ms
+2026-10-10T18:44:25 INFO GET /api/v1/reportes 200 en 252 ms
+2026-10-10T18:55:04 INFO login correcto del usuario u59
+2026-10-10T19:13:19 INFO lote completado: 306 registros procesados
+2026-10-10T19:16:06 DEBUG cache hit ratio 95%
+2026-10-10T19:32:29 DEBUG cache hit ratio 94%
+2026-10-10T19:41:45 INFO login correcto del usuario u145
+2026-10-10T19:52:42 INFO GET /api/v1/clientes 200 en 38 ms
+2026-10-10T20:01:29 INFO GET /api/v1/reportes 200 en 272 ms
+2026-10-10T20:21:54 INFO GET /api/v1/clientes 200 en 195 ms
+2026-10-10T20:23:48 INFO login correcto del usuario u196
+2026-10-10T20:24:44 DEBUG cache hit ratio 99%
+2026-10-10T20:47:13 INFO lote completado: 632 registros procesados
+2026-10-10T20:49:13 INFO lote completado: 477 registros procesados
+2026-10-10T21:16:38 INFO sincronizacion de catalogo finalizada: 156 cambios
+2026-10-10T21:20:09 INFO lote completado: 667 registros procesados
+2026-10-10T21:29:27 INFO sincronizacion de catalogo finalizada: 814 cambios
+2026-10-10T21:31:58 INFO lote completado: 182 registros procesados
+2026-10-10T21:37:07 INFO GET /api/v1/clientes 200 en 212 ms
+2026-10-10T21:56:39 DEBUG cache hit ratio 92%
+2026-10-10T22:08:24 DEBUG cache hit ratio 87%
+2026-10-10T23:04:19 INFO login correcto del usuario u172
+2026-10-10T23:08:32 INFO login correcto del usuario u212
+2026-10-10T23:26:26 INFO sincronizacion de catalogo finalizada: 899 cambios
+2026-10-10T23:48:41 INFO GET /api/v1/clientes 200 en 304 ms
+2026-10-10T23:58:09 INFO lote completado: 209 registros procesados
+2026-10-11T00:35:31 INFO GET /api/v1/reportes 200 en 118 ms
+2026-10-11T01:33:04 INFO GET /api/v1/clientes 200 en 77 ms
+2026-10-11T02:00:24 INFO login correcto del usuario u3
+2026-10-11T02:14:17 INFO lote completado: 798 registros procesados
+2026-10-11T04:22:18 ERROR deadlock detectado en tabla productos (transaccion reintentada)
+2026-10-11T05:35:53 INFO reindexado del catalogo completado
+2026-10-11T05:45:57 DEBUG cache hit ratio 98%
+2026-10-11T06:19:41 INFO lote completado: 270 registros procesados
+2026-10-11T06:39:09 DEBUG cache hit ratio 87%
+2026-10-11T07:01:34 INFO GET /api/v1/reportes 200 en 252 ms
+2026-10-11T07:22:11 INFO sincronizacion de catalogo finalizada: 102 cambios
+2026-10-11T07:29:35 INFO GET /api/v1/reportes 200 en 119 ms
+2026-10-11T08:20:36 INFO lote completado: 534 registros procesados
+2026-10-11T09:00:37 WARN pool de conexiones a la base de datos al 85%
+2026-10-11T09:46:00 INFO lote completado: 520 registros procesados
+2026-10-11T09:58:05 INFO login correcto del usuario u5
+2026-10-11T10:06:32 INFO GET /api/v1/reportes 200 en 263 ms
+2026-10-11T10:14:50 INFO GET /api/v1/reportes 200 en 17 ms
+2026-10-11T10:20:46 INFO login correcto del usuario u56
+2026-10-11T10:23:33 DEBUG cache hit ratio 88%
+2026-10-11T10:55:49 INFO lote completado: 223 registros procesados
+2026-10-11T11:00:47 INFO GET /api/v1/clientes 200 en 407 ms
+2026-10-11T11:06:57 INFO GET /api/v1/reportes 200 en 274 ms
+2026-10-11T11:50:34 INFO GET /api/v1/clientes 200 en 225 ms
+2026-10-11T11:54:31 INFO sincronizacion de catalogo finalizada: 241 cambios
+2026-10-11T11:57:11 INFO GET /api/v1/reportes 200 en 81 ms
+2026-10-11T12:09:23 DEBUG cache hit ratio 94%
+2026-10-11T12:24:55 INFO login correcto del usuario u71
+2026-10-11T12:35:24 INFO GET /api/v1/reportes 200 en 424 ms
+2026-10-11T12:53:01 INFO GET /api/v1/clientes 200 en 114 ms
+2026-10-11T14:06:37 INFO lote completado: 752 registros procesados
+2026-10-11T15:26:05 INFO login correcto del usuario u244
+2026-10-11T15:46:22 INFO sincronizacion de catalogo finalizada: 239 cambios
+2026-10-11T16:07:33 INFO lote completado: 639 registros procesados
+2026-10-11T16:36:48 INFO lote completado: 462 registros procesados
+2026-10-11T17:22:51 INFO login correcto del usuario u224
+2026-10-11T17:38:53 INFO login correcto del usuario u167
+2026-10-11T17:57:08 INFO lote completado: 532 registros procesados
+2026-10-11T18:16:24 INFO sincronizacion de catalogo finalizada: 559 cambios
+2026-10-11T18:20:50 DEBUG cache hit ratio 99%
+2026-10-11T18:30:28 DEBUG cache hit ratio 95%
+2026-10-11T19:59:39 WARN reintento de envio de correo (586 pendientes)
+2026-10-11T20:01:48 INFO login correcto del usuario u128
+2026-10-11T20:31:38 ERROR timeout en checkout de la tienda en linea (>8 s)
+2026-10-11T20:35:59 ERROR timeout en checkout de la tienda en linea (>8 s), 14 peticiones
+2026-10-11T20:48:09 INFO sincronizacion de catalogo finalizada: 127 cambios
+2026-10-11T20:52:25 INFO login correcto del usuario u104
+2026-10-11T21:07:19 INFO GET /api/v1/clientes 200 en 12 ms
+2026-10-11T21:10:13 DEBUG cache hit ratio 95%
+2026-10-11T21:40:53 ERROR webhook de notificacion sin respuesta (reintento programado)
+2026-10-11T21:45:59 INFO sincronizacion de catalogo finalizada: 173 cambios
+2026-10-11T22:10:59 DEBUG pool checkout: 41 conexiones abiertas (max 100)
+2026-10-11T22:59:51 INFO login correcto del usuario u179
+2026-10-11T23:42:14 INFO lote completado: 458 registros procesados
+2026-10-12T00:08:22 INFO GET /api/v1/clientes 200 en 430 ms
+2026-10-12T00:28:26 INFO GET /api/v1/clientes 200 en 57 ms
+2026-10-12T00:36:07 INFO GET /api/v1/clientes 200 en 18 ms
+2026-10-12T00:44:30 INFO lote completado: 751 registros procesados
+2026-10-12T00:46:02 INFO lote completado: 741 registros procesados
+2026-10-12T01:18:37 INFO login correcto del usuario u71
+2026-10-12T01:33:18 INFO login correcto del usuario u216
+2026-10-12T03:50:23 INFO GET /api/v1/clientes 200 en 53 ms
+2026-10-12T03:53:06 INFO lote completado: 453 registros procesados
+2026-10-12T04:36:23 INFO login correcto del usuario u206
+2026-10-12T04:39:40 INFO lote completado: 15 registros procesados
+2026-10-12T06:30:46 DEBUG pool checkout: 67 conexiones abiertas (max 100)
+2026-10-12T07:00:01 INFO lote completado: 377 registros procesados
+2026-10-12T07:22:16 INFO GET /api/v1/reportes 200 en 414 ms
+2026-10-12T07:23:56 INFO lote completado: 491 registros procesados
+2026-10-12T07:35:26 INFO lote completado: 151 registros procesados
+2026-10-12T08:14:29 INFO GET /api/v1/clientes 200 en 218 ms
+2026-10-12T08:17:01 INFO sincronizacion de catalogo finalizada: 697 cambios
+2026-10-12T08:23:31 INFO lote completado: 187 registros procesados
+2026-10-12T09:41:43 DEBUG cache hit ratio 87%
+2026-10-12T09:45:53 WARN pool de conexiones a la base de datos al 85%
+2026-10-12T10:11:18 INFO login correcto del usuario u118
+2026-10-12T10:12:10 DEBUG cache hit ratio 88%
+2026-10-12T10:45:31 INFO login correcto del usuario u156
+2026-10-12T10:48:08 DEBUG cache hit ratio 89%
+2026-10-12T11:10:01 INFO GET /api/v1/clientes 200 en 336 ms
+2026-10-12T11:13:45 INFO lote completado: 303 registros procesados
+2026-10-12T11:17:33 INFO lote completado: 220 registros procesados
+2026-10-12T11:36:55 INFO GET /api/v1/clientes 200 en 366 ms
+2026-10-12T11:47:54 INFO GET /api/v1/clientes 200 en 285 ms
+2026-10-12T12:41:31 INFO lote completado: 824 registros procesados
+2026-10-12T13:44:15 INFO GET /api/v1/clientes 200 en 107 ms
+2026-10-12T13:46:48 INFO GET /api/v1/clientes 200 en 146 ms
+2026-10-12T14:00:46 ERROR checkout: 503 en 17 peticiones (pool agotado)
+2026-10-12T14:12:51 INFO app-checkout reiniciado por operador
+2026-10-12T14:41:47 INFO sincronizacion de catalogo finalizada: 82 cambios
+2026-10-12T14:59:52 DEBUG cache hit ratio 89%
+2026-10-12T15:25:24 INFO GET /api/v1/reportes 200 en 331 ms
+2026-10-12T15:27:26 INFO GET /api/v1/reportes 200 en 331 ms
+2026-10-12T15:49:10 DEBUG cache hit ratio 96%
+2026-10-12T16:05:23 INFO lote completado: 39 registros procesados
+2026-10-12T17:29:44 INFO GET /api/v1/clientes 200 en 417 ms
+2026-10-12T17:47:24 INFO GET /api/v1/clientes 200 en 41 ms
+2026-10-12T19:04:52 INFO login correcto del usuario u150
+2026-10-12T19:24:05 DEBUG cache hit ratio 85%
+2026-10-12T19:56:47 INFO sincronizacion de catalogo finalizada: 303 cambios
+2026-10-12T20:50:26 INFO login correcto del usuario u249
+2026-10-12T21:20:28 INFO sincronizacion de catalogo finalizada: 530 cambios
+2026-10-12T21:47:16 INFO lote completado: 212 registros procesados
+2026-10-12T22:02:32 INFO GET /api/v1/reportes 200 en 229 ms
+2026-10-12T22:37:52 INFO GET /api/v1/reportes 200 en 229 ms
+2026-10-12T22:40:40 INFO GET /api/v1/clientes 200 en 79 ms
+2026-10-12T22:45:37 INFO GET /api/v1/clientes 200 en 224 ms
+2026-10-12T22:52:54 INFO lote completado: 47 registros procesados
+2026-10-12T23:15:06 INFO GET /api/v1/clientes 200 en 378 ms
+2026-10-12T23:23:08 INFO GET /api/v1/clientes 200 en 468 ms
+2026-10-12T23:35:43 INFO GET /api/v1/clientes 200 en 298 ms
+2026-10-12T23:51:25 INFO GET /api/v1/reportes 200 en 112 ms
+2026-10-12T23:52:43 INFO sincronizacion de catalogo finalizada: 697 cambios
+2026-10-13T01:04:45 INFO GET /api/v1/reportes 200 en 414 ms
+2026-10-13T01:30:25 INFO GET /api/v1/clientes 200 en 177 ms
+2026-10-13T01:40:57 INFO GET /api/v1/reportes 200 en 97 ms
+2026-10-13T02:00:49 INFO GET /api/v1/reportes 200 en 375 ms
+2026-10-13T02:07:48 INFO login correcto del usuario u53
+2026-10-13T02:53:37 INFO sincronizacion de catalogo finalizada: 350 cambios
+2026-10-13T03:34:05 INFO GET /api/v1/clientes 200 en 273 ms
+2026-10-13T03:48:22 DEBUG cache hit ratio 97%
+2026-10-13T04:17:17 INFO login correcto del usuario u139
+2026-10-13T04:22:31 INFO GET /api/v1/reportes 200 en 304 ms
+2026-10-13T04:52:55 DEBUG cache hit ratio 91%
+2026-10-13T04:54:05 INFO sincronizacion de catalogo finalizada: 744 cambios
+2026-10-13T05:30:36 DEBUG cache hit ratio 88%
+2026-10-13T05:42:58 INFO GET /api/v1/clientes 200 en 415 ms
+2026-10-13T06:07:45 INFO GET /api/v1/reportes 200 en 113 ms
+2026-10-13T06:46:16 INFO lote completado: 190 registros procesados
+2026-10-13T07:14:15 INFO GET /api/v1/reportes 200 en 293 ms
+2026-10-13T07:53:57 INFO GET /api/v1/clientes 200 en 270 ms
+2026-10-13T08:03:38 INFO GET /api/v1/reportes 200 en 395 ms
+2026-10-13T08:35:48 DEBUG cache hit ratio 90%
+2026-10-13T08:42:21 INFO lote completado: 356 registros procesados
+2026-10-13T10:10:51 INFO lote completado: 770 registros procesados
+2026-10-13T10:15:54 DEBUG cache hit ratio 99%
+2026-10-13T10:31:08 INFO lote completado: 224 registros procesados
+2026-10-13T11:08:16 INFO sincronizacion de catalogo finalizada: 683 cambios
+2026-10-13T11:25:54 INFO lote completado: 874 registros procesados
+2026-10-13T11:27:21 INFO GET /api/v1/clientes 200 en 293 ms
+2026-10-13T12:00:47 INFO sincronizacion de catalogo finalizada: 896 cambios
+2026-10-13T12:02:48 INFO login correcto del usuario u47
+2026-10-13T12:24:07 INFO GET /api/v1/reportes 200 en 44 ms
+2026-10-13T12:30:44 INFO login correcto del usuario u203
+2026-10-13T12:53:28 DEBUG cache hit ratio 96%
+2026-10-13T13:01:19 DEBUG cache hit ratio 92%
+2026-10-13T14:20:09 DEBUG cache hit ratio 88%
+2026-10-13T14:26:16 INFO GET /api/v1/clientes 200 en 42 ms
+2026-10-13T14:29:27 INFO GET /api/v1/clientes 200 en 120 ms
+2026-10-13T14:32:12 WARN reintento de envio de correo (280 pendientes)
+2026-10-13T14:36:23 INFO GET /api/v1/reportes 200 en 43 ms
+2026-10-13T16:12:09 INFO sincronizacion de catalogo finalizada: 790 cambios
+2026-10-13T16:25:19 INFO login correcto del usuario u136
+2026-10-13T16:27:52 INFO lote completado: 366 registros procesados
+2026-10-13T16:56:58 INFO lote completado: 76 registros procesados
+2026-10-13T17:05:26 INFO sincronizacion de catalogo finalizada: 171 cambios
+2026-10-13T17:55:29 DEBUG cache hit ratio 86%
+2026-10-13T17:55:34 DEBUG cache hit ratio 87%
+2026-10-13T18:04:41 INFO lote completado: 131 registros procesados
+2026-10-13T18:07:15 INFO lote completado: 91 registros procesados
+2026-10-13T18:38:15 INFO login correcto del usuario u243
+2026-10-13T18:45:40 DEBUG cache hit ratio 95%
+2026-10-13T18:53:25 INFO GET /api/v1/clientes 200 en 25 ms
+2026-10-13T19:06:39 DEBUG cache hit ratio 89%
+2026-10-13T19:21:53 INFO sincronizacion de catalogo finalizada: 448 cambios
+2026-10-13T19:39:06 INFO sincronizacion de catalogo finalizada: 699 cambios
+2026-10-13T19:56:18 DEBUG cache hit ratio 99%
+2026-10-13T20:01:39 ERROR timeout en checkout de la tienda en linea (>8 s)
+2026-10-13T20:25:05 INFO GET /api/v1/reportes 200 en 284 ms
+2026-10-13T21:04:08 DEBUG cache hit ratio 98%
+2026-10-13T21:09:08 INFO GET /api/v1/reportes 200 en 307 ms
+2026-10-13T21:09:40 INFO lote completado: 51 registros procesados
+2026-10-13T21:11:15 INFO lote completado: 651 registros procesados
+2026-10-13T22:06:22 INFO login correcto del usuario u113
+2026-10-13T22:37:15 INFO sincronizacion de catalogo finalizada: 501 cambios
+2026-10-13T22:53:11 INFO lote completado: 314 registros procesados
+2026-10-13T22:54:42 INFO sincronizacion de catalogo finalizada: 745 cambios
+2026-10-13T23:15:36 INFO login correcto del usuario u180
+2026-10-14T00:11:10 INFO GET /api/v1/clientes 200 en 76 ms
+2026-10-14T00:18:08 INFO login correcto del usuario u45
+2026-10-14T00:44:23 DEBUG cache hit ratio 87%
+2026-10-14T01:23:00 INFO GET /api/v1/clientes 200 en 361 ms
+2026-10-14T02:17:57 INFO login correcto del usuario u207
+2026-10-14T02:22:10 INFO GET /api/v1/reportes 200 en 109 ms
+2026-10-14T02:46:55 INFO lote completado: 226 registros procesados
+2026-10-14T03:28:39 INFO GET /api/v1/clientes 200 en 166 ms
+2026-10-14T04:05:29 INFO GET /api/v1/clientes 200 en 398 ms
+2026-10-14T04:44:37 INFO lote completado: 846 registros procesados
+2026-10-14T04:55:41 INFO lote completado: 185 registros procesados
+2026-10-14T05:26:08 INFO lote completado: 610 registros procesados
+2026-10-14T06:26:03 DEBUG cache hit ratio 93%
+2026-10-14T06:34:25 INFO login correcto del usuario u199
+2026-10-14T06:58:05 DEBUG cache hit ratio 89%
+2026-10-14T08:11:27 INFO login correcto del usuario u95
+2026-10-14T08:22:11 INFO sincronizacion de catalogo finalizada: 162 cambios
+2026-10-14T10:42:53 INFO lote completado: 390 registros procesados
+2026-10-14T11:00:49 INFO login correcto del usuario u95
+2026-10-14T11:57:55 INFO GET /api/v1/clientes 200 en 63 ms
+2026-10-14T12:20:22 INFO sincronizacion de catalogo finalizada: 177 cambios
+2026-10-14T12:46:06 INFO GET /api/v1/reportes 200 en 449 ms
+2026-10-14T13:02:34 DEBUG cache hit ratio 90%
+2026-10-14T13:09:51 INFO GET /api/v1/clientes 200 en 159 ms
+2026-10-14T13:13:05 INFO lote completado: 123 registros procesados
+2026-10-14T13:26:12 INFO lote completado: 81 registros procesados
+2026-10-14T13:51:26 INFO GET /api/v1/reportes 200 en 390 ms
+2026-10-14T14:10:19 INFO GET /api/v1/clientes 200 en 301 ms
+2026-10-14T14:11:57 INFO GET /api/v1/reportes 200 en 87 ms
+2026-10-14T15:08:15 INFO sincronizacion de catalogo finalizada: 348 cambios
+2026-10-14T15:42:41 WARN reintento de envio de correo (860 pendientes)
+2026-10-14T15:49:11 INFO login correcto del usuario u139
+2026-10-14T16:54:22 DEBUG cache hit ratio 85%
+2026-10-14T17:02:14 INFO lote completado: 185 registros procesados
+2026-10-14T17:19:58 INFO GET /api/v1/reportes 200 en 358 ms
+2026-10-14T17:23:28 INFO GET /api/v1/clientes 200 en 344 ms
+2026-10-14T18:14:37 DEBUG cache hit ratio 91%
 ```

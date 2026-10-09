@@ -13,6 +13,10 @@
 | fw-01 (firewall) + VPN | Acceso de choferes a la app movil y al TMS | 06:00–20:00 |
 | App movil de choferes | Recibe ruta, firma entregas y reporta incidencias | 06:00–20:00 |
 
+## Eventos de negocio
+
+- **Sabado 10 de octubre, 22:00–23:00:** mantenimiento programado de red en la sede.
+
 ## Notas
 - Telemetria: CPU, RAM, disco y latencia de srv-tms-01, y errores por minuto.
 - El optimizador comparte servidor con el rastreo GPS.

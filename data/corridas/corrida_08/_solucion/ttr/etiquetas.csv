@@ -1,0 +1,12 @@
+inicio_incidente,tipo,es_real
+2026-10-09T01:00:00,respaldo_bd_nocturno,false
+2026-10-09T15:00:00,red_gps_intermitente,true
+2026-10-10T01:00:00,respaldo_bd_nocturno,false
+2026-10-10T22:00:00,mantenimiento_red,false
+2026-10-11T01:00:00,respaldo_bd_nocturno,false
+2026-10-12T01:00:00,respaldo_bd_nocturno,false
+2026-10-12T07:00:00,crecimiento_cache_gps,true
+2026-10-13T01:00:00,respaldo_bd_nocturno,false
+2026-10-13T06:00:00,pedido_urgente,false
+2026-10-14T01:00:00,respaldo_bd_nocturno,false
+2026-10-14T06:30:00,bloqueo_base_rutas,true
